@@ -1,0 +1,226 @@
+.Office2016 .PaneManager .soft-edges-pane-section .size-spin{
+    left:30px
+}
+.Office2016 .PaneManager .SizeAndPropertiesPane.SIZE .sizePaneSection .size-pane-section-div{
+    width:200px
+}
+.Office2016 .PaneManager .SizeAndPropertiesPane.SIZE .sizePaneSection .resolution-dropdown{
+    float:none
+}
+.Office2016 .PaneManager .SizeAndPropertiesPane.SIZE .sizePaneSection .sims-Label.original-size-label{
+    left:20px;
+    top:150px
+}
+.Office2016 .PaneManager .SizeAndPropertiesPane.SIZE .sizePaneSection .sims-Label.original-height-label{
+    left:-32px;
+    top:170px
+}
+.Office2016 .PaneManager .SizeAndPropertiesPane.SIZE .sizePaneSection .sims-Label.original-width-label{
+    float:none;
+    top:170px
+}
+.Office2016 .PaneManager .SizeAndPropertiesPane.SIZE .sizePaneSection .reset{
+    top:182px;
+    left:30px
+}
+.Office2016 .PaneManager .SizeAndPropertiesPane.SIZE .sizePaneSection .resolution-dropdown .titleBarDisabled{
+    background-color:#FFF
+}
+.Office2016 .PaneManager .SizeAndPropertiesPane.SIZE .sizePaneSection .resolution-dropdown .simsDDArrowDisable{
+    background-position:-24px -75px
+}
+.Office2016 .PaneManager .soft-edges-pane-section .image-selector .image-selector-ul{
+    overflow-y:auto;
+    overflow-x:hidden
+}
+.Office2016 .PaneManager.ppt .soft-edges-pane-section .size-presets-dropdown .image-selector-ul .image-list-item:hover{
+    background-color:#FCE4DC
+}
+.Office2016 .PaneManager .border-pane-section .line-bottom-section .join-type{
+    position:absolute;
+    top:543px;
+    left:156px
+}
+.Office2016 .PaneManager.ppt .border-pane-section .line-bottom-section .join-type{
+    top:522px
+}
+.Office2016 .ppt.PaneManager .PaneActiveLabel.label-inactive:hover{
+    color:#D24726
+}
+.Office2016 .PaneManager.ppt .radioRow:hover .regular-radio:not([disabled]):checked+label.radioBtn:after{
+    background:#000
+}
+.Office2016.SIMS .PaneManager.ppt .radioRow:hover label.radioBtn{
+    border:1px solid #F4BA9E
+}
+.Office2016 .PaneManager.ppt .radioRow:hover .regular-radio:not([disabled]):not(:checked)+label.radioBtn{
+    background:#FCE4DC
+}
+.Office2016 .PaneManager.ppt .sims-Button.apply-to-all,.Office2016 .PaneManager.ppt .sims-Button.sims-Button.reset-background{
+    background-color:#fff;
+    border-width:0
+}
+.Office2016 .PaneManager.ppt .sims-Button.apply-to-all .innerDottedElement,.Office2016 .PaneManager.ppt .sims-Button.sims-Button.reset-background .innerDottedElement{
+    border-width:0!important
+}
+.Office2016 .PaneManager.excel .radioRow:hover .regular-radio:not([disabled]):checked+label.radioBtn:after{
+    background:#000
+}
+.Office2016.SIMS .PaneManager.excel .radioRow:hover .regular-radio:not([disabled])+label.radioBtn{
+    background:#D3F0E0;
+    border:1px solid ##88c0a2
+}
+.Office2016 .fillPaneSection .tilePictureWithoutTexturePage{
+    height:160px;
+    width:100%;
+    position:absolute;
+    top:258px
+}
+.Office2016 .fillPaneSection .tilePictureWithoutTexturePage .picture-OffsetRight{
+    top:31px
+}
+.Office2016 .fillPaneSection .tilePictureWithoutTexturePage .picture-OffsetTop{
+    position:relative;
+    top:37px;
+    left:179px
+}
+.Office2016 .fillPaneSection .tilePictureWithoutTexturePage .picture-OffsetBottom{
+    position:relative;
+    top:43px;
+    left:179px
+}
+.Office2016 .fillPaneSection .gradient-color{
+    position:relative;
+    top:104px;
+    left:207px
+}
+.Office2016 .fillPaneSection .gradient-direction{
+    top:40px
+}
+.Office2016 .fillPaneSection .fill-gradient-bar{
+    top:94px
+}
+.Office2016 .fillPaneSection .fill-gradientPosition{
+    top:137px
+}
+.Office2016 .PaneManager.ppt .picture-corrections-pane-section .sharpen-presets-label{
+    left:35px
+}
+.Office2016 .PaneManager.ppt .picture-corrections-pane-section .sharpness-spin-label{
+    left:10px
+}
+.Office2016 .PaneManager.ppt .picture-color-pane-section .saturation-presets-label{
+    left:-69px
+}
+.Office2016 .PaneManager.ppt .picture-color-pane-section .tone-presets-label{
+    left:-44px
+}
+.Office2016 .PaneManager.ppt .picture-color-pane-section .recolor-presets-label{
+    left:3px
+}
+.Office2016 .PaneManager.ppt .picture-color-pane-section .reset{
+    margin-left:4px;
+    top:11px
+}
+.Office2016 .PaneManager.ppt .picture-corrections-pane-section .reset{
+    top:-36px
+}
+.Office2016 .PaneManager.ppt .sims-Button:hover:not(.disable){
+    outline-color:#F5BA9D;
+    border-color:#FCE4DC;
+    background-color:#FCE4DC
+}
+.Office2016 .PaneManager.ppt .sims-Button.apply-to-all.focused,.Office2016 .PaneManager.ppt .sims-Button.apply-to-all.focusedActive,.Office2016 .PaneManager.ppt .sims-Button.reset-background.focused,.Office2016 .PaneManager.ppt .sims-Button.reset-background.focusedActive{
+    outline-color:#F5BA9D;
+    background-color:#FCE4DC!important
+}
+.Office2016 .PaneManager.ppt .sims-Button.apply-to-all.focused,.Office2016 .PaneManager.ppt .sims-Button.reset-background.focused{
+    outline-color:#F5BA9D;
+    background:#FCE4DC
+}
+.Office2016 .PaneManager .border-pane-section .line-bottom-section .solid-line-join-type{
+    position:relative;
+    top:108px;
+    left:160px
+}
+.Office2016 .PaneManager .number-pane-section{
+    height:291px!important;
+    background-image:none!important;
+    background-repeat:no-repeat!important
+}
+.Office2016 .PaneManager .number-pane-section .absolute{
+    position:absolute
+}
+.Office2016 .PaneManager .number-pane-section .relative{
+    position:relative
+}
+.Office2016 .PaneManager .number-pane-section .categoryLabel{
+    top:25px;
+    left:23px
+}
+.Office2016 .PaneManager .number-pane-section .category-dropdown{
+    top:43px;
+    left:23px
+}
+.Office2016 .PaneManager .number-pane-section .info-category{
+    top:40px;
+    left:219px;
+    width:17px;
+    height:17px;
+    background-repeat:no-repeat
+}
+.Office2016 .PaneManager .number-pane-section .format-code-div{
+    width:223px;
+    height:80px;
+    left:23px;
+    top:73px;
+    position:relative
+}
+.Office2016 .PaneManager .number-pane-section .formatCodeText{
+    left:1px;
+    top:21px
+}
+.Office2016 .PaneManager .number-pane-section .info-format{
+    top:-2px;
+    left:68px;
+    width:17px;
+    height:17px;
+    background-repeat:no-repeat
+}
+.Office2016 .PaneManager .number-pane-section .addbtn{
+    left:166px;
+    top:21px
+}
+.Office2016 .PaneManager .number-pane-section .link-to-source-checkbox{
+    left:1px;
+    top:52px
+}
+.Office2016 .PaneManager .number-pane-section .dateFormatType-dropdown{
+    top:3px;
+    left:9px
+}
+.Office2016 .PaneManager .number-pane-section .updated-section-div{
+    top:49px;
+    left:26px;
+    background-repeat:no-repeat;
+    position:relative
+}
+.Office2016 .PaneManager .number-pane-section .dateTypeLabel{
+    top:6px;
+    left:4px
+}
+.Office2016 .PaneManager .number-pane-section .date-type-dropdown{
+    top:24px;
+    left:5px
+}
+.Office2016 .PaneManager .number-pane-section .LocaleLabel{
+    top:52px;
+    left:4px
+}
+.Office2016 .PaneManager .number-pane-section .locale-dropdown{
+    top:71px;
+    left:5px
+}
+.Office2016 .ppt.PaneManager .paneAccordian .closed-pane-accordian:focus{
+    background-image:none
+}

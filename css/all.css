@@ -1,0 +1,519 @@
+.ComponentFrame{
+    position:absolute
+}
+.DialogFrame{
+    position:absolute!important;
+    background-color:#6BADF6;
+    border:1px solid #5284BC;
+    color:#000;
+    z-index:3000
+}
+.DragHandle{
+    overflow:hidden
+}
+.HeaderTop{
+    font-size:13px;
+    font-family:Tahoma;
+    margin-top:5px;
+    height:24px;
+    margin-left:20px;
+    text-align:center
+}
+.HeaderTop .CompName{
+    cursor:default;
+    font-size:15px
+}
+.frameIcon{
+    width:16px;
+    height:16px;
+    float:left;
+    padding-right:5px;
+    margin-left:-10px
+}
+.DlgButtonGroup{
+    float:right;
+    margin-top:-5px
+}
+.DlgButtonGroup div{
+    margin-left:1px;
+    float:left
+}
+.HelpImage{
+    background-image:
+    /*savepage-url=../img/MrQBlack.png*/
+    url();
+    background-position:center;
+    background-repeat:no-repeat;
+    background-color:#6BADF6;
+    height:20px;
+    width:26px
+}
+.CloseImage{
+    background-image:
+    /*savepage-url=../img/MrX.png*/
+    url();
+    background-position:center;
+    background-repeat:no-repeat;
+    background-color:#C75050;
+    margin-right:6px;
+    height:20px;
+    width:45px
+}
+.CloseImage:hover{
+    background-color:#E04343
+}
+.HelpImage:hover{
+    background-image:
+    /*savepage-url=../img/MrQ.png*/
+    url();
+    background-color:#3665B3
+}
+.CloseImageClicked{
+    background-color:#993D3D!important
+}
+.HelpImageClicked{
+    background-image:
+    /*savepage-url=../img/MrQ.png*/
+    url();
+    background-color:#3D6099!important
+}
+.DialogFrame .ContainerDiv{
+    margin-top:0;
+    margin-bottom:6px;
+    margin-left:6px;
+    margin-right:6px;
+    padding:0;
+    background-color:#F0F0F0;
+    border:1px solid #5284BC
+}
+.BackroundCurtain{
+    z-index:1;
+    width:100%;
+    background-color:#fff;
+    height:640px;
+    top:0;
+    left:0;
+    position:absolute;
+    filter:alpha(opacity=10);
+    -moz-opacity:.1;
+    opacity:.1
+}
+.compDiv{
+    outline:0
+}
+.BorderLess .DragHandle,.ExcelBorderLess .DragHandle,.PPTBorderLess .DragHandle{
+    overflow:hidden;
+    background-color:#fff;
+    color:#fff
+}
+.BorderLess .HelpImage,.ExcelBorderLess .HelpImage,.PPTBorderLess .HelpImage{
+    display:none
+}
+.BorderLess .CloseImage,.ExcelBorderLess .CloseImage,.PPTBorderLess .CloseImage{
+    width:31px;
+    margin-right:1px;
+    margin-top:3px;
+    background-image:
+    /*savepage-url=../img/BorderLessClose.png*/
+    url();
+    background-color:#fff
+}
+.BorderLess .CloseImage:hover{
+    background-color:#d5e1f2
+}
+.ExcelBorderLess .CloseImage:hover{
+    background-color:#d3f0e0
+}
+.PPTBorderLess .CloseImage:hover{
+    background-color:#fce4dc
+}
+.BorderLess .CloseImageClicked{
+    background-color:#a3bde3!important
+}
+.ExcelBorderLess .CloseImageClicked{
+    background-color:#86bfa0!important
+}
+.PPTBorderLess .CloseImageClicked{
+    background-color:#f5ba9d!important
+}
+.BorderLess .ContainerDiv,.ExcelBorderLess .ContainerDiv,.PPTBorderLess .ContainerDiv{
+    padding:0;
+    background-color:#F0F0F0;
+    margin:0;
+    border:0
+}
+.BorderLess .DlgButtonGroup,.ExcelBorderLess .DlgButtonGroup,.PPTBorderLess .DlgButtonGroup{
+    float:right;
+    margin-top:3px;
+    margin-right:0
+}
+.BorderLess .InnerDlgFrame{
+    box-shadow:0 0 10px #29559c
+}
+.ExcelBorderLess .InnerDlgFrame{
+    box-shadow:0 0 10px #217346
+}
+.PPTBorderLess .InnerDlgFrame{
+    box-shadow:0 0 10px #f07151
+}
+.BorderLess .CompName,.ExcelBorderLess .CompName,.PPTBorderLess .CompName{
+    display:none
+}
+.Win10.ComponentFrame{
+    position:absolute
+}
+.Win10.DialogFrame{
+    position:absolute!important;
+    background-color:transparent;
+    border:1px solid #1870B5;
+    color:#000;
+    z-index:3000;
+    box-shadow:0 2px 10px rgba(0,0,0,.6)
+}
+.Win10 .DragHandle{
+    overflow:hidden;
+    background-color:#FFF
+}
+.Win10 .HeaderTop{
+    font-size:13px;
+    font-family:Tahoma;
+    margin-top:5px;
+    height:24px;
+    margin-left:20px;
+    text-align:left
+}
+.Win10 .HeaderTop .CompNameContainer{
+    position:relative;
+    overflow:hidden;
+    height:100%
+}
+.Win10 .HeaderTop .CompName{
+    cursor:default;
+    font-size:12px;
+    vertical-align:middle
+}
+.Win10 .HeaderTop .IconGrpContainer{
+    height:100%;
+    line-height:12px;
+    float:left;
+    position:relative;
+    max-width:105px
+}
+.Win10 .HeaderTop .IconGrpContainer *{
+    padding-left:2px
+}
+.Win10 .HeaderTop .IconGrpContainer .LeftSeparator{
+    width:0;
+    border-left:1px solid #A4A4A4;
+    font-size:.8em;
+    position:relative
+}
+.Win10 .HeaderTop .IconGrpContainer .RightSeparator{
+    width:0;
+    border-left:1px solid #A4A4A4;
+    font-size:.8em;
+    position:relative;
+    padding-right:8px
+}
+.Win10 .HeaderTop .IconGrpContainer .IconGroup{
+    display:inline-block
+}
+.Win10 .frameIcon{
+    width:16px;
+    height:16px;
+    float:left;
+    padding-right:5px;
+    margin-left:-10px
+}
+.Win10 .DlgButtonGroup{
+    float:right;
+    margin-top:-5px
+}
+.Win10 .DlgButtonGroup div{
+    margin-left:1px;
+    float:left
+}
+.Win10 .HelpImage{
+    background-image:
+    /*savepage-url=../img/MrQBlack.png*/
+    url();
+    background-position:center;
+    background-repeat:no-repeat;
+    background-color:#E5E5E5;
+    margin-top:1px;
+    height:20px;
+    width:26px
+}
+.Win10 .CloseImage{
+    background-image:
+    /*savepage-url=../img/NewCloseBtn.png*/
+    url();
+    background-position:center;
+    background-repeat:no-repeat;
+    background-color:#FFF;
+    margin-right:0;
+    margin-top:0;
+    height:29px;
+    width:44px
+}
+.Win10 .MaximizeImage.DefaultMode{
+    background-image:
+    /*savepage-url=../img/MaximizeBtn.png*/
+    url();
+    background-position:center;
+    background-repeat:no-repeat;
+    background-color:#FFF;
+    margin-right:0;
+    margin-top:0;
+    height:29px;
+    width:44px
+}
+.Win10 .MaximizeImage.DisabledMode{
+    background-image:
+    /*savepage-url=../img/MaximizeBtnDisabledMode.png*/
+    url();
+    background-position:center;
+    background-repeat:no-repeat;
+    background-color:#FFF;
+    margin-right:0;
+    margin-top:0;
+    height:29px;
+    width:44px
+}
+.Win10 .MaximizeImage.RestoreMode{
+    background-image:
+    /*savepage-url=../img/MaximizeBtnRestoreMode.png*/
+    url();
+    background-position:center;
+    background-repeat:no-repeat;
+    background-color:#FFF;
+    margin-right:0;
+    margin-top:0;
+    height:29px;
+    width:44px
+}
+.Win10 .MinimizeImage{
+    background-image:
+    /*savepage-url=../img/MinimizeBtn.png*/
+    url();
+    background-position:center;
+    background-repeat:no-repeat;
+    background-color:#FFF;
+    margin-right:0;
+    margin-top:0;
+    height:29px;
+    width:44px
+}
+.Win10 .CloseImage:hover{
+    background-image:
+    /*savepage-url=../img/NewCloseBtnHover.png*/
+    url();
+    background-color:#E04343
+}
+.Win10 .HelpImage:hover{
+    background-image:
+    /*savepage-url=../img/MrQ.png*/
+    url();
+    background-color:#3665B3
+}
+.Win10 .MaximizeImage.DefaultMode:hover{
+    background-color:#E5E5E5;
+    background-image:
+    /*savepage-url=../img/MaximizeBtn.png*/
+    url()
+}
+.Win10 .MaximizeImage.RestoreMode:hover{
+    background-color:#E5E5E5;
+    background-image:
+    /*savepage-url=../img/MaximizeBtnRestoreMode.png*/
+    url()
+}
+.Win10 .MinimizeImage:hover{
+    background-color:#E5E5E5;
+    background-image:
+    /*savepage-url=../img/MinimizeBtn.png*/
+    url()
+}
+.Win10 .CloseImageClicked{
+    background-color:#E76670!important
+}
+.Win10 .HelpImageClicked{
+    background-image:
+    /*savepage-url=../img/MrQ.png*/
+    url();
+    background-color:#3D6099!important
+}
+.Win10 .MaximizeImage.DefaultMode:active{
+    background-color:#CCC!important
+}
+.Win10 .MaximizeImage.RestoreMode:active{
+    background-color:#CCC!important
+}
+.Win10 .MinimizeImage:active{
+    background-color:#CCC!important
+}
+.Win10.DialogFrame .ContainerDiv{
+    margin-top:0;
+    margin-bottom:0;
+    margin-left:0;
+    margin-right:0;
+    padding:0;
+    background-color:#F0F0F0;
+    border:1px solid #F0F0F0
+}
+.Win10 .BackroundCurtain{
+    z-index:1;
+    width:100%;
+    background-color:#fff;
+    height:640px;
+    top:0;
+    left:0;
+    position:absolute;
+    filter:alpha(opacity=10);
+    -moz-opacity:.1;
+    opacity:.1
+}
+.Win10 .compDiv{
+    outline:0
+}
+.Win10 .BorderLess .DragHandle,.Win10 .ExcelBorderLess .DragHandle,.Win10 .PPTBorderLess .DragHandle{
+    overflow:hidden;
+    background-color:#fff;
+    color:#fff
+}
+.Win10 .BorderLess .HelpImage,.Win10 .ExcelBorderLess .HelpImage,.Win10 .PPTBorderLess .HelpImage{
+    display:none
+}
+.Win10 .BorderLess .CloseImage,.Win10 .ExcelBorderLess .CloseImage,.Win10 .PPTBorderLess .CloseImage{
+    width:31px;
+    margin-right:1px;
+    margin-top:3px;
+    background-image:
+    /*savepage-url=../img/BorderLessClose.png*/
+    url();
+    background-color:#fff
+}
+.Win10 .BorderLess .CloseImage:hover{
+    background-color:#d5e1f2
+}
+.Win10 .ExcelBorderLess .CloseImage:hover{
+    background-color:#d3f0e0
+}
+.Win10 .PPTBorderLess .CloseImage:hover{
+    background-color:#fce4dc
+}
+.Win10 .BorderLess .CloseImageClicked{
+    background-color:#a3bde3!important
+}
+.Win10 .ExcelBorderLess .CloseImageClicked{
+    background-color:#86bfa0!important
+}
+.Win10 .PPTBorderLess .CloseImageClicked{
+    background-color:#f5ba9d!important
+}
+.Win10 .BorderLess .ContainerDiv,.Win10 .ExcelBorderLess .ContainerDiv,.Win10 .PPTBorderLess .ContainerDiv{
+    padding:0;
+    background-color:#F0F0F0;
+    margin:0;
+    border:0
+}
+.Win10 .BorderLess .DlgButtonGroup,.Win10 .ExcelBorderLess .DlgButtonGroup,.Win10 .PPTBorderLess .DlgButtonGroup{
+    float:right;
+    margin-top:3px;
+    margin-right:0
+}
+.Win10 .BorderLess .InnerDlgFrame{
+    box-shadow:0 0 10px #29559c
+}
+.Win10 .ExcelBorderLess .InnerDlgFrame{
+    box-shadow:0 0 10px #217346
+}
+.Win10 .PPTBorderLess .InnerDlgFrame{
+    box-shadow:0 0 10px #f07151
+}
+.Win10 .BorderLess .CompName,.Win10 .ExcelBorderLess .CompName,.Win10 .PPTBorderLess .CompName{
+    display:none
+}
+.Window10FrameSnappingArea{
+    box-shadow:0 1px 0 rgba(0,0,0,.3),0 0 0 rgba(0,0,0,.6),0 4px 15px rgba(0,0,0,.6)
+}
+.InActiveWindows10Frame .CompName{
+    color:#A9A9A9
+}
+.InActiveWindows10Frame.DialogFrame{
+    border:1px solid #A4A4A4
+}
+.InActiveWindows10Frame .MinimizeImage{
+    background-image:
+    /*savepage-url=../img/InActiveWindows10FrameMinimizeBtn.png*/
+    url()
+}
+.InActiveWindows10Frame .CloseImage{
+    background-image:
+    /*savepage-url=../img/InActiveWindows10FrameCloseBtn.png*/
+    url()
+}
+.InActiveWindows10Frame .MaximizeImage.DefaultMode{
+    background-image:
+    /*savepage-url=../img/InActiveWindows10FrameMaximizeBtnDefaultMode.png*/
+    url()
+}
+.InActiveWindows10Frame .MaximizeImage.RestoreMode{
+    background-image:
+    /*savepage-url=../img/InActiveWindows10FrameMaximizeBtnRestoreMode.png*/
+    url()
+}
+.Win10.Win10ModernApp .CloseImage{
+    margin-top:0;
+    margin-right:0;
+    height:30px;
+    background-color:#DCDCDC
+}
+.Win10.Win10ModernApp .CloseImage:hover{
+    background-image:
+    /*savepage-url=../img/NewCloseBtnHover.png*/
+    url();
+    background-color:#E04343
+}
+.Win10.Win10ModernApp .MaximizeImage{
+    margin-top:0;
+    height:30px;
+    background-color:#DCDCDC
+}
+.Win10.Win10ModernApp .MinimizeImage{
+    margin-top:0;
+    height:30px;
+    background-color:#DCDCDC
+}
+.Win10.Win10ModernApp .MinimizeImage:hover{
+    background-color:#E5E5E5
+}
+.Win10.Win10ModernApp .ContainerDiv{
+    border-top:none
+}
+.Win10.Win10ModernApp .HeaderTop .CompNameContainer{
+    padding-top:3px
+}
+.Win10.Win10ModernApp .DragHandle{
+    background-color:#DCDCDC
+}
+.Win10.Win10ModernApp .HeaderTop{
+    margin-left:10px
+}
+.Win10.Win10-10240 .HeaderTop{
+    margin-left:0
+}
+.Win10.Win10-10240 .HeaderTop .CompNameContainer{
+    left:6px;
+    top:2px
+}
+.Win10.Win10-10240 .frameIcon{
+    padding-right:0;
+    margin-left:8px
+}
+.Win10.Win10-10240 .HeaderTop .IconGrpContainer{
+    left:6px
+}
+.Win10.Win10-10240 .HeaderTop .IconGrpContainer .RightSeparator{
+    padding-right:4px
+}

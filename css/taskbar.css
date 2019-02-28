@@ -1,0 +1,436 @@
+
+.windows_10_task_bar {
+    width:100%;
+    height:41px;
+    -webkit-user-select:none;
+    -moz-user-select:none;
+    -ms-user-select:none;
+    user-select:none
+}
+.windows_10_task_bar .TaskBarAppsContainer{
+    display:inline-block;
+       width: calc(100% - 344px);
+    height:100%;
+    background-color:#252728;
+    -webkit-touch-callout:none;
+    -webkit-user-select:none;
+    -khtml-user-select:none;
+    -moz-user-select:none;
+    -ms-user-select:none;
+    user-select:none
+}
+.windows_10_task_bar .TaskBarShortcut{
+    height:100%;
+    float:left;
+    width:49px
+}
+.windows_10_task_bar .TaskBarShortcutRight{
+    height:34px;
+    float:right;
+    padding-top:5px;
+    padding-left:0;
+    width:24px
+}
+.windows_10_task_bar .TaskBarEdge{
+    background:
+    /*savepage-url=../img/TaskBar_Sprite.png*/
+    url(images/sprite/task_bar.png) repeat scroll -3px -977px
+}
+.windows_10_task_bar .TaskBarFolder{
+    background:
+    /*savepage-url=../img/TaskBar_Sprite.png*/
+    url(images/sprite/task_bar.png) repeat scroll -2px -175px
+}
+.windows_10_task_bar .TaskBarTakView{
+    background:
+    /*savepage-url=../img/TaskBar_Sprite.png*/
+    url(images/sprite/task_bar.png) repeat scroll 0 -140px
+}
+.windows_10_task_bar .TaskBarStore{
+    background:
+    /*savepage-url=../img/TaskBar_Sprite.png*/
+    url(images/sprite/task_bar.png) repeat scroll 0 -1092px
+}
+.windows_10_task_bar .TaskBarTakView:hover{
+    background:
+    /*savepage-url=../img/TaskBar_Sprite.png*/
+    url(images/sprite/task_bar.png) repeat scroll -2px -275px
+}
+.windows_10_task_bar .TaskBarConnect{
+    background:
+    /*savepage-url=../img/TaskBar_Sprite.png*/
+    url(images/sprite/task_bar.png) repeat scroll -13px -25px
+}
+.windows_10_task_bar .TaskBarSound{
+    background:
+    /*savepage-url=../img/TaskBar_Sprite.png*/
+    url(images/sprite/task_bar.png) repeat scroll -14px -102px
+}
+.windows_10_task_bar .TaskBarArrowShortcut{
+    background:
+    /*savepage-url=../img/TaskBar_Sprite.png*/
+    url(images/sprite/task_bar.png) repeat scroll -16px -1020px
+}
+.windows_10_task_bar .TaskBarNotofications{
+    background:
+    /*savepage-url=../img/TaskBar_Sprite.png*/
+    url(images/sprite/task_bar.png) repeat scroll -13px -62px
+}
+.windows_10_task_bar .multiple-app-div{
+    float:right;
+    height:42px;
+    width:3px;
+    box-shadow:0 -3px 0 #95bbcc inset
+}
+.windows_10_task_bar .CornerBox{
+    visibility:hidden;
+    height:37px;
+    width:15px;
+    float:right;
+    border-right:1px solid #43505E;
+    border-bottom:1px solid #657285;
+    border-left:1px solid #445360;
+    background-image:linear-gradient(top,#8A919A 18%,#576471 51%,#8F9CB0 88%);
+    background-image:-o-linear-gradient(top,#8A919A 18%,#576471 51%,#8F9CB0 88%);
+    background-image:-moz-linear-gradient(top,#8A919A 18%,#576471 51%,#8F9CB0 88%);
+    background-image:-webkit-linear-gradient(top,#8A919A 18%,#576471 51%,#8F9CB0 88%);
+    background-image:-ms-linear-gradient(top,#8A919A 18%,#576471 51%,#8F9CB0 88%);
+    background-image:-webkit-gradient(linear,left top,left bottom,color-stop(.18,#8A919A),color-stop(.51,#576471),color-stop(.88,#8F9CB0))
+}
+.windows_10_task_bar .CornerBox:hover{
+    background-image:linear-gradient(top,#ced3de 25%,#8c9eb5 51%);
+    background-image:-o-linear-gradient(top,#ced3de 25%,#8c9eb5 51%);
+    background-image:-moz-linear-gradient(top,#ced3de 25%,#8c9eb5 51%);
+    background-image:-webkit-linear-gradient(top,#ced3de 25%,#8c9eb5 51%);
+    background-image:-ms-linear-gradient(top,#ced3de 25%,#8c9eb5 51%);
+    background-image:-webkit-gradient(linear,left top,left bottom,color-stop(.25,#ced3de),color-stop(.51,#8c9eb5))
+}
+.windows_10_task_bar .TaskBarShowTime{
+    width:72px;
+    height:100%;
+    cursor:default;
+    float:right;
+    color:#fff;
+    text-align:center;
+    font-family:Tahoma;
+    font-size:13px;
+    padding:4px 0 0 4px;
+    line-height:16px
+}
+.windows_10_task_bar .TaskBarShowTime>innerHTML{
+    padding-left:2px
+}
+.windows_10_task_bar .TaskBarShowdesktop{
+    float:right;
+    height:100%;
+    width:5px;
+    border-left:1px solid #7f7b75
+}
+.windows_10_task_bar .TaskBarShortcutFolder .windows_10_task_bar .TaskBarShortcutEdge,.windows_10_task_bar .TaskBarShortcutWord{
+    width:auto;
+    float:left
+}
+.windows_10_task_bar .TaskBarWordTab{
+    height:42px;
+    width:49px;
+    background:
+    /*savepage-url=../img/TaskBar_Sprite.png*/
+    url(images/sprite/task_bar.png) repeat scroll -73px -247px
+}
+.windows_10_task_bar .taskbarApp.activeTab{
+    background-color:#414141;
+    box-shadow:0 -3px 0 #b4d7ff inset
+}
+.windows_10_task_bar .taskbarApp.activeTab .multiple-app-div{
+    background-color:#414141;
+    box-shadow:0 -3px 0 #b4d7ff inset;
+    border-left:1px solid #252728
+}
+.windows_10_task_bar .multiple-app-div:hover,.windows_10_task_bar .taskbarApp.activeTab:hover,.windows_10_task_bar .taskbarApp.activeTab:hover .multiple-app-div{
+    background-color:rgba(56,56,56,.95);
+    box-shadow:0 -3px 0 #b4d7ff inset
+}
+.windows_10_task_bar .multiple-app-div:hover,.windows_10_task_bar .taskbarApp.inActiveTab:hover{
+    background-color:rgba(56,56,56,.95)
+}
+.windows_10_task_bar .appsParentDiv{
+    padding-left:2px;
+    padding-right:2px;
+    margin-left:-2px
+}
+.windows_10_task_bar .taskbarApp.inActiveTab:hover .multiple-app-div{
+    background-color:rgba(56,56,56,.95);
+    box-shadow:0 -3px 0 #b4d7ff inset;
+    border-left:1px solid #252728
+}
+.windows_10_task_bar .taskbarApp.inActiveTab{
+    box-shadow:0 -3px 0 #b4d7ff inset
+}
+.windows_10_task_bar .taskbarApp{
+    height:42px;
+    width:49px
+}
+.windows_10_task_bar .TaskBarExcelTab{
+    background:
+    /*savepage-url=../img/TaskBar_Sprite.png*/
+    url(images/sprite/task_bar.png) repeat scroll -73px -177px
+}
+.windows_10_task_bar .TaskBarPPTTab{
+    background:
+    /*savepage-url=../img/TaskBar_Sprite.png*/
+    url(images/sprite/task_bar.png) repeat scroll -73px -213px
+}
+.windows_10_task_bar .TaskBarAccessTab{
+    background:
+    /*savepage-url=../img/TaskBar_Sprite.png*/
+    url(images/sprite/task_bar.png) repeat scroll -73px -280px
+}
+.windows_10_task_bar .TaskBarEdgeTab,.windows_10_task_bar .TaskBarFolderTab,.windows_10_task_bar .TaskBarIETab,.windows_10_task_bar .TaskBarNotepadTab{
+    background:
+    /*savepage-url=../img/TaskBar_Sprite.png*/
+    url(images/sprite/task_bar.png)
+}
+.windows_10_task_bar .TaskBarTabTooltip{
+    position:absolute;
+    bottom:39px;
+    width:auto;
+    cursor:default;
+    background-color:#292929;
+    margin-left:0;
+    z-index:4000
+}
+.windows_10_task_bar .TaskBarTabTooltipInnerdiv{
+    overflow:hidden;
+    max-width:205px;
+    max-height:182px;
+    display:inline-block
+}
+.windows_10_task_bar .TaskBarTabTooltipInnerdiv:hover{
+    background-color:#474747
+}
+.windows_10_task_bar .TooltipImg{
+    float:left
+}
+.windows_10_task_bar .TooltipPara{
+    float:left;
+    font-size:12px;
+    font-family:Segoe UI;
+    text-overflow:ellipsis;
+    overflow:hidden;
+    white-space:nowrap;
+    height:16px;
+    color:#fff;
+    margin-left:8px;
+    margin-top:8px;
+    max-width:136px;
+    -webkit-user-select:none;
+    -moz-user-select:none;
+    -ms-user-select:none;
+    user-select:none;
+    width:154px
+}
+.windows_10_task_bar .TooltipAppImg{
+    clear:both;
+    max-width:185px;
+    max-height:100px;
+    height:auto;
+    width:100%;
+    overflow:hidden
+}
+.windows_10_task_bar .TaskBarIETabTooltip{
+    height:182px;
+    width:232px;
+    position:absolute;
+    top:-211px;
+    width:auto;
+    cursor:default;
+    background-color:#6daef6;
+    border:1px solid #4975a7;
+    margin-left:0;
+    z-index:400;
+    padding:9px
+}
+.windows_10_task_bar .TaskBarIETabTooltipBorderdiv{
+    margin:7px
+}
+.windows_10_task_bar .TaskBarIETabTooltipInnerdiv{
+    width:213px;
+    height:178px;
+    background-color:#292929;
+    border:1px solid #2e4a68;
+    margin:0
+}
+.windows_10_task_bar .TaskBarIETabTooltipInnerdiv:hover{
+    background-color:#474747;
+    border:1px solid #2e4a68;
+    margin:0
+}
+.windows_10_task_bar .TooltipIEImg{
+    float:left
+}
+.windows_10_task_bar .TooltipIEPara{
+    margin:2px 4px 0 6px;
+    float:left;
+    width:157px;
+    font-size:11px;
+    font-family:Segoe UI;
+    text-overflow:ellipsis;
+    overflow:hidden;
+    white-space:nowrap;
+    height:16px
+}
+.windows_10_task_bar .TooltipIEAppImg{
+    clear:both;
+    width:196px;
+    height:141px;
+    margin:4px 0 0 0
+}
+.windows_10_task_bar .TooltipIECloseImg{
+    float:right;
+    margin-right:0;
+    display:inline-block;
+    visibility:hidden
+}
+.windows_10_task_bar .TaskBarOtherTabToolTip{
+    background-color:#6DAEF6;
+    border:1px solid #4975A7;
+    cursor:default;
+    height:182px;
+    margin-left:0;
+    padding:9px;
+    position:absolute;
+    top:-211px;
+    width:auto;
+    z-index:400
+}
+.windows_10_task_bar .TaskBarOtherAppTab{
+    float:left;
+    width:auto
+}
+.windows_10_task_bar .TaskBarOtherTabType{
+    float:left;
+    width:auto
+}
+.windows_10_task_bar .start-btn{
+    width:48px;
+    height:100%;
+    float:left;
+    background-color:#25292b;
+    background-image:url(images/sprite/task_bar.png);
+    background-position:-3px -246px
+}
+.windows_10_task_bar .start-btn:hover{
+    background-color:rgba(26,26,26,.95);
+    background-position:-4px -308px
+}
+.windows_10_task_bar .search-box{
+    width:344px;
+    height:100%;
+    float:left;
+    background-color:#3f3f3f
+}
+.windows_10_task_bar .bg-dark{
+    background-color:#252728
+}
+.windows_10_task_bar .TaskBarShortcut:hover,.windows_10_task_bar .TaskBarShortcutRight:hover,.windows_10_task_bar .TaskBarShowTime:hover{
+    background-color:rgba(56,56,56,.95)
+}
+.windows_10_task_bar .tb-notify-icon-tooltip{
+    font-size:12px;
+    margin:0 3px 0 6px;
+    border:1px solid #767676;
+    padding:2px 4px;
+    display:none;
+    position:absolute;
+    bottom:42px;
+    background-color:#fff
+}
+.windows_10_task_bar .search-box-ask-me{
+    height:100%;
+    font-size:16px;
+    vertical-align:middle;
+    width:calc(100% - 72px);
+    line-height:36px;
+    cursor:text;
+    padding-left:12px;
+    line-height:40px;
+    color:#919191
+}
+.windows_10_task_bar .search-box-circle{
+    height:100%;
+    float:left;
+    width:40px;
+    float:left;
+    background-image:
+    /*savepage-url=../img/TaskBar_Sprite.png*/
+    url(images/sprite/task_bar.png);
+    background-position:-180px 6px;
+    background-repeat:no-repeat
+}
+.windows_10_task_bar .search-box-mic{
+    height:100%;
+    width:32px;
+    float:right;
+    box-sizing:border-box;
+    -moz-box-sizing:border-box;
+    -webkit-box-sizing:border-box;
+    border:1px solid transparent;
+    background-image:
+    /*savepage-url=../img/TaskBar_Sprite.png*/
+    url(url(images/sprite/task_bar.png));
+    background-position:-222px 4px;
+    background-repeat:no-repeat
+}
+.windows_10_task_bar .TooltipHeader{
+    height:33px
+}
+.windows_10_task_bar .Tooltip-img-div{
+    margin:0 10px 7px 10px
+}
+.windows_10_task_bar .TooltipHeader .ApplicationIcon{
+    width:16px;
+    height:16px;
+    float:left;
+    margin-left:10px;
+    margin-top:8px;
+    background-image:
+    /*savepage-url=../img/TaskBar_Sprite.png*/
+    url(images/sprite/task_bar.png)
+}
+.windows_10_task_bar .TooltipHeader .TooltipCloseImg{
+    width:33px;
+    height:33px;
+    float:right;
+    margin-right:0;
+    display:inline-block;
+    visibility:hidden;
+    background-image:
+    /*savepage-url=../img/TaskBar_Sprite.png*/
+    url(images/sprite/task_bar.png);
+    background-position:-13px -352px
+}
+.windows_10_task_bar .TooltipHeader .TooltipCloseImg.hovered{
+    background-position:-13px -390px
+}
+.windows_10_task_bar .TaskBarmenutooltiptext{
+    text-shadow:none;
+    font-family:Tahoma;
+    color:#575757
+}
+.windows_10_task_bar .TaskBarmenutooltip{
+    position:absolute;
+    z-index:9999;
+    display:none;
+    border:1px solid #767676;
+    max-width:345px;
+    overflow:hidden;
+    background:-webkit-gradient(linear,0 0,0 bottom,from(#FFF),to(#E4E5F0));
+    background:-moz-linear-gradient(#FFF,#E4E5F0);
+    background:-ms-linear-gradient(#FFF,#E4E5F0);
+    -pie-background:linear-gradient(#FFF,#E4E5F0);
+    font-size:12px;
+    padding:2px 5px 2px 5px
+}
+.Office2016 .win10tb .start-menu .sims-ScrollBar .ScrollerArea{
+    background:#323233
+}

@@ -1,0 +1,1087 @@
+.ms_excel .ribbon .ribbon-section,.ms_excel .ribbon .ribbon-tab-content,.ms_excel .ribbon .ribbon-tabs-wrapper,.ms_excel .ribbon .tab-header{
+    list-style:none;
+    margin:0;
+    padding:0;
+    display:inline-table
+}
+html{
+    font-family:"Segoe UI",Arial,Verdana,Sans-Serif
+}
+.ms_excel .ribbon div,.ms_excel .ribbon span{
+    font-size:0
+}
+.ms_excel .ribbon :not(input){
+    -webkit-touch-callout:none;
+    -webkit-user-select:none;
+    -khtml-user-select:none;
+    -moz-user-select:none;
+    -ms-user-select:none;
+    user-select:none
+}
+.ms_excel .ribbon input{
+    outline:0
+}
+.ms_excel .ribbon{
+    display:inline-block;
+    width:100%;
+    background-color:#fff
+}
+.ms_excel .ribbon .title-bar{
+    width:100%;
+    height:25px;
+    display:table;
+    text-align:center
+}
+.ms_excel .ribbon .title-bar>*{
+    display:table-cell;
+    vertical-align:middle
+}
+.ms_excel .ribbon .office-control.hidden{
+    display:none
+}
+.ms_excel .ribbon .app-icon{
+    display:inline-block;
+    padding:0 4px
+}
+.ms_excel .ribbon .ctrl-text{
+    font-size:9pt
+}
+.ms_excel .ribbon .tab-header{
+    text-transform:uppercase;
+    cursor:default;
+    min-width:35px;
+    float:left;
+    list-style-type:none;
+    margin-right:5px;
+    padding:4px 12px;
+    outline:medium none;
+    white-space:nowrap;
+    font-size:9pt;
+    border-style:solid solid none;
+    border-color:#FFF #FFF #E1E1E1;
+    border-width:1px;
+    color:#444;
+    background-color:#FFF;
+    text-align:center;
+    position:relative
+}
+.ms_excel .ribbon .tab-header:hover{
+    color:#217346
+}
+.ms_excel .ribbon .tab-header.tab-header-backstage{
+    background-color:#217346;
+    color:#fff
+}
+.ms_excel .ribbon .tab-header.tab-header-contextual{
+    display:none
+}
+.ms_excel .ribbon .tab-:hover{
+    color:#217346
+}
+.ms_excel .ribbon .tab-header-selected{
+    border-color:#E1E1E1 #E1E1E1 #FFF;
+    border-style:solid;
+    color:#217346;
+    background-color:#fff
+}
+.ms_excel .ribbon-tab-container{
+    background-color:#fff;
+    border:1px solid #E1E1E1;
+    height:89px;
+    padding:4px 0;
+    width:100%;
+    float:left;
+    position:relative;
+    top:-1px;
+    border-width:1px 0;
+    min-width:1022px
+}
+.ms_excel .ribbon .ribbon-tabs-wrapper{
+    display:block;
+    position:relative;
+    z-index:1
+}
+.ms_excel .ribbon .tab-container-top-border{
+    height:1px;
+    width:100%;
+    background:#E1E1E1;
+    float:left;
+    z-index:0;
+    margin-top:-1px
+}
+.ms_excel .ribbon .section-title{
+    float:left;
+    padding-top:7px;
+    font-size:8pt;
+    display:block;
+    text-align:center;
+    color:#666
+}
+.ms_excel .SIMS_DocumentArea .icon-binder,.ms_excel .chart-comp .icon-binder,.ms_excel .chart-comp-v2 .icon-binder,.ms_excel .excel-word-art .icon-binder,.ms_excel .mini-tb-rbn .icon-binder,.ms_excel .pptTable .icon-binder,.ms_excel .ribbon .icon-binder{
+    display:inline-block;
+    height:32px;
+    overflow:hidden;
+    position:relative;
+    width:32px;
+    margin-left:auto;
+    margin-right:auto
+}
+.ms_excel .ribbon .icon-binder-binder{
+    padding:2px;
+    display:block
+}
+.ms_excel .ribbon .office-hover-default:hover,.ms_excel .ribbon.navigation-key-state .hovered{
+    background-color:#D3F0E0
+}
+.ms_excel .ribbon .office-hover-default.hover,.ms_excel .ribbon.navigation-key-state .hovered{
+    background-color:#D3F0E0
+}
+.ms_excel .ribbon .office-hover-default:active{
+    background-color:#86bda0
+}
+.ms_excel .SIMS_DocumentArea .office-control .icon,.ms_excel .chart-comp .office-control .icon,.ms_excel .chart-comp-v2 .office-control .icon,.ms_excel .excel-word-art .office-control .icon,.ms_excel .mini-tb-rbn .office-control .icon,.ms_excel .pptTable .office-control .icon,.ms_excel .ribbon .icon{
+    position:absolute
+}
+.ms_excel .chart-comp .hovered-frame,.ms_excel .chart-comp-v2 .hovered-frame,.ms_excel .excel-word-art .hovered-frame,.ms_excel .mini-tb-rbn .hovered-frame,.ms_excel .pptTable .hovered-frame,.ms_excel .ribbon .hovered-frame{
+    float:left;
+    border:1px solid transparent
+}
+.ms_excel .ribbon .ctrl-button.minimal-control .button-label{
+    display:none
+}
+.ms_excel .ribbon .splitbutton-wrapper{
+    float:left;
+    border:1px solid transparent
+}
+.ms_excel .ribbon .splitbutton-wrapper:hover{
+    border:1px solid #D3F0E0
+}
+.ms_excel .ribbon .ctrl-splitbuttonvertical .split-button-part{
+    text-align:center;
+    display:block
+}
+.ms_excel .ribbon .ctrl-splitbuttonvertical .split-button-label{
+    display:block;
+    padding:4px 1px
+}
+.ms_excel .ribbon .ctrl-splitbuttonvertical .dropdown-button{
+    padding:0
+}
+.ms_excel .ribbon .ctrl-splitbuttonvertical .splitbutton-wrapper{
+    min-width:42px
+}
+.ms_excel .ribbon .ctrl-splitbuttonhorizontal .icon-binder-binder,.ms_excel .ribbon .ctrl-splitbuttonhorizontal .split-button-label,.ms_excel .ribbon .ctrl-splitbuttonhorizontal .split-button-part,.ms_excel .ribbon .ctrl-splitbuttonhorizontalminimal .icon-binder-binder,.ms_excel .ribbon .ctrl-splitbuttonhorizontalminimal .split-button-part{
+    display:inline-block;
+    vertical-align:middle;
+    text-align:center
+}
+.ms_excel .ribbon .ctrl-splitbuttonhorizontalminimal .split-button-label{
+    display:none
+}
+.ms_excel .ribbon .office-control.ctrl-checkbox{
+    margin:8px 2px
+}
+.ms_excel .ribbon .check-box-label{
+    display:inline-block;
+    padding:0 5px;
+    font-size:9pt;
+    font-family:Segoe UI;
+    height:13px;
+    vertical-align:text-bottom;
+    background-color:#fff
+}
+.ms_excel .ribbon .check-box{
+    display:inline-block;
+    height:13px;
+    width:13px;
+    padding:0 0
+}
+.ms_excel .ribbon .check-box-unchecked{
+    background:
+    /*savepage-url=../img/Checkbox.png*/
+    url() 0 -14px no-repeat
+}
+.ms_excel .ribbon .check-box-checked{
+    background:
+    /*savepage-url=../img/Checkbox.png*/
+    url() 0 -28px no-repeat
+}
+.ms_excel .ribbon .check-box-checked:active{
+    background:
+    /*savepage-url=../img/Checkbox.png*/
+    url() -3px -45px no-repeat
+}
+.ms_excel .ribbon .office-arrow{
+    margin:3px 0;
+    font-size:0
+}
+.ms_excel .ribbon .office-control.ctrl-text{
+    display:block
+}
+.ms_excel .chart-comp .office-control .control-label,.ms_excel .chart-comp-v2 .office-control .control-label,.ms_excel .excel-word-art .office-control .control-label,.ms_excel .mini-tb-rbn .office-control .control-label,.ms_excel .pptTable .office-control .control-label,.ms_excel .ribbon .office-control .control-label{
+    font-size:9pt;
+    text-align:left
+}
+.ms_excel .chart-comp .office-control .dropdown-item-text,.ms_excel .chart-comp-v2 .office-control .dropdown-item-text,.ms_excel .excel-word-art .office-control .dropdown-item-text,.ms_excel .mini-tb-rbn .office-control .dropdown-item-text,.ms_excel .pptTable .office-control .dropdown-item-text,.ms_excel .ribbon .office-control .dropdown-item-text{
+    font-size:9pt;
+    height:24px;
+    text-align:left;
+    width:100%
+}
+.ms_excel .chart-comp .office-control .dropdown-item-text .dropdown-item-desc,.ms_excel .chart-comp .office-control .dropdown-item-text .dropdown-item-value,.ms_excel .chart-comp-v2 .office-control .dropdown-item-text .dropdown-item-value,.ms_excel .excel-word-art .office-control .dropdown-item-text .dropdown-item-desc .ms_excel .chart-comp-v2 .office-control .dropdown-item-text .dropdown-item-desc,.ms_excel .mini-tb-rbn .office-control .dropdown-item-text .dropdown-item-desc,.ms_excel .pptTable .office-control .dropdown-item-text .dropdown-item-desc,.ms_excel .ribbon .office-control .dropdown-item-text .dropdown-item-desc,.ms_excel .ribbon .office-control .dropdown-item-text .dropdown-item-value{
+    font-size:inherit
+}
+.ms_excel .ribbon .button-label{
+    display:table-cell;
+    font-size:9pt;
+    padding:0 3px;
+    text-align:left;
+    vertical-align:middle
+}
+.ms_excel .ribbon .split-button-label{
+    display:inline-block;
+    font-size:9pt;
+    text-align:left;
+    margin:0 3px
+}
+.ms_excel .ribbon .button-icon{
+    float:left
+}
+.ms_excel .chart-comp .button-binder,.ms_excel .chart-comp-v2 .button-binder,.ms_excel .excel-word-art .button-binder,.ms_excel .mini-tb-rbn .button-binder,.ms_excel .pptTable .button-binder,.ms_excel .ribbon .button-binder{
+    padding:3px;
+    display:table
+}
+.ms_excel .ribbon .ms_excel .ribbon-section{
+    display:inline-table;
+    height:100%
+}
+.ms_excel .ribbon .section-wrapper{
+    display:inline-block;
+    border-right:1px solid #E1E1E1;
+    height:100%;
+    vertical-align:top
+}
+.ms_excel .ribbon .section-content-wrapper{
+    display:table;
+    height:71px;
+    padding:0 4px
+}
+.ms_excel .ribbon .section-title{
+    display:inline-block;
+    width:100%
+}
+.ms_excel .ribbon .control-group.section-content,.ms_excel .ribbon .section-content{
+    display:table-cell;
+    vertical-align:middle
+}
+.ms_excel .ribbon .section-title-wrapper{
+    display:table-cell;
+    width:inherit
+}
+.ms_excel .SIMS_DocumentArea .office-control,.ms_excel .chart-comp .office-control,.ms_excel .chart-comp-v2 .office-control,.ms_excel .excel-word-art .office-control,.ms_excel .mini-tb-rbn .office-control,.ms_excel .pptTable .office-control,.ms_excel .ribbon .office-control{
+    color:#444;
+    display:inline-block;
+    vertical-align:top;
+    cursor:default;
+    position:relative
+}
+.ms_excel .SIMS_DocumentArea .control-group>*,.ms_excel .chart-comp .control-group>*,.ms_excel .chart-comp-v2 .control-group>*,.ms_excel .excel-word-art .control-group>*,.ms_excel .mini-tb-rbn .control-group>*,.ms_excel .pptTable .control-group>*,.ms_excel .ribbon .control-group>*{
+    display:inline-block;
+    vertical-align:middle
+}
+.ms_excel .ribbon .control-group-vertical>*{
+    display:table
+}
+.ms_excel .ribbon .section-separator{
+    display:inline-block;
+    margin:0 4px;
+    position:relative;
+    border-right:1px solid #E1E1E1;
+    height:100%
+}
+.ms_excel .chart-comp .ctrl-combobox .combobox,.ms_excel .chart-comp .ctrl-comboboxtext .combobox,.ms_excel .chart-comp-v2 .ctrl-combobox .combobox,.ms_excel .chart-comp-v2 .ctrl-comboboxtext .combobox,.ms_excel .excel-word-art .ctrl-comboboxtext .combobox,.ms_excel .mini-tb-rbn .ctrl-comboboxtext .combobox,.ms_excel .pptTable .ctrl-comboboxtext .combobox,.ms_excel .ribbon .ctrl-combobox .combobox,.ms_excel .ribbon .ctrl-comboboxreadonlytext .combobox,.ms_excel .ribbon .ctrl-comboboxtext .combobox{
+    border:1px solid #ababab;
+    display:table
+}
+.ms_excel .chart-comp .combobox .dropdown-button,.ms_excel .chart-comp-v2 .combobox .dropdown-button,.ms_excel .excel-word-art .combobox .dropdown-button,.ms_excel .mini-tb-rbn .combobox .dropdown-button,.ms_excel .pptTable .combobox .dropdown-button,.ms_excel .ribbon .combobox .dropdown-button{
+    display:table-cell;
+    vertical-align:middle
+}
+.ms_excel .ribbon .ctrl-splitbuttonwithlabel .combobox .dropdown-button{
+    padding:0 1px
+}
+.ms_excel .chart-comp .combo-textbox,.ms_excel .chart-comp-v2 .combo-textbox,.ms_excel .mini-tb-rbn .combo-textbox,.ms_excel .pptTable .combo-textbox,.ms_excel .ribbon .combo-textbox{
+    border:none;
+    width:100%;
+    display:table-cell;
+    font-size:9pt;
+    font-family:Segoe UI
+}
+.ms_excel .chart-comp .dropdown-button,.ms_excel .chart-comp-v2 .dropdown-button,.ms_excel .excel-word-art .dropdown-button,.ms_excel .mini-tb-rbn .dropdown-button,.ms_excel .pptTable .dropdown-button,.ms_excel .ribbon .dropdown-button{
+    display:inline-block;
+    padding:6px 4px 5px
+}
+.ms_excel .chart-comp .minimal-button .button-label,.ms_excel .chart-comp-v2 .minimal-button .button-label,.ms_excel .excel-word-art .minimal-button .button-label,.ms_excel .mini-tb-rbn .minimal-button .button-label,.ms_excel .pptTable .minimal-button .button-label,.ms_excel .ribbon .minimal-button .button-label{
+    display:none
+}
+.ms_excel .ribbon .ctrl-fontcombobox .dropdown-item-text{
+    font-size:12pt
+}
+ .ms_excel .SIMS_DocumentArea .combobox-dropdown,.ms_excel .chart-comp .combobox-dropdown,.ms_excel .chart-comp-v2 .combobox-dropdown,.ms_excel .excel-word-art .combobox-dropdown,.ms_excel .mini-tb-rbn .combobox-dropdown,.ms_excel .pptTable .combobox-dropdown,.ms_excel .ribbon .combobox-dropdown{
+    background-color:#FFF;
+    border:1px solid #C4C4C4;
+    padding:1px;
+    position:absolute;
+    z-index:9992;
+    box-shadow:0 0 2px #888
+}
+.ms_excel .ribbon .condensed-combobox-dropdown{
+    background-color:#FFF;
+    border:1px solid #C4C4C4;
+    padding:1px;
+    position:absolute;
+    z-index:9992;
+    box-shadow:0 0 2px #888
+}
+.ms_excel .chart-comp .combobox-dropdown .items-font,.ms_excel .chart-comp-v2 .combobox-dropdown .items-font,.ms_excel .excel-word-art .combobox-dropdown .items-font,.ms_excel .mini-tb-rbn .combobox-dropdown .items-font,.ms_excel .pptTable .combobox-dropdown .items-font,.ms_excel .ribbon .combobox-dropdown .items-font{
+    max-height:400px;
+    overflow-x:hidden;
+    overflow-y:auto
+}
+.ms_excel .ribbon .condensed-combobox-dropdown .items-font{
+    max-height:400px;
+    overflow-x:hidden;
+    overflow-y:auto
+}
+.ms_excel .chart-comp .combobox-dropdown .items-scrollable,.ms_excel .chart-comp-v2 .combobox-dropdown .items-scrollable,.ms_excel .excel-word-art .combobox-dropdown .items-scrollable,.ms_excel .mini-tb-rbn .combobox-dropdown .items-scrollable,.ms_excel .pptTable .combobox-dropdown .items-scrollable,.ms_excel .ribbon .combobox-dropdown .items-scrollable,.ms_excel .ribbon .gallery-items .items-scrollable{
+    overflow-x:hidden;
+    overflow-y:auto
+}
+.ms_excel .SIMS_DocumentArea .dropdown-item,.ms_excel .chart-comp .dropdown-item,.ms_excel .chart-comp-v2 .dropdown-item,.ms_excel .excel-word-art .dropdown-item,.ms_excel .mini-tb-rbn .dropdown-item,.ms_excel .pptTable .dropdown-item,.ms_excel .ribbon .dropdown-item{
+    color:#444;
+    cursor:default;
+    display:table;
+    position:relative;
+    width:100%
+}
+.ms_excel .SIMS_DocumentArea .dropdown-item-selected,.ms_excel .chart-comp .dropdown-item-selected,.ms_excel .chart-comp-v2 .dropdown-item-selected,.ms_excel .excel-word-art .dropdown-item-selected,.ms_excel .mini-tb-rbn .dropdown-item-selected,.ms_excel .pptTable .dropdown-item-selected,.ms_excel .ribbon .dropdown-item-selected{
+    background:#D3F0E0
+}
+.ms_excel .chart-comp .dropdown-item-text,.ms_excel .chart-comp-v2 .dropdown-item-text,.ms_excel .mini-tb-rbn .dropdown-item-text,.ms_excel .pptTable .dropdown-item-text,.ms_excel .ribbon .dropdown-item-text{
+    display:table-cell;
+    padding:0 8px;
+    vertical-align:middle;
+    width:100%
+}
+.ms_excel .SIMS_DocumentArea .ctrl-fontcombobox .dropdown-item-text,.ms_excel .chart-comp .ctrl-fontcombobox .dropdown-item-text,.ms_excel .chart-comp-v2 .ctrl-fontcombobox .dropdown-item-text,.ms_excel .excel-word-art .ctrl-fontcombobox .dropdown-item-text .ms_excel .pptTable .ctrl-fontcombobox .dropdown-item-text,.ms_excel .mini-tb-rbn .ctrl-fontcombobox .dropdown-item-text,.ms_excel .ribbon .ctrl-fontcombobox .dropdown-item-text{
+    font-size:12pt
+}
+.ms_excel .SIMS_DocumentArea .item-type-imageitem .icon-wrapper,.ms_excel .chart-comp .item-type-imageitem .icon-wrapper,.ms_excel .chart-comp-v2 .item-type-imageitem .icon-wrapper,.ms_excel .excel-word-art .item-type-imageitem .icon-wrapper,.ms_excel .mini-tb-rbn .item-type-imageitem .icon-wrapper,.ms_excel .pptTable .item-type-imageitem .icon-wrapper,.ms_excel .ribbon .item-type-imageitem .icon-wrapper{
+    padding:4px
+}
+.ms_excel .SIMS_DocumentArea .item-type-imageitem,.ms_excel .chart-comp .item-type-imageitem,.ms_excel .chart-comp-v2 .item-type-imageitem,.ms_excel .mini-tb-rbn .item-type-imageitem,.ms_excel .pptTable .item-type-imageitem,.ms_excel .ribbon .item-type-imageitem{
+    display:inline;
+    position:relative
+}
+.ms_excel .ribbon .item-type-tablegriddiv{
+    position:relative;
+    width:192px;
+    padding:1px;
+    display:inline-block;
+    background-color:#fff!important
+}
+.ms_excel .ribbon .item-type-tablegriddiv:hover{
+    background-color:#fff!important
+}
+.ms_excel .ribbon .section-launcher{
+    background-image:
+    /*savepage-url=../img/dialoglauncher.png*/
+    url(data:image/png;
+    resource=52;
+    base64,);
+    background-position:center center;
+    background-repeat:no-repeat;
+    float:right;
+    height:7px;
+    padding:4px;
+    position:relative;
+    top:4px;
+    width:7px
+}
+.ms_excel .ribbon .section-footer{
+    display:table;
+    width:100%
+}
+.ms_excel .ribbon .ctrl-dropdownbuttonhorizontal .combobox{
+    border:0
+}
+.ms_excel .SIMS_DocumentArea .combo-icon-part,.ms_excel .mini-tb-rbn .combo-icon-part,.ms_excel .pptTable .combo-icon-part,.ms_excel .ribbon .combo-icon-part,.ms_excel .ribbon .combo-value-part{
+    vertical-align:middle;
+    display:table-cell;
+    padding:3px;
+    text-align:center
+}
+.ms_excel .ribbon .ctrl-comboboxreadonlytext .combo-value-part,.ms_excel .ribbon .ctrl-comboboxtext .combo-value-part{
+    padding:0
+}
+.ms_excel .SIMS_DocumentArea .combo-value-wrapper,.ms_excel .chart-comp .combo-value-wrapper,.ms_excel .chart-comp-v2 .combo-value-wrapper,.ms_excel .mini-tb-rbn .combo-value-wrapper,.ms_excel .pptTable .combo-value-wrapper,.ms_excel .ribbon .combo-value-wrapper{
+    vertical-align:middle;
+    display:table-cell
+}
+.ms_excel .ribbon .ctrl-comboboxreadonlytext .combo-value-wrapper,.ms_excel .ribbon .ctrl-comboboxtext .combo-value-wrapper{
+    background-color:#FFF;
+    padding-left:2px
+}
+.ms_excel .SIMS_DocumentArea .combobox-wrapper,.ms_excel .chart-comp .combobox-wrapper,.ms_excel .chart-comp-v2 .combobox-wrapper,.ms_excel .mini-tb-rbn .combobox-wrapper,.ms_excel .pptTable .combobox-wrapper,.ms_excel .ribbon .combobox-wrapper{
+    display:inline-block;
+    z-index:9993
+}
+.ms_excel .ribbon .font-dropdown-item-icon{
+    background-image:
+    /*savepage-url=../img/fonticon.png*/
+    url()
+}
+.ms_excel .chart-comp .dropdown-item-icon,.ms_excel .chart-comp-v2 .dropdown-item-icon,.ms_excel .excel-word-art .dropdown-item-icon .ms_excel .pptTable .dropdown-item-icon,.ms_excel .mini-tb-rbn .dropdown-item-icon,.ms_excel .ribbon .dropdown-item-icon{
+    min-width:24px;
+    min-height:24px;
+    display:block;
+    float:left;
+    background-repeat:no-repeat;
+    background-position:center
+}
+.ms_excel .chart-comp .dropdown-item-icon.no-icon,.ms_excel .chart-comp-v2 .dropdown-item-icon.no-icon,.ms_excel .ribbon .dropdown-item-icon.no-icon{
+    min-width:0;
+    width:0;
+    padding:0
+}
+.ms_excel .ribbon .dropdown-big-icon{
+    height:32px;
+    width:32px;
+    padding:6px;
+    overflow:hidden;
+    display:table-cell;
+    position:relative
+}
+.ms_excel .ribbon .dropdown-curtain{
+    display:none;
+    position:absolute;
+    width:100%;
+    height:100%;
+    z-index:9991
+}
+.ms_excel .ribbon .two-row-section .office-control{
+    padding:4px 0
+}
+.ms_excel .ribbon .standard-right-border{
+    border-right:1px solid #E1E1E1
+}
+.ms_excel .ribbon .office-control.ctrl-separator{
+    padding:4px
+}
+.ms_excel .ribbon .office-separator{
+    width:1px;
+    background:#E1E1E1 center;
+    display:table-cell
+}
+.ms_excel .ribbon .control-group>.ctrl-separator>.office-separator{
+    height:22px
+}
+.ms_excel .ribbon .control-group-vertical>.ctrl-separator>.office-separator{
+    height:50px
+}
+.ms_excel .SIMS_DocumentArea .dropdown-item-text-separator,.ms_excel .chart-comp .dropdown-item-text-separator,.ms_excel .chart-comp-v2 .dropdown-item-text-separator,.ms_excel .mini-tb-rbn .dropdown-item-text-separator,.ms_excel .pptTable .dropdown-item-text-separator,.ms_excel .ribbon .dropdown-item-text-separator{
+    border-bottom:1px solid #E1E1E1
+}
+.ms_excel .SIMS_DocumentArea .dropdown-item-text-separator-dashed,.ms_excel .chart-comp .dropdown-item-text-separator-dashed,.ms_excel .chart-comp-v2 .dropdown-item-text-separator-dashed,.ms_excel .mini-tb-rbn .dropdown-item-text-separator-dashed,.ms_excel .pptTable .dropdown-item-text-separator-dashed,.ms_excel .ribbon .dropdown-item-text-separator-dashed{
+    border-bottom:1px solid #E1E1E1;
+    border-bottom-style:dashed
+}
+.ms_excel .SIMS_DocumentArea .dropdown-item.disabled,.ms_excel .chart-comp .dropdown-item.disabled,.ms_excel .chart-comp-v2 .dropdown-item.disabled,.ms_excel .excel-word-art .dropdown-item.disabled,.ms_excel .mini-tb-rbn .dropdown-item.disabled,.ms_excel .pptTable .dropdown-item.disabled,.ms_excel .ribbon .dropdown-item.disabled,.ms_excel .ribbon .office-control.disabled .button-label{
+    color:#bdb7b9
+}
+.ms_excel .ribbon .table-grid-div .table-grid-item{
+    width:15px;
+    height:15px;
+    display:inline;
+    float:left;
+    background-repeat:no-repeat;
+    background-position:center;
+    border:1px solid #a9a9a9;
+    margin:2px;
+    background-color:#fff!important;
+    box-sizing:border-box
+}
+.ms_excel .ribbon .table-grid-div .table-grid-item:hover{
+    border:1px solid #FFE294;
+    outline:1px solid #EF4810;
+    background-color:#fff!important
+}
+.ms_excel .ribbon .table-grid-div .hovered,.ms_excel .ribbon .table-grid-div .hovered-table-element{
+    border-color:#FFE294;
+    outline:1px solid #EF4810
+}
+.ms_excel .ribbon .table-grid-div .dropdown-item{
+    width:13px
+}
+.ms_excel .ribbon .table-grid-div{
+    min-width:191px;
+    min-height:176px;
+    border-style:none;
+    outline:0;
+    background-color:#fff!important
+}
+.ms_excel .ribbon .table-grid-div .table-grid-container{
+    display:block;
+    width:190px;
+    height:153px;
+    background-color:#fff!important
+}
+.ms_excel .ribbon .table-grid-div .header{
+    background-color:#EEE;
+    color:#777;
+    display:block;
+    font-size:12px;
+    font-weight:700;
+    height:21px;
+    line-height:19px;
+    margin-right:0;
+    padding-left:2px;
+    padding-top:2px;
+    vertical-align:middle
+}
+.ms_excel .SIMS_DocumentArea .dropdown-items-wrapper .items-ItemHeader,.ms_excel .chart-comp .dropdown-items-wrapper .items-ItemHeader,.ms_excel .chart-comp-v2 .dropdown-items-wrapper .items-ItemHeader,.ms_excel .excel-word-art .dropdown-items-wrapper .items-ItemHeader,.ms_excel .mini-tb-rbn .dropdown-items-wrapper .items-ItemHeader,.ms_excel .pptTable .dropdown-items-wrapper .items-ItemHeader,.ms_excel .ribbon .dropdown-items-wrapper .items-ItemHeader{
+    color:#777;
+    display:table-cell;
+    font-size:9pt;
+    font-weight:700;
+    padding-left:8px;
+    vertical-align:middle
+}
+.ms_excel .SIMS_DocumentArea .dropdown-item-nextlevel-arrow,.ms_excel .chart-comp .dropdown-item-nextlevel-arrow,.ms_excel .chart-comp-v2 .dropdown-item-nextlevel-arrow,.ms_excel .mini-tb-rbn .dropdown-item-nextlevel-arrow,.ms_excel .pptTable .dropdown-item-nextlevel-arrow,.ms_excel .ribbon .dropdown-item-nextlevel-arrow{
+    clear:both;
+    display:table-cell;
+    padding-left:10px;
+    padding-right:10px;
+    vertical-align:middle;
+    visibility:hidden
+}
+.ms_excel .SIMS_DocumentArea .dropdown-item .dropdown-next-level-wrapper,.ms_excel .chart-comp .dropdown-item .dropdown-next-level-wrapper,.ms_excel .chart-comp-v2 .dropdown-item .dropdown-next-level-wrapper,.ms_excel .excel-word-art .dropdown-item .dropdown-next-level-wrapper,.ms_excel .mini-tb-rbn .dropdown-item .dropdown-next-level-wrapper,.ms_excel .pptTable .dropdown-item .dropdown-next-level-wrapper,.ms_excel .ribbon .dropdown-item .dropdown-next-level-wrapper{
+    z-index:9992;
+    position:absolute;
+    border:1px solid #c4c4c4;
+    background-color:#fff;
+    padding:1px;
+    box-shadow:0 0 2px #888;
+    top:0
+}
+.ms_excel .ribbon .userinfo{
+    float:right;
+    display:table
+}
+ .ms_excel .ribbon .userinfo .userinfo-icon{
+    height:22px
+}
+.ms_excel .ribbon .userinfo>:not(.office-arrow){
+    display:inline-block;
+    vertical-align:middle;
+    padding:0 6px
+}
+.ms_excel .ribbon .username{
+    font-size:9pt;
+    color:#666
+}
+.ms_excel .chart-comp .minimal-control .control-label,.ms_excel .chart-comp-v2 .minimal-control .control-label,.ms_excel .ribbon .minimal-control .control-label{
+    display:none
+}
+.ms_excel .SIMS_DocumentArea .icon-wrapper,.ms_excel .chart-comp .icon-wrapper,.ms_excel .chart-comp-v2 .icon-wrapper,.ms_excel .excel-word-art .icon-wrapper,.ms_excel .mini-tb-rbn .icon-wrapper,.ms_excel .pptTable .icon-wrapper,.ms_excel .ribbon .icon-wrapper{
+    display:inline-block;
+    vertical-align:middle
+}
+.ms_excel .ribbon .ctrl-splitbuttonwithlabel .office-arrow.icon-wrapper{
+    display:table-cell
+}
+.ms_excel .SIMS_DocumentArea .button-binder .icon-wrapper,.ms_excel .chart-comp .button-binder .icon-wrapper,.ms_excel .chart-comp-v2 .button-binder .icon-wrapper,.ms_excel .mini-tb-rbn .button-binder .icon-wrapper,.ms_excel .pptTable .button-binder .icon-wrapper,.ms_excel .ribbon .button-binder .icon-wrapper{
+    display:itable-cell
+}
+.ms_excel .SIMS_DocumentArea .dropdown-item-icon .icon-wrapper,.ms_excel .SIMS_DocumentArea .dropdown-item-icon .icon-wrapper .ms_excel .SIMS_DocumentArea .dropdown-item-icon .icon-wrapper,.ms_excel .chart-comp .dropdown-item-icon .icon-wrapper,.ms_excel .chart-comp-v2 .dropdown-item-icon .icon-wrapper,.ms_excel .pptTable .dropdown-item-icon .icon-wrapper,.ms_excel .pptTable .dropdown-item-icon .icon-wrapper .ms_excel .pptTable .dropdown-item-icon .icon-wrapper,.ms_excel .ribbon .dropdown-item-icon .icon-wrapper{
+    padding:4px
+}
+.ms_excel .mini-tb-rbn .dropdown-item-icon .icon-wrapper{
+    padding:4px
+}
+.ms_excel .ribbon .ctrl-splitbuttonnewvertical .combobox>*{
+    display:block;
+    text-align:center
+}
+.ms_excel .ribbon .ctrl-splitbuttonnewvertical .dropdown-button{
+    padding:0 4px 2px
+}
+.ms_excel .ribbon .ctrl-splitbuttonnewvertical .dropdown-button .combo-value-part{
+    text-align:center
+}
+.ms_excel .ribbon .ctrl-splitbuttonnewvertical .combo-icon-part{
+    padding:2px 5px
+}
+.ms_excel .chart-comp .ctrl-splitbuttonnewhorizontal .combo-icon-part,.ms_excel .chart-comp-v2 .ctrl-splitbuttonnewhorizontal .combo-icon-part,.ms_excel .mini-tb-rbn .ctrl-splitbuttonnewhorizontal .combo-icon-part,.ms_excel .pptTable .ctrl-splitbuttonnewhorizontal .combo-icon-part,.ms_excel .ribbon .ctrl-splitbuttonnewhorizontal .combo-icon-part{
+    padding:2px
+}
+.ms_excel .SIMS_DocumentArea .tooltip,.ms_excel .mini-tb-rbn .tooltip,.ms_excel .pptTable .tooltip,.ms_excel .ribbon .tooltip{
+    padding:3px;
+    text-align:left;
+    display:none;
+    position:fixed;
+    background-color:#fff;
+    color:#5D5D5D;
+    z-index:9990;
+    border:1px solid #BEBEBE;
+    height:auto;
+    -moz-box-shadow:0 0 2px #888;
+    -webkit-box-shadow:0 0 2px #888;
+    box-shadow:0 0 2px #888
+}
+.ms_excel .SIMS_DocumentArea .tooltip.tooltip-bodyonly,.ms_excel .mini-tb-rbn .tooltip.tooltip-bodyonly,.ms_excel .pptTable .tooltip.tooltip-bodyonly,.ms_excel .ribbon .tooltip.tooltip-bodyonly{
+    padding:0
+}
+.ms_excel .SIMS_DocumentArea .tooltip.tooltip-bodyonly .tooltip-body,.ms_excel .mini-tb-rbn .tooltip.tooltip-bodyonly .tooltip-body,.ms_excel .pptTable .tooltip.tooltip-bodyonly .tooltip-body,.ms_excel .ribbon .tooltip.tooltip-bodyonly .tooltip-body{
+    padding:4px
+}
+.ms_excel .SIMS_DocumentArea .tooltip,.ms_excel .mini-tb-rbn .tooltip>*,.ms_excel .pptTable .tooltip>*,.ms_excel .ribbon .tooltip>*{
+    padding:4px 8px;
+    font-size:8pt
+}
+.ms_excel .SIMS_DocumentArea .tooltip:not(.tooltip-noheader) .tooltip-body,.ms_excel .mini-tb-rbn .tooltip:not(.tooltip-noheader) .tooltip-body,.ms_excel .pptTable .tooltip:not(.tooltip-noheader) .tooltip-body,.ms_excel .ribbon .tooltip:not(.tooltip-noheader) .tooltip-body{
+    width:190px
+}
+.ms_excel .SIMS_DocumentArea .tooltip:not(.tooltip-nopic),.ms_excel .mini-tb-rbn .tooltip:not(.tooltip-nopic),.ms_excel .pptTable .tooltip:not(.tooltip-nopic),.ms_excel .ribbon .tooltip:not(.tooltip-nopic){
+    width:318px;
+    min-height:166px
+}
+.ms_excel .SIMS_DocumentArea .tooltip-header,.ms_excel .mini-tb-rbn .tooltip-header,.ms_excel .pptTable .tooltip-header,.ms_excel .ribbon .tooltip-header{
+    font-weight:700
+}
+.ms_excel .SIMS_DocumentArea .tooltip-body,.ms_excel .mini-tb-rbn .tooltip-body,.ms_excel .pptTable .tooltip-body,.ms_excel .ribbon .tooltip-body{
+    display:inline-block;
+    vertical-align:top;
+    word-wrap:break-word
+}
+.ms_excel .SIMS_DocumentArea .tooltip-image,.ms_excel .mini-tb-rbn .tooltip-image,.ms_excel .pptTable .tooltip-image,.ms_excel .ribbon .tooltip-image{
+    display:inline-block;
+    width:96px
+}
+.ms_excel .SIMS_DocumentArea .tooltip-image-div,.ms_excel .mini-tb-rbn .tooltip-image-div,.ms_excel .pptTable .tooltip-image-div,.ms_excel .ribbon .tooltip-image-div{
+    margin:0 auto
+}
+.ms_excel .SIMS_DocumentArea .tooltip-help,.ms_excel .mini-tb-rbn .tooltip-help,.ms_excel .pptTable .tooltip-help,.ms_excel .ribbon .tooltip-help{
+    border-top:1px solid #e0e0e0
+}
+.ms_excel .SIMS_DocumentArea .tooltip-help-text,.ms_excel .mini-tb-rbn .tooltip-help-text,.ms_excel .pptTable .tooltip-help-text,.ms_excel .ribbon .tooltip-help-text{
+    color:#497EB3;
+    font-size:12px;
+    font-weight:700
+}
+.ms_excel .SIMS_DocumentArea .tooltip-help-icon,.ms_excel .ribbon .tooltip-help-icon{
+    background:
+    /*savepage-url=../img/helpicon.png*/
+    url(data:image/png;
+    resource=47;
+    base64,) no-repeat center;
+    width:16px;
+    height:16px
+}
+.ms_excel .SIMS_DocumentArea .tooltip-help>*,.ms_excel .ribbon .tooltip-help>*{
+    display:inline-block;
+    vertical-align:middle;
+    margin-right:8px
+}
+.ms_excel .SIMS_DocumentArea .tooltip-nopic .tooltip-image,.ms_excel .mini-tb-rbn .tooltip-nopic .tooltip-image,.ms_excel .pptTable .tooltip-nopic .tooltip-image,.ms_excel .ribbon .tooltip-nopic .tooltip-image{
+    display:none
+}
+.ms_excel .SIMS_DocumentArea .tooltip-noheader .tooltip-header,.ms_excel .mini-tb-rbn .tooltip-noheader .tooltip-header,.ms_excel .pptTable .tooltip-noheader .tooltip-header,.ms_excel .ribbon .tooltip-noheader .tooltip-header{
+    display:none
+}
+.ms_excel .SIMS_DocumentArea .tooltip-nobody .tooltip-body,.ms_excel .mini-tb-rbn .tooltip-nobody .tooltip-body,.ms_excel .pptTable .tooltip-nobody .tooltip-body,.ms_excel .ribbon .tooltip-nobody .tooltip-body{
+    display:none
+}
+.ms_excel .SIMS_DocumentArea .tooltip-nohelp .tooltip-help,.ms_excel .mini-tb-rbn .tooltip-nohelp .tooltip-help,.ms_excel .pptTable .tooltip-nohelp .tooltip-help,.ms_excel .ribbon .tooltip-nohelp .tooltip-help{
+    display:none
+}
+.ms_excel .ribbon .circle{
+    -webkit-border-radius:999px;
+    -moz-border-radius:999px;
+    border-radius:999px
+}
+.ms_excel .ribbon .tooltip:not(.tooltip-noheader) .tooltip-body{
+    display:block;
+    width:auto
+}
+.ms_excel .ribbon .tooltip-image{
+    display:block;
+    float:left
+}
+.ms_excel .ribbon .tooltip-help{
+    clear:both
+}
+.ms_excel .ribbon .tooltip:not(.tooltip-noheader){
+    min-width:206px
+}
+@media all and (max-width:1279px){
+    .hideOnLowRes{
+        display:none
+    }
+}
+.ms_excel .ribbon .office-control.ctrl-big_icon_text{
+    min-width:42px;
+    height:69px
+}
+.ms_excel .ribbon .big-control .button-label,.ms_excel .ribbon .ctrl-big_icon_text .control-label,.ms_excel .ribbon .ctrl-big_icon_text_dropdown .control-label{
+    display:block;
+    text-align:center;
+    margin:0
+}
+.ms_excel .ribbon .ctrl-big_icon_text .button-wrapper,.ms_excel .ribbon .ctrl-big_icon_text_dropdown .button-wrapper{
+    text-wrap:normal
+}
+.ms_excel .ribbon .ctrl-big_icon_text .office-arrow,.ms_excel .ribbon .ctrl-big_icon_text_dropdown .office-arrow{
+    margin:0;
+    margin-top:-3px
+}
+.ms_excel .ribbon .ctrl-big_icon_text .office-arrow .icon-binder,.ms_excel .ribbon .ctrl-big_icon_text_dropdown .office-arrow .icon-binder{
+    height:7px;
+    width:6px
+}
+.ms_excel .ribbon .ctrl-big_icon_text .combo-value-wrapper{
+    text-align:center
+}
+.ms_excel .ribbon .ctrl-big_icon_text .dropdown-button{
+    display:block
+}
+.ms_excel .ribbon .big-control .button-icon,.ms_excel .ribbon .ctrl-big_icon_text .combo-icon-part{
+    display:block;
+    height:35px
+}
+.ms_excel .ribbon .big-control .button-icon{
+    text-align:center;
+    width:100%
+}
+.ms_excel .ribbon .ctrl-big_icon_text:not(.has-list) .dropdown-button{
+    display:none
+}
+.ms_excel .ribbon .big-control .button-binder{
+    height:63px
+}
+.ms_excel .ribbon .office-control.ctrl-big_icon_textfm{
+    min-width:42px;
+    height:69px
+}
+.ms_excel .ribbon .big-control .button-label,.ms_excel .ribbon .ctrl-big_icon_textfm .control-label,.ms_excel .ribbon .ctrl-big_icon_textfm_dropdown .control-label{
+    display:block;
+    text-align:center;
+    margin:0
+}
+.ms_excel .ribbon .ctrl-big_icon_textfm .button-wrapper,.ms_excel .ribbon .ctrl-big_icon_textfm_dropdown .button-wrapper{
+    text-wrap:normal
+}
+.ms_excel .ribbon .ctrl-big_icon_textfm .office-arrow,.ms_excel .ribbon .ctrl-big_icon_textfm_dropdown .office-arrow{
+    margin:0;
+    margin-top:-3px
+}
+.ms_excel .ribbon .ctrl-big_icon_textfm .office-arrow .icon-binder,.ms_excel .ribbon .ctrl-big_icon_textfm_dropdown .office-arrow .icon-binder{
+    height:7px;
+    width:6px
+}
+.ms_excel .ribbon .ctrl-big_icon_textfm .combo-value-wrapper{
+    text-align:center
+}
+.ms_excel .ribbon .ctrl-big_icon_textfm .dropdown-button{
+    display:block
+}
+.ms_excel .ribbon .big-control .button-icon,.ms_excel .ribbon .ctrl-big_icon_textfm .combo-icon-part{
+    display:block;
+    height:35px
+}
+.ms_excel .ribbon .ctrl-big_icon_textfm:not(.has-list) .dropdown-button{
+    display:none
+}
+.ms_excel .ribbon .ctrl-icon_text_spinner_button .sims-SpinControl{
+    display:inline-block;
+    vertical-align:middle
+}
+.ms_excel .ribbon .ctrl-icon_text_spinner_button .sims-SpinControl .spinContainer{
+    height:20px
+}
+.ms_excel .ribbon .ctrl-icon_text_spinner_button .button-label{
+    vertical-align:middle;
+    width:40px
+}
+.ms_excel .ribbon .ctrl-icon_text_spinner_button .button-icon{
+    float:none
+}
+.ms_excel .ribbon .ctrl-icon_text_spinner_button .icon-wrapper{
+    vertical-align:middle
+}
+.ms_excel .ribbon .ribbon-tab-SK{
+    display:none;
+    background-color:#000;
+    color:#fff;
+    height:15px;
+    left:20px;
+    position:absolute;
+    top:13px;
+    width:15px;
+    z-index:2000;
+    opacity:.75;
+    filter:alpha(opacity=75);
+    font-size:9pt
+}
+.ms_excel .SIMS_DocumentArea .dropdown-items-wrapper .items-header-wrapper,.ms_excel .chart-comp .dropdown-items-wrapper .items-header-wrapper,.ms_excel .chart-comp-v2 .dropdown-items-wrapper .items-header-wrapper,.ms_excel .excel-word-art .dropdown-items-wrapper .items-header-wrapper,.ms_excel .ribbon .dropdown-items-wrapper .items-header-wrapper{
+    background-color:#F0F2F5;
+    display:table;
+    height:24px;
+    width:100%
+}
+ .ms_excel .SIMS_DocumentArea .item-type-text .dropdown-item-icon,.ms_excel .SIMS_DocumentArea .item-type-text .dropdown-item-nextlevel-arrow,.ms_excel .chart-comp .item-type-text .dropdown-item-icon,.ms_excel .chart-comp .item-type-text .dropdown-item-nextlevel-arrow,.ms_excel .chart-comp-v2 .item-type-text .dropdown-item-icon,.ms_excel .chart-comp-v2 .item-type-text .dropdown-item-nextlevel-arrow,.ms_excel .mini-tb-rbn .item-type-text .dropdown-item-icon,.ms_excel .mini-tb-rbn .item-type-text .dropdown-item-nextlevel-arrow,.ms_excel .pptTable .item-type-text .dropdown-item-icon,.ms_excel .pptTable .item-type-text .dropdown-item-nextlevel-arrow,.ms_excel .ribbon .dropdown-items-wrapper .item-type-text .dropdown-item-icon,.ms_excel .ribbon .dropdown-items-wrapper .item-type-text .dropdown-item-nextlevel-arrow{
+    display:none
+}
+.ms_excel .SIMS_DocumentArea .dropdown-item-nextlevel-arrow .icon-binder,.ms_excel .chart-comp .dropdown-item-nextlevel-arrow .icon-binder,.ms_excel .chart-comp-v2 .dropdown-item-nextlevel-arrow .icon-binder,.ms_excel .mini-tb-rbn .dropdown-item-nextlevel-arrow .icon-binder,.ms_excel .pptTable .dropdown-item-nextlevel-arrow .icon-binder,.ms_excel .ribbon .dropdown-item-nextlevel-arrow .icon-binder{
+    width:4px;
+    height:7px
+}
+.ms_excel .SIMS_DocumentArea .dropdown-item-nextlevel-arrow .icon-binder img,.ms_excel .chart-comp .dropdown-item-nextlevel-arrow .icon-binder img,.ms_excel .chart-comp-v2 .dropdown-item-nextlevel-arrow .icon-binder img,.ms_excel .mini-tb-rbn .dropdown-item-nextlevel-arrow .icon-binder img,.ms_excel .pptTable .dropdown-item-nextlevel-arrow .icon-binder img,.ms_excel .ribbon .dropdown-item-nextlevel-arrow .icon-binder img{
+    top:-128px;
+    left:-112px
+}
+.ms_excel .ribbon .ribbon-SK{
+    display:none
+}
+.ms_excel .ribbon .accessibility-active>.ribbon-SK{
+    background-color:#525252;
+    color:#fff;
+    display:block;
+    font-size:9pt;
+    height:17px;
+    line-height:17px;
+    min-width:10px;
+    padding:0 3px;
+    position:absolute;
+    text-align:center;
+    vertical-align:middle;
+    z-index:2000
+}
+.ms_excel .ribbon .accessibility-active.tab-header>.ribbon-SK{
+    left:-webkit-calc(50% - 8px);
+    left:calc(50% - 8px);
+    top:78%
+}
+.ms_excel .ribbon .accessibility-active.ctrl-splitbuttonnewvertical>.ribbon-SK{
+    bottom:-12px;
+    left:32%
+}
+.ms_excel .ribbon .accessibility-active.ctrl-gallery>.ribbon-SK{
+    bottom:-12px;
+    left:90%
+}
+.ms_excel .ribbon .accessibility-active.dropdown-item.item-type-default>.ribbon-SK,.ms_excel .ribbon .accessibility-active.dropdown-item.item-type-iconandtext>.ribbon-SK{
+    bottom:-6px;
+    left:13px
+}
+.ms_excel .ribbon .accessibility-active.dropdown-item.item-type-icontextdesc>.ribbon-SK{
+    bottom:3px;
+    left:26px
+}
+.ms_excel .ribbon .accessibility-active.section-launcher>.ribbon-SK{
+    left:-3px;
+    top:16px
+}
+.ms_excel .SIMS_DocumentArea .sims-ColorGrid,.ms_excel .chart-comp .sims-ColorGrid,.ms_excel .chart-comp-v2 .sims-ColorGrid,.ms_excel .excel-word-art .sims-ColorGrid,.ms_excel .mini-tb-rbn .sims-ColorGrid,.ms_excel .pptTable .sims-ColorGrid,.ms_excel .ribbon .sims-ColorGrid{
+    position:relative
+}
+.contextMenu.dropdown-items-wrapper.combobox-dropdown{
+    position:fixed
+}
+.ms_excel .ribbon .title-bar .accessibility-active .ribbon-SK{
+    left:calc(50% - 8px);
+    left:-webkit-calc(50% - 8px);
+    top:11px
+}
+.ms_excel .ribbon .ctrl-splitbuttonnewhorizontal.accessibility-active>.ribbon-SK{
+    top:100%;
+    left:0
+}
+.ms_excel .SIMS_DocumentArea .office-control.ctrl-button.big-control .button-binder,.ms_excel .chart-comp .office-control.ctrl-button.big-control .button-binder,.ms_excel .chart-comp-v2 .office-control.ctrl-button.big-control .button-binder,.ms_excel .mini-tb-rbn .office-control.ctrl-button.big-control .button-binder,.ms_excel .pptTable .office-control.ctrl-button.big-control .button-binder,.ms_excel .ribbon .office-control.ctrl-button.big-control .button-binder{
+    padding:3px 0
+}
+.ms_excel .SIMS_DocumentArea .office-control.ctrl-imagedropdown .combo-value-part,.ms_excel .chart-comp .office-control.ctrl-imagedropdown .combo-value-part,.ms_excel .chart-comp-v2 .office-control.ctrl-imagedropdown .combo-value-part,.ms_excel .mini-tb-rbn .office-control.ctrl-imagedropdown .combo-value-part,.ms_excel .pptTable .office-control.ctrl-imagedropdown .combo-value-part,.ms_excel .ribbon .office-control.ctrl-imagedropdown .combo-value-part{
+    display:none
+}
+.ms_excel .SIMS_DocumentArea .office-control.ctrl-imagedropdown,.ms_excel .chart-comp .office-control.ctrl-imagedropdown,.ms_excel .chart-comp-v2 .office-control.ctrl-imagedropdown,.ms_excel .mini-tb-rbn .office-control.ctrl-imagedropdown,.ms_excel .pptTable .office-control.ctrl-imagedropdown,.ms_excel .ribbon .office-control.ctrl-imagedropdown{
+    vertical-align:top
+}
+.ms_excel .ribbon .accessibility-active.item-type-imageitem>.ribbon-SK{
+    right:0;
+    top:-18px
+}
+.ms_excel .ribbon .accessibility-active.item-type-imageitem.leftAlignedAccesskeys>.ribbon-SK{
+    left:0;
+    right:inherit;
+    top:-18px
+}
+.ms_excel .ribbon .DropDownButton-breaks .accessibility-active.item-type-imageitem>.ribbon-SK{
+    right:258px;
+    top:0
+}
+.ms_excel .ribbon .control-group-vertical>:first-child.office-control>.ribbon-SK{
+    top:-webkit-calc(100% - 35px);
+    top:calc(100% - 35px)
+}
+.ms_excel .ribbon .control-group-vertical>:first-child.control-group>.office-control>.ribbon-SK{
+    top:-webkit-calc(100% - 35px);
+    top:calc(100% - 35px)
+}
+.ms_excel .ribbon .control-group-vertical>:first-child.control-group>.control-group>.office-control>.ribbon-SK{
+    top:-webkit-calc(100% - 35px);
+    top:calc(100% - 35px)
+}
+.ms_excel .ribbon .control-group-vertical>:not(:first-child):not(:last-child).office-control>.ribbon-SK{
+    top:-webkit-calc(100% - 20px);
+    top:calc(100% - 20px)
+}
+.ms_excel .ribbon .control-group-vertical>:not(:first-child):not(:last-child).control-group>.office-control>.ribbon-SK{
+    top:-webkit-calc(100% - 20px);
+    top:calc(100% - 20px)
+}
+.ms_excel .ribbon .control-group-vertical>:not(:first-child):not(:last-child).control-group>.control-group>.office-control>.ribbon-SK{
+    top:-webkit-calc(100% - 20px);
+    top:calc(100% - 20px)
+}
+.ms_excel .ribbon .contextMenu{
+    display:none
+}
+.ms_excel .ribbon .contextMenu *{
+    font-size:9pt
+}
+.ms_excel .ribbon .gallery-inner-div{
+    height:63px;
+    overflow:hidden;
+    position:relative;
+    z-index:2;
+    border-bottom:1px solid #b7b7b7;
+    border-top:1px solid #b7b7b7;
+    border-left:1px solid #b7b7b7;
+    margin-top:7px
+}
+.ms_excel .ribbon .gallery-button-container{
+    width:16px;
+    height:63px;
+    float:right
+}
+.ms_excel .ribbon .gallery-items{
+    position:absolute;
+    z-index:1990;
+    background-color:#fff
+}
+.ms_excel .ribbon .gallery-items .icon-binder{
+    z-index:1991
+}
+.ms_excel .ribbon .gallery-items-expanded{
+    border:1px solid #b7b7b7
+}
+.ms_excel .ribbon .gallery-inner-div-expanded{
+    border-color:transparent;
+    z-index:1992
+}
+.ms_excel .ribbon .gallery-button{
+    height:20px;
+    border:1px solid #b7b7b7
+}
+.ms_excel .ribbon .gallery-button-up{
+    background:
+    /*savepage-url=../img/GalleryControlButton.png*/
+    url() no-repeat scroll 0 0 transparent
+}
+.ms_excel .ribbon .gallery-button-down{
+    background:
+    /*savepage-url=../img/GalleryControlButton.png*/
+    url() no-repeat scroll 0 -21px transparent
+}
+.ms_excel .ribbon .gallery-button-expand{
+    background:
+    /*savepage-url=../img/GalleryControlButton.png*/
+    url() no-repeat scroll 0 -40px transparent
+}
+.ms_excel .ribbon .table-style-gallery .gallery-inner-div{
+    height:61px
+}
+.ms_excel .ribbon .contextual-tab-head{
+    top:0;
+    position:absolute;
+    display:none;
+    height:40px;
+    border-top:4px solid transparent;
+    font-size:11px;
+    padding-top:3px;
+    cursor:default
+}
+.ms_excel .ribbon .tooltip ul{
+    list-style:inside 
+    /*savepage-url=../img/tooltip_bullet.jpg*/
+     url() disc;
+    line-height:12px
+}
+.ms_excel .ribbon .title-bar .dropdown-item-text{
+    text-align:left
+}
+.ms_excel .ribbon .sectionHide{
+    display:none
+}
+.ms_excel .ribbon .sectionShow{
+    display:inline-table
+}
+.ms_excel .ribbon .office-control.ctrl-condensedsectioncontrol{
+    border-right:1px solid #E1E1E1
+}
+.ms_excel .ribbon .office-control.ctrl-condensedsectioncontrol .section-wrapper{
+    border-right:none
+}
+.ms_excel .ribbon .ctrl-condensedsectioncontrol .office-hover-default.condensed-control.hovered,.ms_excel .ribbon .ctrl-condensedsectioncontrol .office-hover-default.condensed-control:hover,.ms_excel .ribbon.navigation-key-state .ctrl-condensedsectioncontrol .condensed-control.hovered{
+    background-color:#f7f7f7
+}
+.ms_excel .ribbon .ctrl-condensedsectioncontrol .condensed-controlwrapper.active-toggle{
+    background:none repeat scroll 0 0 #f0f0f0
+}
+.ms_excel .ribbon .dropdown-items-wrapper .dropdown-items-resize-handleItem{
+    width:100%
+}
+.ms_excel .ribbon .dropdown-items-wrapper .dropdown-items-resize-handleItem.vertical{
+    height:8px;
+    text-align:center
+}
+.ms_excel .ribbon .dropdown-items-wrapper .dropdown-items-resize-handleItem.diagonal{
+    height:11px;
+    text-align:right
+}
+.ms_excel .ribbon .dropdown-items-wrapper .dropdown-items-resize-handleItem.vertical .dropdown-items-resize-handle{
+    height:100%;
+    width:22px;
+    display:inline-block;
+    background-image:
+    /*savepage-url=../img/vertical.png*/
+    url();
+    background-position:center center;
+    background-repeat:no-repeat
+}
+.ms_excel .ribbon .dropdown-items-wrapper .dropdown-items-resize-handleItem.diagonal .dropdown-items-resize-handle{
+    height:100%;
+    width:10px;
+    display:inline-block;
+    background-image:
+    /*savepage-url=../img/diagonal.png*/
+    url();
+    background-position:center center;
+    background-repeat:no-repeat
+}
+.ms_excel .ribbon .colorchanger{
+    height:4px;
+    width:16px;
+    position:relative;
+    top:12px
+}

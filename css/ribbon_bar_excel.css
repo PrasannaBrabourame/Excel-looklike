@@ -1,0 +1,3664 @@
+
+.ms_excel .excel.ribbon .tab-header.tab-header-backstage{
+    background-color:#217346;
+    color:#fff
+}
+.ms_excel .excel.ribbon .tab-:hover{
+    color:#217346
+}
+.ms_excel .excel.ribbon .tab-header-selected{
+    border-color:#E1E1E1 #E1E1E1 #FFF;
+    border-style:solid;
+    color:#217346;
+    background-color:#fff
+}
+.ms_excel .excel.ribbon .ribbon-tab-container .collapse-button{
+    background:
+    /*savepage-url=../img/collapse_icon.png*/
+    url();
+    background-repeat:no-repeat;
+    background-color:#FFF;
+    height:18px;
+    width:29px;
+    position:absolute!important;
+    z-index:1
+}
+.ms_excel .excel.ribbon .ribbon-tab-container .collapse-button:hover{
+    background-color:#D3F0E0
+}
+.ms_excel .excel.ribbon .ribbon-tab-container .collapse-button-tooltip{
+    background-color:#FFF;
+    color:#5D5D5D;
+    font-size:12px;
+    width:204px;
+    height:58px;
+    padding:10px;
+    box-shadow:0 0 5px 0;
+    position:absolute!important;
+    z-index:2;
+    display:none
+}
+.ms_excel .excel.ribbon .office-hover-default.hovered,.ms_excel .excel.ribbon .office-hover-default:hover,.ms_excel .excel.ribbon.navigation-key-state .hovered{
+    background-color:#D3F0E0
+}
+.ms_excel .excel.ribbon .office-hover-default.hover,.ms_excel .excel.ribbon .office-hover-default.hovered,.ms_excel .excel.ribbon.navigation-key-state .hovered{
+    background-color:#D3F0E0
+}
+.ms_excel .excel.ribbon .office-hover-default:active{
+    background-color:#86bda0
+}
+.ms_excel .ribbon.excel .active-toggle{
+    background:#9FD5B7
+}
+.ms_excel .ribbon.excel .hovered-frame:hover{
+    border:1px solid #D3F0E0
+}
+.ms_excel .excel.ribbon .ctrl-combobox .combobox:hover, .excel.ribbon .ctrl-comboboxreadonlytext .combobox:hover,.ms_excel .excel.ribbon .ctrl-comboboxtext .combobox:hover{
+    border:1px solid #9bb3a1
+}
+.ms_excel .excel.ribbon.accesible-state .tab-header-selected,.ms_excel .excel.ribbon.navigation-key-state .tab-header-selected.hovered{
+    background-color:#D3F0E0;
+    border-color:#86BFA0 #86BFA0 #D3F0E0
+}
+.ms_excel .excel.ribbon .gallery-items .selected-gallery-item .icon-wrapper{
+    background-color:#9fd5b7
+}
+.ms_excel .excel.ribbon .tab-header-sparklinestoolsdesign{
+    background-color:#fffbe6;
+    width:90px
+}
+.ms_excel .excel.ribbon .contextual-head-sparklinestools{
+    background-color:#fffbe6;
+    border-color:#f2cb1d;
+    color:#997816
+}
+.ms_excel .excel.ribbon .tab-header-sparklinestoolsdesign:hover{
+    color:#997816
+}
+.ms_excel .excel.ribbon .tab-header-sparklinestoolsdesign.tab-header-selected{
+    color:#997816;
+    border-color:#E1E1E1 #E1E1E1 #FFF;
+    border-style:solid;
+    background-color:#fff
+}
+.ms_excel .excel.ribbon .tab-header-charttoolsdesign{
+    background-color:#e6f3e6;
+    border-color:#e6f3e6 #e6f3e6 #e6f3e6;
+    width:75px
+}
+.ms_excel .excel.ribbon .contextual-head-charttools{
+    background-color:#e6f3e6;
+    border-color:#49a349;
+    color:#49a349
+}
+.ms_excel .excel.ribbon .tab-header-charttoolsdesign:hover{
+    color:#49a349
+}
+.ms_excel .excel.ribbon .tab-header-charttoolsdesign.tab-header-selected{
+    color:#49a349;
+    border-color:#E1E1E1 #E1E1E1 #FFF;
+    border-style:solid;
+    background-color:#fff
+}
+.ms_excel .excel.ribbon .tab-header-charttoolsformat{
+    background-color:#e6f3e6;
+    border-color:#e6f3e6 #e6f3e6 #e6f3e6
+}
+.ms_excel .excel.ribbon .tab-header-charttoolsformat:hover{
+    color:#49a349
+}
+.ms_excel .excel.ribbon .tab-header-charttoolsformat.tab-header-selected{
+    color:#49a349;
+    border-color:#E1E1E1 #E1E1E1 #FFF;
+    border-style:solid;
+    background-color:#fff
+}
+.ms_excel .excel.ribbon .tab-header-contextual.tab-header-headerfootertoolsdesign{
+    background-color:#e6f3e6;
+    border-color:#e6f3e6 #e6f3e6 #e6f3e6;
+    width:147px
+}
+.ms_excel .excel.ribbon .contextual-head-headerfootertools{
+    background-color:#e6f3e6;
+    border-color:#49a349;
+    color:#49a349
+}
+.ms_excel .excel.ribbon .tab-header-contextual.tab-header-headerfootertoolsdesign:hover{
+    color:#067006
+}
+.ms_excel .excel.ribbon .tab-header-contextual.tab-header-headerfootertoolsdesign.tab-header-selected{
+    color:#067006;
+    border-color:#E1E1E1 #E1E1E1 #FFF;
+    border-style:solid;
+    background-color:#fff
+}
+.ms_excel .excel.ribbon .tab-header-contextual.tab-header-tabletoolsdesign{
+    background-color:#fffbe6;
+    border-color:#fffbe6 #fffbe6 #fffbe6;
+    width:65px
+}
+.ms_excel .excel.ribbon .contextual-head-tabletools{
+    background-color:#fffbe6;
+    border-color:#f2cb1d;
+    color:#987715
+}
+.ms_excel .excel.ribbon .tab-header-contextual.tab-header-tabletoolsdesign:hover{
+    color:#856300
+}
+.ms_excel .excel.ribbon .tab-header-contextual.tab-header-tabletoolsdesign.tab-header-selected{
+    color:#856300;
+    border-color:#E1E1E1 #E1E1E1 #FFF;
+    border-style:solid;
+    background-color:#fff
+}
+.ms_excel .ribbon .ctrl-condensedsectioncontrol .office-hover-default.condensed-control.hovered,.ms_excel .ribbon .ctrl-condensedsectioncontrol .office-hover-default.condensed-control:hover,.ms_excel .ribbon.navigation-key-state .ctrl-condensedsectioncontrol .condensed-control.hovered{
+    background-color:#f7f7f7
+}
+.ms_excel .ribbon .ctrl-condensedsectioncontrol .condensed-controlwrapper.active-toggle{
+    background:none repeat scroll 0 0 #f0f0f0
+}
+.ms_excel .excel.ribbon .tab-header-drawingtoolsformat{
+    background-color:#fff8ed;
+    border-color:#fff8ed #fff8ed #fff8ed;
+    width:70px
+}
+.ms_excel .excel.ribbon .contextual-head-drawingtools{
+    background-color:#fff8ed;
+    border-color:#FF9D00;
+    color:#c65807
+}
+.ms_excel .excel.ribbon .tab-header-drawingtoolsformat:hover{
+    color:#FF9D00
+}
+.ms_excel .excel.ribbon .tab-header-drawingtoolsformat.tab-header-selected{
+    color:#c65807;
+    border-color:#E1E1E1 #E1E1E1 #FFF;
+    border-style:solid;
+    background-color:#fff
+}
+.ms_excel .excel.ribbon .tab-header-pivottabletoolsdesign{
+    background-color:#fcf0f7;
+    border-color:#fcf0f7 #fcf0f7 #fcf0f7
+}
+.ms_excel .excel.ribbon .contextual-head-pivottabletools{
+    background-color:#fcf0f7;
+    border-color:#c9599c;
+    color:#c9599c
+}
+.ms_excel .excel.ribbon .tab-header-pivottabletoolsdesign:hover{
+    color:#c9599c
+}
+.ms_excel .excel.ribbon .tab-header-pivottabletoolsdesign.tab-header-selected{
+    color:#c9599c;
+    border-color:#E1E1E1 #E1E1E1 #FFF;
+    border-style:solid;
+    background-color:#fff
+}
+.ms_excel .excel.ribbon .tab-header-pivottabletoolsanalyze{
+    background-color:#fcf0f7;
+    border-color:#fcf0f7 #fcf0f7 #fcf0f7
+}
+.ms_excel .excel.ribbon .tab-header-pivottabletoolsanalyze:hover{
+    color:#c9599c
+}
+.ms_excel .excel.ribbon .tab-header-pivottabletoolsanalyze.tab-header-selected{
+    color:#c9599c;
+    border-color:#E1E1E1 #E1E1E1 #FFF;
+    border-style:solid;
+    background-color:#fff
+}
+.ms_excel .excel.ribbon .tab-header-slicertoolsoptions{
+    background-color:#f6f1fc;
+    border-color:#f6f1fc #f6f1fc #f6f1fc;
+    width:75px
+}
+.ms_excel .excel.ribbon .contextual-head-slicertools{
+    background-color:#f6f1fc;
+    border-color:#935ed3;
+    color:#935ed3
+}
+.ms_excel .excel.ribbon .sims-TextBox{
+    font-size:12px
+}
+.ms_excel .excel.ribbon .sims-TextBox:hover{
+    border:1px solid #d3f0e0
+}
+.ms_excel .excel.ribbon .tab-header-slicertoolsoptions:hover{
+    color:#935ed3
+}
+.ms_excel .excel.ribbon .tab-header-slicertoolsoptions.tab-header-selected{
+    color:#935ed3;
+    border-color:#E1E1E1 #E1E1E1 #FFF;
+    border-style:solid;
+    background-color:#fff
+}
+.ms_excel .excel.ribbon .slicer-column .button-binder,.ms_excel .excel.ribbon .slicertools_buttons_height .button-binder{
+    padding:2px;
+    display:table
+}
+.ms_excel .excel.ribbon .tab-header-pivotcharttoolsdesign{
+    background-color:#e6f3e6;
+    border-color:#e6f3e6 #e6f3e6 #e6f3e6;
+    width:75px
+}
+.ms_excel .excel.ribbon .tab-header-pivotcharttoolsanalyze{
+    background-color:#e6f3e6;
+    border-color:#e6f3e6 #e6f3e6 #e6f3e6;
+    width:75px
+}
+.ms_excel .excel.ribbon .contextual-head-pivotcharttools{
+    background-color:#e6f3e6;
+    border-color:#49a349;
+    color:#49a349
+}
+.ms_excel .excel.ribbon .tab-header-pivotcharttoolsdesign:hover{
+    color:#49a349
+}
+.ms_excel .excel.ribbon .tab-header-pivotcharttoolsanalyze:hover{
+    color:#49a349
+}
+.ms_excel .excel.ribbon .tab-header-pivotcharttoolsdesign.tab-header-selected{
+    color:#49a349;
+    border-color:#E1E1E1 #E1E1E1 #FFF;
+    border-style:solid;
+    background-color:#fff
+}
+.ms_excel .excel.ribbon .tab-header-pivotcharttoolsanalyze.tab-header-selected{
+    color:#49a349;
+    border-color:#E1E1E1 #E1E1E1 #FFF;
+    border-style:solid;
+    background-color:#fff
+}
+.ms_excel .excel.ribbon .tab-header-pivotcharttoolsformat{
+    background-color:#e6f3e6;
+    border-color:#e6f3e6 #e6f3e6 #e6f3e6
+}
+.ms_excel .excel.ribbon .tab-header-pivotcharttoolsformat:hover{
+    color:#49a349
+}
+.ms_excel .excel.ribbon .tab-header-pivotcharttoolsformat.tab-header-selected{
+    color:#49a349;
+    border-color:#E1E1E1 #E1E1E1 #FFF;
+    border-style:solid;
+    background-color:#fff
+}
+.ms_excel .excel.ribbon .tab-header-picturetoolsformat{
+    background-color:#fcf0f7;
+    border-color:#fcf0f7 #fcf0f7 #fcf0f7;
+    width:70px
+}
+.ms_excel .excel.ribbon .contextual-head-picturetools{
+    background-color:#fcf0f7;
+    border-color:#C9599C;
+    color:#A1407A
+}
+.ms_excel .excel.ribbon .tab-header-picturetoolsformat:hover{
+    color:#C9599C
+}
+.ms_excel .excel.ribbon .tab-header-picturetoolsformat.tab-header-selected{
+    color:#A1407A;
+    border-color:#E1E1E1 #E1E1E1 #FFF;
+    border-style:solid;
+    background-color:#fff
+}
+.ms_excel .excel.ribbon .tab-header-smartarttoolsdesign{
+    background-color:#F6F1FC;
+    border-color:#F6F1FC #F6F1FC #F6F1FC;
+    width:50px
+}
+.ms_excel .excel.ribbon .contextual-head-smartarttools{
+    background-color:#f6f1fc;
+    border-color:#935ed3;
+    color:#884ecf
+}
+.ms_excel .excel.ribbon .tab-header-smartarttoolsdesign:hover{
+    color:#935ed3
+}
+.ms_excel .excel.ribbon .tab-header-smartarttoolsdesign.tab-header-selected{
+    color:#935ed3;
+    border-color:#E1E1E1 #E1E1E1 #FFF;
+    border-style:solid;
+    background-color:#FFF
+}
+.ms_excel .excel.ribbon .tab-header-smartarttoolsformat{
+    background-color:#F6F1FC;
+    border-color:#F6F1FC #F6F1FC #F6F1FC;
+    width:50px
+}
+.ms_excel .excel.ribbon .tab-header-smartarttoolsformat:hover{
+    color:#935ed3
+}
+.ms_excel .excel.ribbon .tab-header-smartarttoolsformat.tab-header-selected{
+    color:#935ed3;
+    border-color:#E1E1E1 #E1E1E1 #FFF;
+    border-style:solid;
+    background-color:#FFF
+}
+.ms_excel .excel-power-pivot.ribbon{
+    background-color:#FFF
+}
+.ms_excel .excel-power-pivot.ribbon .title-bar{
+    background-color:#7ba2db
+}
+.ms_excel .excel-power-pivot.ribbon .tab-header.tab-header-backstage{
+    background-color:#737373;
+    color:#fff;
+    padding:4px 12px;
+    margin-right:-1px;
+    margin-left:-1px;
+    border-top:1px solid #737373
+}
+.ms_excel .excel-power-pivot.ribbon .ribbon-tab-container{
+    background-color:#FDFDFD
+}
+.ms_excel .excel-power-pivot.ribbon .tooltip{
+    background-color:#FDFDFD
+}
+.ms_excel .excel-power-pivot.ribbon .combobox-dropdown{
+    background-color:#fefefe
+}
+.ms_excel .excel-power-pivot.ribbon .tab-:hover{
+    color:#FEFEFE
+}
+.ms_excel .excel-power-pivot.ribbon .tab-header-selected{
+    border-color:#e1e1e1 #F7F7F7 #fff;
+    border-style:solid;
+    color:#444;
+    background-color:#FDFDFD
+}
+.ms_excel .excel-power-pivot.ribbon .ribbon-section .office-hover-default.hovered,.ms_excel .excel-power-pivot.ribbon .ribbon-section .office-hover-default:hover{
+    background-color:#FBFBFB;
+    border:1px solid #f2f2f2;
+    margin:-1px
+}
+.ms_excel .excel-power-pivot.ribbon .ribbon-section .office-hover-default.hover,.ms_excel .excel-power-pivot.ribbon .ribbon-section .office-hover-default.hovered{
+    background-color:#FBFBFB;
+    border:1px solid #f2f2f2;
+    margin:-1px
+}
+.ms_excel .excel-power-pivot.ribbon .office-hover-default:active{
+    background-color:#FBFBFB
+}
+.ms_excel .ribbon.excel-power-pivot .active-toggle{
+    background:#F6F6F6;
+    border:1px solid #E4E4E4;
+    margin:-1px
+}
+.ms_excel .ribbon.excel-power-pivot .hovered-frame:hover{
+    border:1px solid #f2f2f2
+}
+.ms_excel .excel-power-pivot.ribbon .ctrl-combobox .combobox:hover,.ms_excel .excel.ribbon .ctrl-comboboxreadonlytext .combobox:hover,.ms_excel .excel.ribbon .ctrl-comboboxtext .combobox:hover{
+    border:1px solid #9bb3a1
+}
+.ms_excel .excel-power-pivot.ribbon.accesible-state .tab-header-selected,.ms_excel .excel.ribbon.navigation-key-state .tab-header-selected.hovered{
+    background-color:#FBFBFB;
+    border-color:#86BFA0 #86BFA0 #f2f2f2
+}
+.ms_excel .excel-power-pivot.ribbon .title-bar .office-hover-default:hover{
+    background-color:#3665b3
+}
+.ms_excel .excel-power-pivot.ribbon .title-bar .power_pivot_close .office-hover-default.hovered,.ms_excel .excel-power-pivot.ribbon .title-bar .power_pivot_close .office-hover-default:hover{
+    background-color:#7ba2db!important
+}
+.ms_excel .excel-power-pivot .ribbon-tab-container{
+    border-color:#F7F7F7
+}
+.ms_excel .excel-power-pivot.ribbon .tab-header:hover{
+    color:#444
+}
+.ms_excel .excel-power-pivot.ribbon .accessibility-active>.ribbon-SK{
+    background-color:#F7F7F7;
+    color:#2A2A2A;
+    border:1px solid #777;
+    border-radius:2px;
+    margin:-1px
+}
+.ms_excel .excel-power-pivot.ribbon .tab-header{
+    text-transform:capitalize
+}
+.ms_excel .excel-power-pivot.ribbon .contextual-tab-head{
+    text-transform:capitalize
+}
+.ms_excel .excel-power-pivot.ribbonn .tab-header-tabletoolslinkedtable:hover{
+    border-color:#433FEA #433FEA #FFF
+}
+.ms_excel .excel-power-pivot.ribbon .contextual-head-tabletools{
+    background-color:#9D9DF0
+}
+.ms_excel .excel-power-pivot.ribbon .tab-header-tabletoolslinkedtable.tab-header-selected{
+    border-color:#433FEA #433FEA #FFF;
+    border-style:solid;
+    background-color:#fff
+}
+.ms_excel .excel-power-pivot.ribbon #ribbon-tab-container-tabletoolslinkedtable{
+    border-color:#433FEA #433FEA #FFF;
+    border-style:solid
+}
+.ms_excel .ribbon #ribbon-tab-container-design .tooltip:not(.tooltip-nopic),.ms_excel .ribbon #ribbon-tab-container-powerpivot .tooltip:not(.tooltip-nopic),.ms_excel .ribbon #ribbon-tab-container-powerview .tooltip:not(.tooltip-nopic){
+    min-height:100px;
+    width:230px
+}
+.ms_excel .excel.ribbon input.combo-textbox::selection{
+    background:#88C3FF
+}
+ 
+
+
+
+
+
+
+
+
+
+ .SIMS.Office2016 .excel.ribbon .title-bar .office-hover-default.hovered,.SIMS.Office2016 .excel.ribbon .title-bar .office-hover-default:hover,.SIMS.Office2016 .excel.ribbon.navigation-key-state .title-bar .hovered{
+    background-color:#d5e1f2
+}
+.SIMS.Office2016 .excel.ribbon .title-bar .office-hover-default.hover,.SIMS.Office2016 .excel.ribbon .title-bar .office-hover-default.hovered,.SIMS.Office2016 .excel.ribbon.navigation-key-state .title-bar .hovered{
+    background-color:#d5e1f2
+}
+.SIMS.Office2016 .excel.ribbon .title-bar .office-hover-default:active{
+    background-color:#a3bde3
+}
+.SIMS.Office2016 .ribbon.excel .title-bar .active-toggle{
+    background:#a3bde3
+}
+.SIMS.Office2016 .ribbon.excel .sharebutton{
+    background-color:#217346
+}
+.SIMS.Office2016 .excel.ribbon .tab-header-charttoolsdesign{
+    width:auto
+}
+.SIMS.Office2016 .excel.ribbon .title-bar .appController>.combobox-wrapper>.office-hover-default:hover{
+    background-color:#fff
+}
+.SIMS.Office2016 .excel.ribbon .title-bar .appController .active-toggle{
+    background:#fff
+}
+.SIMS.Office2016 .excel.ribbon .title-bar .dropdown-item.office-hover-default.hovered,.SIMS.Office2016 .excel.ribbon .title-bar .dropdown-item.office-hover-default:hover,.SIMS.Office2016 .excel.ribbon.navigation-key-state .title-bar .dropdown-item.hovered{
+    background-color:#D3F0E0
+}
+.SIMS.Office2016 .excel.ribbon .title-bar .dropdown-item.office-hover-default.hover,.SIMS.Office2016 .excel.ribbon .title-bar .dropdown-item.office-hover-default.hovered,.SIMS.Office2016 .excel.ribbon.navigation-key-state .title-bar .dropdown-item.hovered{
+    background-color:#D3F0E0
+}
+.SIMS.Office2016 .excel.ribbon .tab-header-querytoolsquery{
+    background-color:#f0f5fc;
+    border-color:#f0f5fc #f0f5fc #f0f5fc;
+    width:70px
+}
+.SIMS.Office2016 .excel.ribbon .contextual-head-querytools{
+    background-color:#f0f5fc;
+    border-color:#508ee6;
+    color:#34609d
+}
+.SIMS.Office2016 .excel.ribbon .tab-header-querytoolsquery:hover{
+    color:#34609d
+}
+.SIMS.Office2016 .excel.ribbon .tab-header-querytoolsquery.tab-header-selected{
+    color:#34609d;
+    border-color:#E1E1E1 #E1E1E1 #FFF;
+    border-style:solid;
+    background-color:#fff
+}
+.SIMS.Office2016 .excel-power-pivot.ribbon .title-bar{
+    background-color:#fff
+}
+.SIMS.Office2016 .excel-power-pivot.ribbon .title-bar .office-hover-default:hover{
+    background-color:#fff
+}
+.ms_excel .excel-power-pivot.ribbon .title-bar .power_pivot_close .office-hover-default.hovered,.SIMS.Office2016 .excel-power-pivot.ribbon .title-bar .power_pivot_close .office-hover-default:hover{
+    background-color:#E81123!important
+}
+.SIMS.Office2016 .excel.ribbon .from-other-sources-dropdown .accessibility-active.item-type-imageitem>.ribbon-SK{
+    right:auto;
+    top:-25px;
+    left:0
+}
+.SIMS.Office2016 .excel-power-pivot.ribbon .title-bar .titlebar-section-3{
+    line-height:1.5
+}
+ 
+
+
+
+
+
+.intExcelGrid{
+    position:relative;
+    width:100%;
+    height:100%
+}
+.intExcelGrid .unselectable{
+    -webkit-user-select:none;
+    -khtml-user-select:none;
+    -moz-user-select:none;
+    -ms-user-select:none;
+    user-select:none
+}
+.intExcelGrid .excel-general-container{
+    position:absolute;
+    width:1px;
+    height:1px;
+    left:0;
+    top:0
+}
+.intExcelGrid .excel-Top-Bar{
+    left:0;
+    width:100%;
+    height:26px;
+    background-color:#fff;
+    font-style:calibri;
+    font-size:14px;
+    padding:10px 5px;
+    -webkit-user-select:none;
+    -khtml-user-select:none;
+    -moz-user-select:none;
+    -ms-user-select:none;
+    user-select:none
+}
+.intExcelGrid .excel-Top-Bar .name-text-area{
+    background-color:#FFF;
+    border:1px solid #ABABAB;
+    display:inline-block;
+    vertical-align:top;
+    height:24px
+}
+.intExcelGrid .excel-Top-Bar .formula-text-area{
+    background-color:#FFF;
+    border:1px solid #ABABAB;
+    display:inline-block;
+    height:24px;
+    margin-left:4px;
+    vertical-align:top;
+    width:calc(100% - 347px);
+    width:-webkit-calc(100% - 347px)
+}
+.intExcelGrid .excel-Top-Bar .text-box{
+    background-color:#FFF;
+    border:medium none;
+    color:#000;
+    display:inline-block;
+    font-family:Calibri;
+    font-size:15px;
+    outline:medium none;
+    padding:0 0 0 5px;
+    vertical-align:middle;
+    height:24px
+}
+.intExcelGrid .excel-Top-Bar .text-box::-ms-clear{
+    display:none
+}
+.intExcelGrid .excel-Top-Bar .name-text-area .text-box{
+    width:calc(100% - 35px);
+    width:-webkit-calc(100% - 35px)
+}
+.intExcelGrid .excel-Top-Bar .name-text-area input.text-box::selection{
+    color:#fff;
+    background-color:#8CC3FF
+}
+.intExcelGrid .excel-Top-Bar .name-text-area input.text-box::-moz-selection{
+    color:#fff;
+    background-color:#8CC3FF
+}
+.intExcelGrid .excel-Top-Bar .name-text-area input.text-box::-webkit-selection{
+    color:#fff;
+    background-color:#8CC3FF
+}
+.intExcelGrid .excel-Top-Bar .name-text-area input.text-box:focus::-webkit-selection{
+    color:#fff;
+    background-color:#8CC3FF
+}
+.intExcelGrid .excel-Top-Bar .formula-text-area .text-box{
+    width:calc(100% - 19px);
+    width:-webkit-calc(100% - 19px)
+}
+.intExcelGrid .excel-Top-Bar .formula-text-area .text-box-font-bold{
+    font-weight:700
+}
+.intExcelGrid .excel-Top-Bar .name-box-drop-down-arrow{
+    float:right;
+    width:30px;
+    height:24px
+}
+.intExcelGrid .excel-Top-Bar .name-box-arrow-visible{
+    background-image:
+    /*savepage-url=../img/excel-sprite.png*/
+    url(data:image/png;
+    resource=54;
+    base64,);
+    background-position:12px -145px
+}
+.intExcelGrid .excel-Top-Bar .name-box-arrow-hidden{
+    background-image:url()
+}
+.intExcelGrid .excel-Top-Bar .formula-bar-name-box-drop-down-arrow{
+    background:
+    /*savepage-url=../img/excel-sprite.png*/
+    url(data:image/png;
+    resource=54;
+    base64,) no-repeat scroll -90px -2354px rgba(0,0,0,0);
+    display:inline-block;
+    position:relative;
+    top:10px;
+    vertical-align:top;
+    width:11px
+}
+.intExcelGrid .excel-Top-Bar .stretch-scroll-bar{
+    background:
+    /*savepage-url=../img/excel-sprite.png*/
+    url(data:image/png;
+    resource=54;
+    base64,) no-repeat scroll 8px -1251px rgba(0,0,0,0);
+    width:30px;
+    display:inline-block;
+    top:-13px;
+    position:relative;
+    height:21px;
+    cursor:e-resize
+}
+.intExcelGrid .excel-Top-Bar .btn-div{
+    background-color:#FFF;
+    border:1px solid #ABABAB;
+    width:90px;
+    display:inline-block
+}
+.intExcelGrid .excel-Top-Bar .btn-Cancel{
+    background:
+    /*savepage-url=../img/excel-sprite.png*/
+    url(data:image/png;
+    resource=54;
+    base64,) no-repeat scroll -509px -1645px rgba(0,0,0,0);
+    float:left;
+    height:24px;
+    width:33%
+}
+.intExcelGrid .excel-Top-Bar .btn-Cancel-enabled{
+    background:
+    /*savepage-url=../img/excel-sprite.png*/
+    url(data:image/png;
+    resource=54;
+    base64,) no-repeat scroll -480px -1645px rgba(0,0,0,0)
+}
+.intExcelGrid .excel-Top-Bar .btn-Cancel-enabled:hover{
+    background:
+    /*savepage-url=../img/excel-sprite.png*/
+    url(data:image/png;
+    resource=54;
+    base64,) no-repeat scroll -540px -1645px rgba(0,0,0,0)
+}
+.intExcelGrid .excel-Top-Bar .btn-Ok{
+    background:
+    /*savepage-url=../img/excel-sprite.png*/
+    url(data:image/png;
+    resource=54;
+    base64,) no-repeat scroll -510px -1616px rgba(0,0,0,0);
+    float:left;
+    height:24px;
+    width:33%
+}
+.intExcelGrid .excel-Top-Bar .btn-Ok{
+    background:
+    /*savepage-url=../img/excel-sprite.png*/
+    url(data:image/png;
+    resource=54;
+    base64,) no-repeat scroll -510px -1616px rgba(0,0,0,0);
+    float:left;
+    height:24px;
+    width:33%
+}
+.intExcelGrid .excel-Top-Bar .btn-Ok-enabled{
+    background:
+    /*savepage-url=../img/excel-sprite.png*/
+    url(data:image/png;
+    resource=54;
+    base64,) no-repeat scroll -481px -1616px rgba(0,0,0,0)
+}
+.intExcelGrid .excel-Top-Bar .btn-Ok-enabled:hover{
+    background:
+    /*savepage-url=../img/excel-sprite.png*/
+    url(data:image/png;
+    resource=54;
+    base64,) no-repeat scroll -541px -1616px rgba(0,0,0,0)
+}
+.intExcelGrid .excel-Top-Bar .btn-Insert-Formula{
+    background:
+    /*savepage-url=../img/excel-sprite.png*/
+    url(data:image/png;
+    resource=54;
+    base64,) no-repeat scroll -576px -1616px rgba(0,0,0,0);
+    float:left;
+    height:24px;
+    width:23px
+}
+.intExcelGrid .excel-Top-Bar .btn-Insert-formula-enabled:hover{
+    background-position:-578px -1644px
+}
+.intExcelGrid .excel-Top-Bar .btn-Insert-Formula-disabled{
+    background:
+    /*savepage-url=../img/excel-sprite.png*/
+    url(data:image/png;
+    resource=54;
+    base64,) no-repeat scroll -576px -1616px rgba(0,0,0,0);
+    float:left;
+    height:24px;
+    width:33%
+}
+.intExcelGrid .excel-Top-Bar .listbox-name-box{
+    border:1px solid #569DEF;
+    box-shadow:2px 2px 5px 0 #888;
+    position:relative;
+    z-index:21;
+    -moz-box-sizing:border-box;
+    box-sizing:border-box;
+    width:205px!important;
+    font-family:Calibri;
+    font-size:15px
+}
+.intExcelGrid .excel-Top-Bar .name-text-area .coloredSelection .simsLBItemSelected{
+    background:0 0;
+    color:#000
+}
+.intExcelGrid .name-text-area .coloredSelection .simsLBItemSelected.highlightOnFocus,.coloredSelection .simsLBItemSelected.dottedLBItemBorder{
+    border:1px solid #217346
+}
+.intExcelGrid .excel-Top-Bar .name-text-area .coloredSelection .simsLBItem:hover{
+    border:1px solid #217346
+}
+.intExcelGrid .formula-box-Auto-complete{
+    position:relative;
+    z-index:99;
+    cursor:default
+}
+.intExcelGrid .flash-fill-Auto-complete{
+    position:absolute;
+    z-index:99;
+    background-color:#fff;
+    color:#bfb1bf;
+    border:1px solid #bfb1bf
+}
+.intExcelGrid .flash-fill-Auto-complete .li_flashFill{
+    height:18px;
+    padding-left:3px;
+    padding-top:2px
+}
+.intExcelGrid .excel-col-header{
+    position:relative;
+    font-family:calibri;
+    font-size:14px;
+    -webkit-touch-callout:none;
+    -webkit-user-select:none;
+    -khtml-user-select:none;
+    -moz-user-select:none;
+    -ms-user-select:none;
+    user-select:none;
+    white-space:nowrap;
+    background-color:#fff;
+    left:0
+}
+.intExcelGrid .col-header-container{
+    position:relative;
+    display:inline-block;
+    -webkit-touch-callout:none;
+    -webkit-user-select:none;
+    -khtml-user-select:none;
+    -moz-user-select:none;
+    -ms-user-select:none;
+    user-select:none;
+    z-index:0
+}
+.intExcelGrid .excel-col-header .header-col{
+    border-right:1px solid #cfcfcf;
+    border-bottom:1px solid #ABABAB;
+    height:19px;
+    text-align:center;
+    line-height:18px;
+    display:inline-block;
+    -moz-box-sizing:border-box;
+    box-sizing:border-box;
+    color:#444;
+    font-family:Segoe UI;
+    position:relative;
+    background-color:#fff;
+    z-index:0
+}
+.intExcelGrid .excel-col-header .header-col.start{
+    background-color:#9fd5b7!important
+}
+.intExcelGrid .excel-col-header .header-col:hover{
+    background-color:#9CD7B5!important
+}
+.intExcelGrid .col-header-container.sel-in-prg>.header-col:hover{
+    cursor:cell
+}
+.intExcelGrid .excel-col-header .col-header-bar{
+    left:0;
+    overflow:hidden;
+    position:relative
+}
+.intExcelGrid .excel-col-header .header-col.my-right-hidden{
+    border-right:1px solid #fff
+}
+.intExcelGrid .excel-col-header .header-col.my-right-hidden:after{
+    background:#CFCFCF;
+    content:" ";
+    height:100%;
+    right:1px;
+    position:absolute;
+    width:1px
+}
+.intExcelGrid .excel-col-header .header-col.my-left-hidden:before{
+    background:#CFCFCF;
+    content:" ";
+    height:100%;
+    left:1px;
+    position:absolute;
+    width:1px
+}
+.intExcelGrid .excel-col-header .header-col.my-left-hidden:hover:before,.intExcelGrid .excel-col-header .header-col.my-right-hidden:hover:after{
+    background:#A0ada6
+}
+.intExcelGrid .excel-col-header .header-col .resizer{
+    height:19px;
+    position:absolute;
+    right:-6px;
+    width:10px;
+    z-index:1;
+    top:0
+}
+.intExcelGrid .excel-col-header .header-col .col-label{
+    height:16px;
+    overflow:hidden;
+    display:inline-block;
+    width:100%
+}
+.intExcelGrid .excel-col-header .col-resize-title{
+    background:none repeat scroll 0 0 #FFF;
+    border:1px solid #BEBEBE;
+    padding:4px 3px;
+    position:absolute;
+    top:-29px;
+    z-index:1;
+    display:none
+}
+.intExcelGrid .PivotSelDragTooltip{
+    color:#5d5d5d;
+    background:none repeat scroll 0 0 #FFF;
+    border:1px solid #BEBEBE;
+    padding:3px 3px;
+    position:absolute;
+    display:none
+}
+.intExcelGrid .excel-col-header .col-resize-title-width{
+    color:#5d5d5d;
+    display:inline-block
+}
+.intExcelGrid .excel-col-header .col-resize-text-container{
+    color:#217346;
+    display:inline-block
+}
+.intExcelGrid .excel-col-header .header-col.grey{
+    border-bottom:2px solid #217142;
+    color:#217142;
+    font-weight:700;
+    background-color:#e1e1e1
+}
+.intExcelGrid .excel-col-header .header-col.green{
+    border-bottom:2px solid #217142;
+    color:#217142;
+    font-weight:700;
+    background-color:#D3F0E0
+}
+.intExcelGrid .excel-row-header{
+    position:relative;
+    background-color:#fff;
+    font-family:calibri;
+    font-size:14px;
+    -webkit-touch-callout:none;
+    -webkit-user-select:none;
+    -khtml-user-select:none;
+    -moz-user-select:none;
+    -ms-user-select:none;
+    user-select:none;
+    top:0;
+    display:inline-block;
+    vertical-align:top
+}
+.intExcelGrid .row-header-container{
+    position:relative;
+    display:inline-block;
+    -webkit-touch-callout:none;
+    -webkit-user-select:none;
+    -khtml-user-select:none;
+    -moz-user-select:none;
+    -ms-user-select:none;
+    user-select:none;
+    z-index:0
+}
+.intExcelGrid .excel-row-header .header-row{
+    border-right:1px solid #ABABAB;
+    border-bottom:1px solid #D6D7D6;
+    height:19px;
+    min-width:25px;
+    text-align:center;
+    line-height:20px;
+    -moz-box-sizing:border-box;
+    box-sizing:border-box;
+    color:#444;
+    font-family:Segoe UI;
+    position:relative;
+    background-color:#fff;
+    z-index:0
+}
+.intExcelGrid .excel-row-header .header-row.start{
+    background-color:#9fd5b7!important
+}
+.intExcelGrid .excel-row-header .header-row:hover{
+    background-color:#9CD7B5!important
+}
+.intExcelGrid .row-header-container.sel-in-prg>.header-row:hover{
+    cursor:cell
+}
+.intExcelGrid .excel-row-header .row-header-bar{
+    top:0;
+    overflow:hidden
+}
+.intExcelGrid .excel-row-header .header-row.my-bottom-hidden{
+    border-bottom:1px solid #fff
+}
+.intExcelGrid .excel-row-header .header-row.my-top-hidden{
+    border-top:1px solid #fff
+}
+.intExcelGrid .excel-row-header .header-row.my-bottom-hidden:after{
+    background:#CFCFCF;
+    bottom:1px;
+    content:" ";
+    height:1px;
+    left:0;
+    position:absolute;
+    width:100%
+}
+.intExcelGrid .excel-row-header .header-row.my-top-hidden:before{
+    background:#CFCFCF;
+    top:1px;
+    content:" ";
+    height:1px;
+    left:0;
+    position:absolute;
+    width:100%
+}
+.intExcelGrid .excel-row-header .header-row.my-bottom-hidden:hover:before,.intExcelGrid .excel-row-header .header-row.my-top-hidden:hover:after{
+    background:#A0ada6
+}
+.intExcelGrid .excel-row-header .header-row .resizer{
+    bottom:-6px;
+    height:10px;
+    left:0;
+    position:absolute;
+    width:100%;
+    z-index:1
+}
+.intExcelGrid .excel-row-header .header-row .row-label{
+    bottom:0;
+    display:inline-block;
+    left:0;
+    overflow:hidden;
+    position:absolute;
+    text-align:center;
+    width:100%
+}
+.intExcelGrid .excel-row-header .row-resize-title{
+    background:none repeat scroll 0 0 #FFF;
+    border:1px solid #BEBEBE;
+    padding:4px 3px;
+    position:absolute;
+    left:29px;
+    z-index:1;
+    display:none;
+    white-space:nowrap
+}
+.intExcelGrid .excel-row-header .row-resize-title-height{
+    color:#5d5d5d;
+    display:inline-block
+}
+.intExcelGrid .excel-row-header .row-resize-text-container{
+    color:#217346;
+    display:inline-block
+}
+.intExcelGrid .excel-row-header .header-row.grey{
+    border-right:2px solid #217142;
+    color:#217142;
+    font-weight:700;
+    background-color:#e1e1e1
+}
+.intExcelGrid .excel-row-header .header-row.green{
+    border-right:2px solid #217142;
+    color:#217142;
+    font-weight:700;
+    background-color:#D3F0E0
+}
+.intExcelGrid .sheet-tab-bar{
+    position:absolute;
+    left:0;
+    bottom:0;
+    width:100%;
+    height:26px;
+    background-color:#F6F6F6;
+    font-style:calibri;
+    font-size:14px;
+    font-color:#444;
+    -webkit-user-select:none;
+    -khtml-user-select:none;
+    -moz-user-select:none;
+    -ms-user-select:none;
+    user-select:none
+}
+.intExcelGrid .sheet-tab-bar.dragging-cursor{
+    cursor:
+    /*savepage-url=../img/cursor_sheetDrag.cur*/
+    url() 20 10,pointer
+}
+.intExcelGrid .sheet-tab-bar .navigator-buttons{
+    left:0;
+    position:absolute;
+    width:100px
+}
+.intExcelGrid .sheet-tab-bar .sheet-tabs-back{
+    left:0;
+    position:absolute;
+    width:100%;
+    border-top:1px solid #ababab;
+    top:-1px
+}
+.intExcelGrid .sheet-tab-bar .sheet-tabs{
+    left:100px;
+    position:absolute;
+    height:21px;
+    width:-webkit-calc(100% - 100px);
+    width:calc(100% - 100px);
+    z-index:1;
+    top:-1px
+}
+.intExcelGrid .sheet-tab-bar .more-sheet-tabs{
+    background-image:
+    /*savepage-url=../img/excel-sprite.png*/
+    url(data:image/png;
+    resource=54;
+    base64,);
+    background-position:-359px -2470px;
+    background-repeat:no-repeat;
+    display:none;
+    height:12px;
+    padding-top:3px;
+    position:relative;
+    top:1px;
+    vertical-align:top;
+    width:14px
+}
+.intExcelGrid .sheet-tab-bar .more-sheet-tabs-visible{
+    display:inline-block
+}
+.intExcelGrid .sheet-tab-bar .end-more-icon{
+    left:5px
+}
+.intExcelGrid .sheet-tab-bar .sheetTabsDragPointer{
+    background:
+    /*savepage-url=../img/excel-sprite.png*/
+    url(data:image/png;
+    resource=54;
+    base64,) no-repeat scroll -360px -2484px rgba(0,0,0,0);
+    display:none;
+    height:12px;
+    position:absolute;
+    top:-8px;
+    width:12px;
+    left:97px;
+    margin-left:-4px
+}
+.intExcelGrid .sheet-tab-bar .sheetTabsDragPointerVisible{
+    display:block
+}
+.intExcelGrid .sheet-tab-bar .sheet-tabs .sheet-tab{
+    border-right:1px solid #ABABAB;
+    display:inline-block;
+    min-height:20px;
+    padding-left:5px;
+    padding-right:5px;
+    position:relative;
+    text-align:center;
+    top:1px;
+    vertical-align:top;
+    padding-top:3px
+}
+.intExcelGrid .sheet-tab-bar .sheet-tabs .sheet-tab-ie{
+    top:1px!important
+}
+.intExcelGrid .sheet-tab-bar .sheet-tabs .previous-sheet-tab{
+    border-right:0 solid #ABABAB
+}
+.intExcelGrid .sheet-tab-bar .sheet-tabs .first-sheet-tab{
+    border-left:1px solid #ABABAB
+}
+.intExcelGrid .sheet-tab-bar .sheet-tabs .sheet-tab-hover{
+    font-weight:700;
+    font-color:#000
+}
+.intExcelGrid .sheet-tab-bar .sheet-tabs .groupedTab{
+    background-image:
+    /*savepage-url=../img/sheetTabSelected.png*/
+    url(data:image/png;
+    resource=65;
+    base64,);
+    background-repeat:repeat-x;
+    border-bottom:2px solid #217142;
+    border-right:1px solid #ADAAAD;
+    color:#212421;
+    font-weight:700;
+    min-height:18px;
+    top:1px;
+    color:#000!important
+}
+.intExcelGrid .sheet-tab-bar .sheet-tabs .sheet-tab-names{
+    display:inline-block;
+    white-space:nowrap;
+    overflow:hidden;
+    vertical-align:top
+}
+.intExcelGrid .sheet-tab-bar .sheet-tabs .add-Sheet{
+    background:
+    /*savepage-url=../img/excel-sprite.png*/
+    url(data:image/png;
+    resource=54;
+    base64,) no-repeat -90px -2326px;
+    height:18px;
+    width:20px;
+    left:20px;
+    top:4px;
+    position:relative;
+    display:inline-block
+}
+.intExcelGrid .sheet-tab-bar .sheet-tabs .add-Sheet:hover{
+    background:
+    /*savepage-url=../img/excel-sprite.png*/
+    url(data:image/png;
+    resource=54;
+    base64,) no-repeat -90px -2370px
+}
+.intExcelGrid .sheet-tab-bar .separator{
+    margin:0;
+    border-top:1px solid #DFE7EB;
+    width:300px
+}
+.intExcelGrid .sheet-tab-bar .sheet-tabs .sheet-tab-focused{
+    background-color:#FFF;
+    background-image:
+    /*savepage-url=../img/sheetTabSelected.png*/
+    url(data:image/png;
+    resource=65;
+    base64,);
+    background-repeat:repeat-x;
+    border-bottom:2px solid #217142;
+    border-left:1px solid #ADAAAD!important;
+    border-right:1px solid #ADAAAD;
+    color:#217142!important;
+    font-weight:700;
+    line-height:21px;
+    min-height:22px;
+    position:relative;
+    top:-3px;
+    border-top:0!important
+}
+.intExcelGrid .sheet-tab-bar .sheet-tabs .sheet-tab-focused-ie{
+    top:-3px!important
+}
+.intExcelGrid .sheet-tab-bar .sheet-tabs .sheet-tab-focused.editable{
+    -webkit-user-select:text;
+    -khtml-user-select:text;
+    -moz-user-select:text;
+    -ms-user-select:text;
+    user-select:text;
+    color:#444!important;
+    cursor:text
+}
+.intExcelGrid .sheet-tab-bar .navigate-left{
+    background:
+    /*savepage-url=../img/excel-sprite.png*/
+    url(data:image/png;
+    resource=54;
+    base64,) no-repeat scroll -82px -2399px rgba(0,0,0,0);
+    height:11px;
+    left:26px;
+    position:relative;
+    top:6px;
+    width:27px
+}
+.intExcelGrid .sheet-tab-bar .navigate-left-enabled{
+    background:
+    /*savepage-url=../img/excel-sprite.png*/
+    url(data:image/png;
+    resource=54;
+    base64,) no-repeat -358px -2457px
+}
+.intExcelGrid .sheet-tab-bar .navigate-right{
+    background:
+    /*savepage-url=../img/excel-sprite.png*/
+    url(data:image/png;
+    resource=54;
+    base64,) no-repeat scroll -82px -2420px rgba(0,0,0,0);
+    height:9px;
+    left:53px;
+    position:relative;
+    top:-4px;
+    width:22px
+}
+.intExcelGrid .sheet-tab-bar .navigate-right-enabled{
+    background:
+    /*savepage-url=../img/excel-sprite.png*/
+    url(data:image/png;
+    resource=54;
+    base64,) no-repeat scroll -350px -2444px rgba(0,0,0,0)
+}
+.intExcelGrid .sheet-tab-bar .nav-buttons-left-tooltip{
+    background-color:#fff;
+    border:1px solid #bebebe;
+    box-shadow:0 2px 5px 1px #888;
+    box-sizing:border-box;
+    color:#5d5d5d;
+    font-family:'Segoe UI';
+    font-size:12px;
+    height:110px;
+    padding:4px;
+    position:absolute;
+    width:139px;
+    z-index:21;
+    top:-100px
+}
+.intExcelGrid .sheet-tab-bar .nav-buttons-right-tooltip{
+    background-color:#fff;
+    border:1px solid #bebebe;
+    box-shadow:0 2px 5px 1px #888;
+    box-sizing:border-box;
+    color:#5d5d5d;
+    font-family:'Segoe UI';
+    font-size:12px;
+    height:110px;
+    padding:4px;
+    position:absolute;
+    width:139px;
+    z-index:21;
+    top:-100px
+}
+.intExcelGrid .sheet-tab.disable-pointer-events{
+    pointer-events:none
+}
+.intExcelGrid .scroll-bar-area{
+    position:absolute;
+    right:0;
+    top:1px;
+    padding-top:3px;
+    border-top:1px solid #ABABAB
+}
+.intExcelGrid .scroll-bar-area .stretch-scroll-bar{
+    background:
+    /*savepage-url=../img/excel-sprite.png*/
+    url(data:image/png;
+    resource=54;
+    base64,) no-repeat -87px -2439px;
+    height:18px;
+    width:18px;
+    display:inline-block;
+    top:0
+}
+.intExcelGrid .scroll-bar-area .horizontal-scroll-bar{
+    display:inline-block;
+    margin-right:15px
+}
+.intExcelGrid .excel-statusbar{
+    background-color:green;
+    width:100%;
+    height:24px;
+    bottom:0;
+    position:absolute
+}
+.intExcelGrid .excel-statusbar{
+    background-color:#217346;
+    height:22px;
+    width:100%;
+    font-family:Trebuchet MS;
+    overflow:hidden
+}
+.intExcelGrid .excel-statusbar .left-section{
+    float:left;
+    height:100%
+}
+.intExcelGrid .excel-statusbar .left-text-section{
+    display:inline-block;
+    color:#FFF;
+    margin-left:7px;
+    height:100%
+}
+.intExcelGrid .excel-statusbar .left-text{
+    display:inline-block;
+    height:100%;
+    line-height:20px;
+    margin-right:17px;
+    text-transform:uppercase
+}
+.intExcelGrid .excel-statusbar .right-section{
+    float:right;
+    height:100%
+}
+.intExcelGrid .excel-statusbar .right-text-section{
+    color:#FFF;
+    display:inline-block;
+    height:100%;
+    line-height:21px;
+    margin-right:4px;
+    vertical-align:top
+}
+.intExcelGrid .excel-statusbar .text-right{
+    display:inline-block;
+    margin-right:17px
+}
+.intExcelGrid .excel-statusbar .buttons-section{
+    display:inline-block;
+    margin-right:4px;
+    width:114px;
+    height:100%
+}
+.intExcelGrid .excel-statusbar .buttons-section>div{
+    display:inline-block;
+    height:100%
+}
+.intExcelGrid .excel-statusbar .status-btn{
+    background-image:
+    /*savepage-url=../img/excel-sprite.png*/
+    url(data:image/png;
+    resource=54;
+    base64,);
+    background-repeat:no-repeat;
+    height:100%;
+    width:38px;
+    display:inline-block
+}
+.intExcelGrid .excel-statusbar .status-btn.selected{
+    background-color:#0A6332
+}
+.intExcelGrid .excel-statusbar .status-btn.selected:hover,.intExcelGrid .excel-statusbar .status-btn:hover{
+    background-color:#439467
+}
+.intExcelGrid .excel-statusbar .btn-normal{
+    background-position:-181px -2164px
+}
+.intExcelGrid .excel-statusbar .btn-page-layout{
+    background-position:-222px -2164px
+}
+.intExcelGrid .excel-statusbar .btn-page-break-preview{
+    background-position:-265px -2164px
+}
+.intExcelGrid .excel-statusbar .range-control{
+    color:#FFF;
+    display:inline-block;
+    height:100%;
+    vertical-align:top;
+    width:176px;
+    margin-right:-3px
+}
+.intExcelGrid .excel-statusbar .range-control>div{
+    display:inline-block;
+    vertical-align:inherit;
+    height:100%
+}
+.intExcelGrid .excel-statusbar .range-btn{
+    cursor:pointer;
+    font-size:22px;
+    font-weight:700;
+    line-height:16px;
+    width:10px
+}
+.intExcelGrid .excel-statusbar .range-btn:hover{
+    color:#99CCB0
+}
+.intExcelGrid .excel-statusbar .range{
+    background:
+    /*savepage-url=../img/excel-sprite.png*/
+    url(data:image/png;
+    resource=54;
+    base64,) no-repeat scroll 0 0 rgba(0,0,0,0);
+    height:100%;
+    margin-left:1px;
+    position:relative;
+    width:103px;
+    background-position:-194px -2183px
+}
+.intExcelGrid .excel-statusbar .range-handle{
+    background:none repeat scroll 0 0 #FFF;
+    height:11px;
+    margin:5px 0;
+    position:absolute;
+    width:4px;
+    left:49px;
+    z-index:2
+}
+.intExcelGrid .excel-statusbar .range-snap{
+    background:0 0;
+    height:11px;
+    margin:5px 0;
+    position:absolute;
+    width:4px;
+    left:49px;
+    top:0;
+    z-index:1
+}
+.intExcelGrid .excel-statusbar .range-handle:hover{
+    background:#99CCB0
+}
+.intExcelGrid .excel-statusbar .range-handle:active{
+    background:#99CCB0;
+    margin:5px 0 3px 0;
+    height:13px
+}
+.intExcelGrid .excel-statusbar .range-btn.plus{
+    margin-left:1px;
+    margin-top:1px
+}
+.intExcelGrid .excel-statusbar .range-percentage{
+    height:100%;
+    line-height:20px;
+    margin-left:10px;
+    padding:0 7px 0 5px;
+    vertical-align:inherit;
+    min-width:28px
+}
+.intExcelGrid .excel-statusbar .range-percentage:hover{
+    background-color:#439467
+}
+.intExcelGrid .excel-statusbar .macro-btn{
+    background-position:-188px -3028px;
+    width:26px
+}
+.intExcelGrid .excel-statusbar .macro-btn-wrapper{
+    display:inline-block;
+    height:20px;
+    vertical-align:middle
+}
+.intExcelGrid .excel-statusbar .macro-btn.selected{
+    background-position:-188px -3049px;
+    background-color:#217346
+}
+@media (max-width:700px){
+    .intExcelGrid .excel-statusbar .left-section{
+        display:none
+    }
+}
+.intExcelGrid .excel-center-view{
+    position:relative;
+    width:100%;
+    height:100%
+}
+.intExcelGrid .excel-center-view .center-view-top{
+    background-color:#FFF;
+    min-height:19px;
+    position:absolute;
+    top:0;
+    white-space:nowrap;
+    width:100%
+}
+.intExcelGrid .excel-center-view .center-view-top-header-selector-container{
+    display:inline-block;
+    vertical-align:top
+}
+.intExcelGrid .excel-center-view .center-view-top-column-container{
+    display:inline-block;
+    vertical-align:top
+}
+.intExcelGrid .excel-center-view .center-view-left{
+    position:absolute;
+    left:0;
+    top:20px;
+    height:100%;
+    background-color:#fff;
+    white-space:nowrap
+}
+.intExcelGrid .excel-center-view .center-view-right{
+    position:absolute;
+    right:0;
+    height:100%;
+    width:21px;
+    background-color:#fff
+}
+.intExcelGrid .excel-center-view .center-view-bottom{
+    position:absolute;
+    bottom:0;
+    height:28px;
+    width:100%;
+    background-color:#F6F6F6
+}
+.intExcelGrid .excel-center-view .center-view-center{
+    position:absolute;
+    height:100%;
+    width:100%;
+    background-color:grey
+}
+.ms_excel .intExcelGrid .excel-interactor{
+    position:absolute;
+    left:0;
+    top:0;
+    height:100%;
+    width:100%;
+    overflow:hidden
+}
+.ms_excel .intExcelGrid .excel-interactor.rightTop_resizing{
+    cursor:ne-resize
+}
+.ms_excel .intExcelGrid .excel-interactor.rightBottom_resizing{
+    cursor:se-resize
+}
+.ms_excel .intExcelGrid .excel-interactor.leftTop_resizing{
+    cursor:nw-resize
+}
+.ms_excel .intExcelGrid .excel-interactor.leftBottom_resizing{
+    cursor:sw-resize
+}
+.ms_excel .intExcelGrid .scroll-cont{
+    position:absolute
+}
+.ms_excel .intExcelGrid .UserInteractorCnt{
+    position:absolute
+}
+.ms_excel .intExcelGrid .selectionBorderDiv{
+    position:absolute;
+    border:2px solid #217142;
+    background-color:rgba(255,255,255,.01)
+}
+.ms_excel .intExcelGrid .selectionBorderCnt{
+    position:absolute;
+    width:0;
+    height:0;
+    left:0;
+    top:0;
+    user-select:none;
+    -moz-user-select:none;
+    -webkit-user-select:none
+}
+.ms_excel .intExcelGrid .selectionBorderMultiDiv{
+    position:absolute;
+    background-image:
+    /*savepage-url=../img/focusColorCell.png*/
+    url(data:image/png;
+    resource=63;
+    base64,);
+    background-repeat:repeat;
+    border:1px solid #fff
+}
+.ms_excel .intExcelGrid .selectionBorderDivWithActiveCell{
+    position:absolute
+}
+.ms_excel .intExcelGrid .selectionBorderMultiDiv:before{
+    border:1px solid red;
+    top:1px;
+    left:1px;
+    right:1px;
+    bottom:1px
+}
+.ms_excel .intExcelGrid .selectionBorderDivWithActiveCellFill{
+    background-image:
+    /*savepage-url=../img/focusColorCell.png*/
+    url(data:image/png;
+    resource=63;
+    base64,);
+    background-repeat:repeat;
+    user-select:none;
+    -moz-user-select:none;
+    -webkit-user-select:none
+}
+.ms_excel .intExcelGrid .selectionBorderDivWithActiveCellFill.selectionBorderDivWithActiveCellFill0{
+    display:block;
+    position:absolute;
+    background-color:transparent;
+    background-image:none;
+    border:1px solid green
+}
+.ms_excel .intExcelGrid .selectionBorderDivWithActiveCellFill{
+    position:absolute;
+    border:none
+}
+.ms_excel .intExcelGrid .selectionBorderDivWithActiveCellFill1{
+    width:calc(100% - 2px);
+    top:0;
+    left:0;
+    border-top:1px solid #fff;
+    border-left:1px solid #fff;
+    border-right:1px solid #fff
+}
+.ms_excel .intExcelGrid .selectionBorderDivWithActiveCellFill2{
+    right:0;
+    border-right:1px solid #fff
+}
+.ms_excel .intExcelGrid .selectionBorderDivWithActiveCellFill3{
+    width:calc(100% - 2px);
+    bottom:0;
+    left:0;
+    border-bottom:1px solid #fff;
+    border-left:1px solid #fff;
+    border-right:1px solid #fff
+}
+.ms_excel .intExcelGrid .selectionBorderDivWithActiveCellFill4{
+    left:0;
+    border-left:1px solid #fff
+}
+.ms_excel .intExcelGrid .SelectionBorderBullet{
+    background-color:#217142;
+    height:5px;
+    width:5px;
+    border:1px solid #fff;
+    position:absolute;
+    right:-4px;
+    bottom:-4px;
+    z-index:1
+}
+.ms_excel .intExcelGrid .selectionBorderDivCursor{
+    height:calc(100% - 4px);
+    width:calc(100% - 4px);
+    margin:2px
+}
+.ms_excel .intExcelGrid .selectionBorderFillDrag{
+    position:absolute;
+    border:3px solid #217142;
+    background-color:rgba(255,255,255,.01)
+}
+.ms_excel .intExcelGrid .selectionBorderSelDrag{
+    position:absolute;
+    border:3px solid #217142;
+    background-color:rgba(255,255,255,.01)
+}
+.ms_excel .intExcelGrid .selectionBorderPivotSelDrag{
+    position:absolute;
+    border:2px solid #217142;
+    background-color:rgba(255,255,255,.01)
+}
+.ms_excel .intExcelGrid .colResizeDragLine{
+    position:absolute;
+    border-left:1px solid #9e9e9e;
+    border-top:1px solid #9e9e9e;
+    width:0;
+    height:0
+}
+.ms_excel .intExcelGrid .excelFillDragToolTip{
+    position:absolute;
+    background-color:#fff;
+    border:1px solid #bebebe;
+    font-family:cf_SegoeUI;
+    font-size:12px;
+    color:5d5d5d;
+    z-index:99999;
+    padding:2px 1px 3px 1px
+}
+.ms_excel .intExcelGrid .sel-drag-tooltip{
+    position:absolute;
+    background-color:#fff;
+    border:1px solid #bebebe;
+    font-family:Segoe UI;
+    font-size:12px;
+    color:5d5d5d;
+    z-index:99999;
+    padding:2px 1px 3px 1px;
+    margin-left:10px;
+    margin-top:10px
+}
+.ms_excel .intExcelGrid .selectionBorderFillDragHide{
+    position:absolute;
+    border:3px solid #d3e3da;
+    background-color:rgba(255,255,255,.8)
+}
+.ms_excel .intExcelGrid .editableDivStyles{
+    -webkit-user-select:text;
+    -khtml-user-select:text;
+    -moz-user-select:text;
+    -ms-user-select:text;
+    user-select:text;
+    display:table-cell;
+    vertical-align:bottom;
+    outline:0;
+    white-space:nowrap;
+    cursor:text
+}
+.ms_excel .intExcelGrid .excel-interactor .editable-element{
+    display:none;
+    text-align:left;
+    font-family:calibri;
+    font-size:15px;
+    color:#000;
+    position:absolute
+}
+.ms_excel .intExcelGrid .excel-interactor .editable-element-visible{
+    display:table
+}
+.ms_excel .intExcelGrid .excel-interactor .editable-element-visible .editable-inner-element{
+    display:table-cell;
+    position:relative
+}
+.ms_excel .intExcelGrid .excel-interactor .editable-element.ie-fix,.ms_excel .intExcelGrid .excel-interactor .editable-inner-element.ie-fix{
+    display:block
+}
+.ms_excel .intExcelGrid .vFreezeLine{
+    position:absolute;
+    border-left:1px solid #9B9B9B
+}
+.ms_excel .intExcelGrid .hFreezeLine{
+    position:absolute;
+    border-top:1px solid #9B9B9B
+}
+.ms_excel .intExcelGrid .filterButton{
+    position:absolute;
+    background-color:transparent;
+    cursor:pointer
+}
+.ms_excel .intExcelGrid .expandButton{
+    position:absolute;
+    background-color:transparent;
+    cursor:pointer
+}
+.ms_excel .intExcelGrid .insert-shape-textbox{
+    border:1px solid #000;
+    background-color:#fff;
+    position:absolute
+}
+.ms_excel .intExcelGrid .insert-shape-img{
+    position:absolute
+}
+.ms_excel .intExcelGrid .PageBreakSelBorder{
+    position:absolute;
+    border:3px solid #217142
+}
+.ms_excel .intExcelGrid .pagebreak_line_v{
+    position:absolute;
+    border-right:4px solid rgba(158,158,158,1);
+    width:0
+}
+.ms_excel .intExcelGrid .pagebreak_line_v.invisibleMode{
+    border-right:3px solid transparent
+}
+.ms_excel .intExcelGrid .pagebreak_line_h{
+    position:absolute;
+    border-bottom:4px solid rgba(158,158,158,1);
+    height:0
+}
+.ms_excel .intExcelGrid .pagebreak_line_h.invisibleMode{
+    border-bottom:3px solid transparent
+}
+.ms_excel .intExcelGrid .totalRowButton{
+    position:absolute;
+    width:17px;
+    height:18px;
+    background-image:
+    /*savepage-url=../img/TotalRowButton.jpg*/
+    url();
+    cursor:default;
+    display:none
+}
+.ms_excel .intExcelGrid .totalRowMenu{
+    z-index:1;
+    position:absolute;
+    display:none
+}
+.ms_excel .intExcelGrid .dataValidationDropdown{
+    z-index:1;
+    position:absolute;
+    display:none
+}
+.ms_excel .intExcelGrid .errMsg{
+    position:absolute;
+    cursor:default;
+    display:none;
+    background-image:
+    /*savepage-url=../img/errormessage.png*/
+    url()
+}
+.ms_excel .intExcelGrid .errMsgBtn{
+    width:20px;
+    height:20px;
+    background-position:0 0
+}
+.ms_excel .intExcelGrid .errMsgBtn:hover{
+    width:34px;
+    height:23px;
+    background-position:0 -30px
+}
+.ms_excel .intExcelGrid .errMsgBtnClicked{
+    width:34px;
+    height:23px;
+    background-position:0 -64px
+}
+.ms_excel .intExcelGrid .inputMessage{
+    position:absolute;
+    cursor:default;
+    display:none
+}
+.ms_excel .intExcelGrid .CTRLPaste{
+    position:absolute;
+    cursor:default;
+    display:none;
+    background-image:
+    /*savepage-url=../img/excel-sprite.png*/
+    url(data:image/png;
+    resource=54;
+    base64,);
+    width:61px;
+    height:23px
+}
+.ms_excel .intExcelGrid .CTRLPasteButton{
+    background-position:-187px -3355px
+}
+.ms_excel .intExcelGrid .CTRLPasteInnerDiv{
+    height:100%;
+    width:100%
+}
+.ms_excel .intExcelGrid .CTRLPasteButton:hover{
+    background-position:-187px -3381px
+}
+.ms_excel .intExcelGrid .CTRLPasteButtonClicked{
+    background-position:-187px -3406px
+}
+.ms_excel .intExcelGrid .auto-fill-btn{
+    position:absolute;
+    cursor:default;
+    display:none;
+    background-image:
+    /*savepage-url=../img/excel-sprite.png*/
+    url(data:image/png;
+    resource=54;
+    base64,);
+    background-position:-194px -3675px;
+    height:20px;
+    width:20px;
+    margin-left:2px;
+    margin-top:2px
+}
+.ms_excel .intExcelGrid .auto-fill-inner-normal{
+    height:100%;
+    width:100%
+}
+.ms_excel .intExcelGrid .auto-fill-btn:hover{
+    background-position:-224px -3675px;
+    width:34px;
+    height:23px
+}
+.ms_excel .intExcelGrid .auto-fill-btn.AutoFillOptionButtonClicked{
+    background-position:-266px -3675px;
+    width:34px;
+    height:23px
+}
+.ms_excel .intExcelGrid .sparkline_color_div_cnt{
+    position:absolute;
+    pointer-events:none
+}
+.ms_excel .intExcelGrid .sparkline_color_div{
+    position:absolute;
+    border:2px solid rgba(95,140,237,1);
+    background-color:rgba(95,140,237,.1);
+    display:none
+}
+.ms_excel .intExcelGrid .exl_hyperlink_div_cnt{
+    position:absolute
+}
+.ms_excel .intExcelGrid .exl_hyperlink_div{
+    position:absolute;
+    pointer-events:auto;
+    cursor:pointer;
+    background-color:transparent
+}
+.ms_excel .intExcelGrid .grid-area-view .RowRepeaterGridImg{
+    background-repeat:repeat-y;
+    position:absolute
+}
+.ms_excel .intExcelGrid .grid-area-view .ColumnRepeaterGridImg{
+    background-repeat:repeat-x;
+    position:absolute;
+    width:100%
+}
+.ms_excel .intExcelGrid .grid-area-view .CellRepeaterGridImg{
+    background-repeat:repeat;
+    position:absolute;
+    width:100%
+}
+.ms_excel .intExcelGrid .grid-area-view .ImageGridParentContainer *{
+    padding:0;
+    margin:0
+}
+.ms_excel .intExcelGrid .grid-area-view .ImageGridParentContainer{
+    position:absolute;
+    overflow:hidden
+}
+.ms_excel .intExcelGrid .grid-area-view .ImageGridOuterContainer{
+    position:absolute;
+    left:1px;
+    top:1px;
+    width:100%;
+    height:100%
+}
+.ms_excel .intExcelGrid .grid-area-view .StaticImgContainer{
+    position:absolute;
+    top:0;
+    left:0
+}
+.ms_excel .intExcelGrid .grid-area-view .ImgGridOuterQuad1,.ms_excel .intExcelGrid .grid-area-view .ImgGridOuterQuad3{
+    position:absolute;
+    overflow:hidden
+}
+.ms_excel .intExcelGrid .grid-area-view .ImgGridOuterQuad1Canvas{
+    position:absolute;
+    top:0;
+    left:0
+}
+.ms_excel .intExcelGrid .grid-area-view .ImgGridOuterQuad1Canvas .DataGridQuad1{
+    position:absolute;
+    top:0;
+    left:0;
+    height:100%;
+    background-repeat:no-repeat
+}
+.ms_excel .intExcelGrid .grid-area-view .ImgGridOuterQuad1Canvas .UpperColReplicator{
+    position:absolute;
+    top:0;
+    height:100%;
+    background-repeat:repeat-x
+}
+.ms_excel .intExcelGrid .grid-area-view .ImgGridOuterQuad3Canvas .DataGridQuad3{
+    top:0;
+    left:0;
+    width:100%;
+    background-repeat:no-repeat
+}
+.ms_excel .intExcelGrid .grid-area-view .ImgGridOuterQuad3Canvas{
+    position:absolute
+}
+.ms_excel .intExcelGrid .grid-area-view .ImgGridOuterQuad3Canvas .LeftRowReplicator{
+    left:0;
+    width:100%;
+    background-repeat:repeat-y
+}
+.ms_excel .intExcelGrid .grid-area-view .ImageGridOuterContainer.row-group .SmartGridImage{
+    height:auto!important
+}
+.ms_excel .intExcelGrid .grid-area-view .ImageGridOuterContainer.row-group .CellRepeaterGridImg,.ms_excel .intExcelGrid .grid-area-view .ImageGridOuterContainer.row-group .RowRepeaterGridImg{
+    top:auto!important
+}
+.ms_excel .intExcelGrid .grid-area-view .ImageGridOuterContainer.row-group .DataGridQuad3{
+    height:auto!important
+}
+.ms_excel .intExcelGrid .grid-area-view .ImageGridOuterContainer.row-group .LeftRowReplicator{
+    top:auto!important
+}
+.ms_excel .intExcelGrid .grid-area-view .SmartGridImage .collapsedGroup .rowRangeGroup{
+    display:none
+}
+.ms_excel .intExcelGrid .grid-area-view .SmartGridImage .collapsedGroup .rowRangeGroup.extraGroup{
+    display:block
+}
+.ms_excel .intExcelGrid .grid-area-view .ImgGridOuterQuad3 .collapsedGroup .rowRangeGroup{
+    display:none
+}
+.ms_excel .intExcelGrid .grid-area-view .ImgGridOuterQuad3 .collapsedGroup .rowRangeGroup.extraGroup{
+    display:block
+}
+.intExcelGrid .excel-DynamicRenderOuterContainer{
+    position:absolute;
+    left:2px;
+    top:2px;
+    width:100%;
+    height:100%;
+    overflow:hidden
+}
+.intExcelGrid .grid-area-view .excel-DynamicRenderDivContainer{
+    position:absolute
+}
+.intExcelGrid .excel-dynamicRenderCell{
+    position:absolute;
+    white-space:nowrap;
+    display:table
+}
+.intExcelGrid .excel-dynamicRenderCellInnerDiv{
+    position:relative;
+    display:table-cell
+}
+.ms_excel .intExcelGrid .formulaCellBorderDiv{
+    position:absolute;
+    border-width:2px;
+    border-style:solid
+}
+.ms_excel .intExcelGrid .formulaCellBorderDiv.formula1{
+    border-color:#5f8ced
+}
+.ms_excel .intExcelGrid .formulaCellBorderDiv.formula2{
+    border-color:#eb5e60
+}
+.ms_excel .intExcelGrid .formulaCellBorderDiv.formula3{
+    border-color:#8d61c2
+}
+.ms_excel .intExcelGrid .formulaCellBorderDiv.formula4{
+    border-color:#2d9639
+}
+.ms_excel .intExcelGrid .formulaCellBorderDiv.formula5{
+    border-color:#bf4c91
+}
+.ms_excel .intExcelGrid .formulaCellBorderDiv.formula6{
+    border-color:#e38222
+}
+.ms_excel .intExcelGrid .formulaCellBorderDiv.formula7{
+    border-color:#377f9e
+}
+.ms_excel .intExcelGrid .formulaCellInnerDiv{
+    height:100%;
+    width:100%;
+    border:1px solid #fff
+}
+.ms_excel .intExcelGrid .formulaCellInnerDiv.formula1{
+    background-color:rgba(95,140,237,.1)
+}
+.ms_excel .intExcelGrid .formulaCellInnerDiv.formula2{
+    background-color:rgba(235,94,96,.1)
+}
+.ms_excel .intExcelGrid .formulaCellInnerDiv.formula3{
+    background-color:rgba(141,97,194,.1)
+}
+.ms_excel .intExcelGrid .formulaCellInnerDiv.formula4{
+    background-color:rgba(45,150,57,.1)
+}
+.ms_excel .intExcelGrid .formulaCellInnerDiv.formula5{
+    background-color:rgba(191,76,145,.1)
+}
+.ms_excel .intExcelGrid .formulaCellInnerDiv.formula6{
+    background-color:rgba(227,130,34,.1)
+}
+.ms_excel .intExcelGrid .formulaCellInnerDiv.formula7{
+    background-color:rgba(55,127,158,.1)
+}
+.ms_excel .intExcelGrid .formulaCellBulletDiv{
+    height:5px;
+    width:5px;
+    position:absolute;
+    border:1px solid #fff;
+    z-index:1
+}
+.ms_excel .intExcelGrid .formulaCellBulletDiv.formula1{
+    background-color:#5f8ced
+}
+.ms_excel .intExcelGrid .formulaCellBulletDiv.formula2{
+    background-color:#eb5e60
+}
+.ms_excel .intExcelGrid .formulaCellBulletDiv.formula3{
+    background-color:#8d61c2
+}
+.ms_excel .intExcelGrid .formulaCellBulletDiv.formula4{
+    background-color:#2d9639
+}
+.ms_excel .intExcelGrid .formulaCellBulletDiv.formula5{
+    background-color:#bf4c91
+}
+.ms_excel .intExcelGrid .formulaCellBulletDiv.formula6{
+    background-color:#e38222
+}
+.ms_excel .intExcelGrid .formulaCellBulletDiv.formula7{
+    background-color:#377f9e
+}
+.ms_excel .intExcelGrid .formulaCellBulletDiv.rightBottom{
+    right:-4px;
+    bottom:-4px
+}
+.ms_excel .intExcelGrid .formulaCellBulletDiv.leftTop{
+    left:-4px;
+    top:-4px
+}
+.ms_excel .intExcelGrid .formulaCellBulletDiv.rightTop{
+    right:-4px;
+    top:-4px
+}
+.ms_excel .intExcelGrid .formulaCellBulletDiv.leftBottom{
+    left:-4px;
+    bottom:-4px
+}
+.ms_excel .intExcelGrid .animatedDiv{
+    pointer-events:none
+}
+.ms_excel .intExcelGrid .ewr-grdcontarea-ltr .ewr-cut-selection-highlight-dashed,.ewr-grdcontarea-ltr .ewr-copy-selection-highlight-dashed{
+    margin:-1px 0 0 -1px
+}
+.ms_excel .intExcelGrid .ewr-cut-selection-highlight-dashed,.ewr-copy-selection-highlight-dashed{
+    border:medium none
+}
+.ms_excel .intExcelGrid .ewr-cell-selection-highlight-center,.ms_excel .intExcelGrid .ewr-cell-selection-highlight-cols,.ms_excel .intExcelGrid .ewr-copy-selection-highlight-dashed,.ms_excel .intExcelGrid .ewr-cut-selection-highlight-dashed,.ms_excel .intExcelGrid .ewr-marquee-selection-highlight,.ms_excel .intExcelGrid .ewr-selection-hotcell,.ewr-cell-selection-highlight-all,.ewr-cell-selection-highlight-rows,.ewr-copy-selection-highlight-solid,.ewr-cut-selection-highlight-solid,.ewr-selection-activecell{
+    position:absolute
+}
+.ms_excel .intExcelGrid .ewr-copy-selection-highlight-dashed div.ewr-ants,.ms_excel .intExcelGrid .ewr-cut-selection-highlight-dashed div.ewr-ants{
+    background-color:transparent;
+    position:absolute
+}
+.ms_excel .intExcelGrid .ewr-selection-ants-top{
+    background-image:
+    /*savepage-url=../img/EwaAntH.gif*/
+    url();
+    background-position:center bottom;
+    height:2px;
+    left:0;
+    right:0;
+    top:0
+}
+.ms_excel .intExcelGrid .ewr-selection-ants-right{
+    background-image:
+    /*savepage-url=../img/EwaAntV.gif*/
+    url();
+    bottom:0;
+    right:0;
+    top:0;
+    width:2px
+}
+.ms_excel .intExcelGrid .ewr-selection-ants-bottom{
+    background-image:
+    /*savepage-url=../img/EwaAntH.gif*/
+    url();
+    bottom:0;
+    height:2px;
+    left:0;
+    right:0
+}
+.ms_excel .intExcelGrid .ewr-selection-ants-left{
+    background-image:
+    /*savepage-url=../img/EwaAntV.gif*/
+    url();
+    background-position:right center;
+    bottom:0;
+    left:0;
+    top:0;
+    width:2px
+}
+.ewr-selection-ants-hc{
+    border:2px dashed #217346;
+    bottom:0;
+    left:0;
+    position:absolute;
+    right:0;
+    top:0
+}
+.ms_excel .intExcelGrid .col-group-container .col-group{
+    overflow:hidden
+}
+.ms_excel .intExcelGrid .col-group-container .col-level-container{
+    white-space:nowrap
+}
+.ms_excel .intExcelGrid .col-group-container .col-level{
+    -moz-box-sizing:border-box;
+    box-sizing:border-box;
+    background:#fff;
+    display:inline-block;
+    position:relative;
+    vertical-align:middle
+}
+.ms_excel .intExcelGrid .col-group-container .level{
+    -moz-box-sizing:border-box;
+    box-sizing:border-box;
+    height:19px;
+    position:relative
+}
+.ms_excel .intExcelGrid .col-group-container .level.dot:after{
+    border:1px solid #ABABAB;
+    content:" ";
+    position:absolute;
+    top:5px;
+    left:50%;
+    -moz-box-sizing:border-box;
+    box-sizing:border-box
+}
+.ms_excel .intExcelGrid .col-group-container .level.continue:after{
+    border:2px solid #ababab;
+    border-style:solid none none none;
+    content:" ";
+    height:6px;
+    position:absolute;
+    top:5px;
+    width:100%;
+    -moz-box-sizing:border-box;
+    box-sizing:border-box
+}
+.ms_excel .intExcelGrid .col-group-container .level.start:after{
+    border:2px solid #ababab;
+    border-style:solid none none solid;
+    content:" ";
+    height:6px;
+    position:absolute;
+    top:5px;
+    width:100%;
+    -moz-box-sizing:border-box;
+    box-sizing:border-box
+}
+.ms_excel .intExcelGrid .col-group-container .level.end:before{
+    border-top:2px solid #ababab;
+    content:" ";
+    height:6px;
+    position:absolute;
+    top:5px;
+    width:50%;
+    -moz-box-sizing:border-box;
+    box-sizing:border-box
+}
+.ms_excel .intExcelGrid .col-group-container .level.end:after{
+    background:none repeat scroll 0 0 #FFF;
+    border:1px solid #828790;
+    content:"-";
+    font-size:23px;
+    font-weight:700;
+    height:19px;
+    margin-left:calc((100% - 19px)/ 2);
+    position:absolute;
+    text-align:center;
+    width:19px;
+    line-height:13px;
+    color:#666;
+    -moz-box-sizing:border-box;
+    box-sizing:border-box
+}
+.ms_excel .intExcelGrid .col-group-container .level.end.close:after{
+    content:"+"
+}
+.ms_excel .intExcelGrid .col-group-container .level.end.close:before{
+    content:"+";
+    display:none
+}
+.ms_excel .intExcelGrid .row-group-container{
+    display:inline-block
+}
+.ms_excel .intExcelGrid .row-group{
+    display:inline-block;
+    overflow:hidden
+}
+.ms_excel .intExcelGrid .row-level-container{
+    display:inline-block
+}
+.ms_excel .intExcelGrid .row-level{
+    -moz-box-sizing:border-box;
+    box-sizing:border-box;
+    background:#fff;
+    position:relative
+}
+.ms_excel .intExcelGrid .row-level .level{
+    -moz-box-sizing:border-box;
+    box-sizing:border-box;
+    display:inline-block;
+    height:100%;
+    width:19px;
+    position:relative
+}
+.ms_excel .intExcelGrid .row-group-container .level.dot:after{
+    border:1px solid #ABABAB;
+    content:" ";
+    position:absolute;
+    left:5px;
+    top:50%;
+    -moz-box-sizing:border-box;
+    box-sizing:border-box
+}
+.ms_excel .intExcelGrid .row-group-container .level.continue:after{
+    border:2px solid #ababab;
+    border-style:none none none solid;
+    content:" ";
+    height:100%;
+    position:absolute;
+    left:5px;
+    width:5px;
+    -moz-box-sizing:border-box;
+    box-sizing:border-box
+}
+.ms_excel .intExcelGrid .row-group-container.normal .level.start:after{
+    border:2px solid #ababab;
+    border-style:solid none none solid;
+    content:" ";
+    height:100%;
+    position:absolute;
+    left:5px;
+    width:6px;
+    -moz-box-sizing:border-box;
+    box-sizing:border-box
+}
+.ms_excel .intExcelGrid .row-group-container.normal .level.end:before{
+    border-left:2px solid #ababab;
+    content:" ";
+    width:6px;
+    position:absolute;
+    left:5px;
+    height:50%;
+    -moz-box-sizing:border-box;
+    box-sizing:border-box
+}
+.ms_excel .intExcelGrid .row-group-container.normal .level.end:after{
+    background:none repeat scroll 0 0 #FFF;
+    border:1px solid #828790;
+    content:"-";
+    font-size:23px;
+    font-weight:700;
+    height:19px;
+    width:19px;
+    margin-top:calc((100% - 19px)/ 2);
+    position:absolute;
+    text-align:center;
+    line-height:13px;
+    color:#666;
+    -moz-box-sizing:border-box;
+    box-sizing:border-box
+}
+.ms_excel .intExcelGrid .row-group-container.normal .level.end.close:after{
+    content:"+"
+}
+.ms_excel .intExcelGrid .row-group-container.normal .level.end.close:before{
+    content:"+";
+    display:none
+}
+.ms_excel .intExcelGrid .row-group-container.reversed .level.start:after{
+    background:none repeat scroll 0 0 #FFF;
+    border:1px solid #828790;
+    content:"-";
+    font-size:23px;
+    font-weight:700;
+    height:19px;
+    width:19px;
+    margin-top:calc((100% - 19px)/ 2);
+    position:absolute;
+    text-align:center;
+    line-height:13px;
+    color:#666;
+    -moz-box-sizing:border-box;
+    box-sizing:border-box
+}
+.ms_excel .intExcelGrid .row-group-container.reversed .level.start:before{
+    border-left:2px solid #ababab;
+    content:" ";
+    width:6px;
+    position:absolute;
+    left:5px;
+    height:50%;
+    -moz-box-sizing:border-box;
+    box-sizing:border-box;
+    bottom:0
+}
+.ms_excel .intExcelGrid .row-group-container.reversed .level.end:before{
+    border:2px solid #ababab;
+    border-style:none none solid solid;
+    content:" ";
+    height:100%;
+    position:absolute;
+    left:5px;
+    width:6px;
+    -moz-box-sizing:border-box;
+    box-sizing:border-box
+}
+.ms_excel .intExcelGrid .row-group-container.reversed .level.start.close:after{
+    content:"+"
+}
+.ms_excel .intExcelGrid .row-group-container.reversed .level.start.close:before{
+    content:"+";
+    display:none
+}
+.intExcelGrid .header-selector-container{
+    display:inline-block
+}
+.intExcelGrid .header-selector-container .group-vertical-btn-container{
+    direction:rtl;
+    margin-right:4px
+}
+.intExcelGrid .header-selector-container .group-horizontal-btn-container{
+    display:inline-block
+}
+.intExcelGrid .header-selector-container .group-btn{
+    border:1px solid #828790;
+    color:#838790;
+    height:19px;
+    text-align:center;
+    width:19px;
+    -moz-box-sizing:border-box;
+    box-sizing:border-box;
+    line-height:normal
+}
+.intExcelGrid .header-selector-container .ver{
+    display:block
+}
+.intExcelGrid .header-selector-container .hor{
+    display:inline-block
+}
+.intExcelGrid .header-selector-container .select-Grid-Icon{
+    -moz-box-sizing:border-box;
+    box-sizing:border-box;
+    background:
+    /*savepage-url=../img/excel-sprite.png*/
+    url(data:image/png;
+    resource=54;
+    base64,) no-repeat scroll -380px -1240px #FFF;
+    border-bottom:1px solid #D6D7D6;
+    border-right:1px solid #D6D7D6;
+    cursor:cell;
+    display:inline-block;
+    height:19px;
+    padding:0;
+    top:0;
+    vertical-align:top;
+    width:25px;
+    z-index:1
+}
+.intExcelGrid .header-selector-container .select-Grid-Icon:hover{
+    background:
+    /*savepage-url=../img/excel-sprite.png*/
+    url(data:image/png;
+    resource=54;
+    base64,) no-repeat scroll -380px -1268px rgba(0,0,0,0)
+}
+.intExcelGrid .header-selector-container .select-Grid-Icon-Selected,.intExcelGrid .header-selector-container .select-Grid-Icon-Selected:hover{
+    background:
+    /*savepage-url=../img/excel-sprite.png*/
+    url(data:image/png;
+    resource=54;
+    base64,) no-repeat scroll -443px -1238px rgba(0,0,0,0)
+}
+.intExcelGrid .header-selector-container .grid-icon.my-right-hidden{
+    border-right:1px solid #fff
+}
+.intExcelGrid .practice-table-view{
+    position:absolute;
+    left:0;
+    top:0;
+    width:100%;
+    height:100%;
+    overflow:hidden
+}
+.intExcelGrid .practice-table-view .practice-table-cont{
+    position:absolute
+}
+.intExcelGrid .EXLTransparentTable{
+    position:absolute
+}
+.intExcelGrid .EXLTransparentTable .defCol{
+    width:64px
+}
+.intExcelGrid .EXLTransparentTable .defRow{
+    height:20px
+}
+.ms_excel .intExcelGrid .exl-grid-sheets-manager,.ms_excel .intExcelGrid .grid-area-view{
+    width:100%;
+    height:100%
+}
+.ms_excel .intExcelGrid .ChartSheetView{
+    width:100%;
+    height:100%;
+    background-color:#f6f6f6;
+    border-top:1px solid #ababab
+}
+.ms_excel .intExcelGrid .subCompView{
+    position:absolute;
+    left:0;
+    top:0;
+    width:100%;
+    height:100%;
+    overflow:hidden
+}
+.ms_excel .intExcelGrid .subCompSheet{
+    position:relative;
+    z-index:5
+}
+.ms_excel .intExcelGrid .subCompSheet.chartSheet{
+    width:100%;
+    height:100%
+}
+.ms_excel .intExcelGrid .subCompWrapper.chartSheet{
+    width:100%;
+    height:calc(100% - 10px);
+    height:-webkit-calc(100% - 10px)
+}
+.intExcelGrid .subcomp-helper{
+    border:2px solid #7f7f7f;
+    background:rgba(255,255,255,.5)
+}
+.ms_excel .intExcelGrid .scalingContainer{
+    transform-origin:left top;
+    -webkit-transform-origin:0 0
+}
+.ms_excel .intExcelGrid .scaling-container-wrapper{
+    display:inline-block;
+    height:calc(100% - 27px);
+    width:calc(100% - 23px)
+}
+.intExcelGrid .excel-center-view .center-view-right{
+    display:inline-block
+}
+.ms_excel .intExcelGrid .row-level-container{
+    position:relative;
+    z-index:0
+}
+.ms_excel .intExcelGrid .quickExploreButton{
+    background:
+    /*savepage-url=../img/excel-sprite.png*/
+    url(data:image/png;
+    resource=54;
+    base64,) no-repeat scroll -190px -3532px #FFF;
+    width:22px;
+    height:22px;
+    position:relative;
+    border:1px solid #217346;
+    z-index:1
+}
+.ms_excel .intExcelGrid .QEButtonTooltip{
+    color:#5d5d5d;
+    background:none repeat scroll 0 0 #FFF;
+    border:1px solid #BEBEBE;
+    width:75px;
+    height:15px;
+    padding:3px 3px;
+    position:absolute;
+    text-wrap:none;
+    display:none
+}
+.ms_excel .intExcelGrid .quickExploreButton:hover{
+    border:1px solid #217346;
+    background:
+    /*savepage-url=../img/excel-sprite.png*/
+    url(data:image/png;
+    resource=54;
+    base64,) no-repeat scroll -190px -3532px #D3F0E0;
+    cursor:default
+}
+.ms_excel .intExcelGrid .quickExploreButton.QEButtonSelected{
+    background-color:#86bfa0
+}
+.ms_excel .intExcelGrid .QATButton{
+    background:
+    /*savepage-url=../img/excel-sprite.png*/
+    url(data:image/png;
+    resource=54;
+    base64,) no-repeat scroll -377px -867px #FFF;
+    width:22px;
+    height:22px;
+    position:relative;
+    border:1px solid #217346;
+    z-index:1
+}
+.ms_excel .intExcelGrid .QATButtonInnerDiv{
+    width:100%;
+    height:100%
+}
+.ms_excel .intExcelGrid .QATButton:hover{
+    border:1px solid #217346;
+    background:
+    /*savepage-url=../img/excel-sprite.png*/
+    url(data:image/png;
+    resource=54;
+    base64,) no-repeat scroll -377px -867px #D3F0E0;
+    cursor:default
+}
+.ms_excel .intExcelGrid .excelQuickAnylsMainDiv{
+    background-color:#fff;
+    border:1px solid #217142;
+    padding:12px 12px 10px;
+    width:406px;
+    position:relative;
+    z-index:6
+}
+.ms_excel .intExcelGrid .excelQuickAnylsMainDiv .quickTabsContainer{
+    height:150px;
+    width:416px;
+    cursor:default
+}
+.ms_excel .intExcelGrid .excelQuickAnylsMainDiv .quickAnalysisArrowBottom{
+    background:
+    /*savepage-url=../img/excel-sprite.png*/
+    url(data:image/png;
+    resource=54;
+    base64,) no-repeat scroll -192px -3191px transparent
+}
+.ms_excel .intExcelGrid .excelQuickAnylsMainDiv .quickAnalysisArrow{
+    background:
+    /*savepage-url=../img/excel-sprite.png*/
+    url(data:image/png;
+    resource=54;
+    base64,) no-repeat scroll -192px -3128px transparent;
+    top:-22px;
+    height:10px;
+    left:210px;
+    position:relative;
+    width:17px
+}
+.ms_excel .intExcelGrid .excelQuickAnylsMainDiv .normalQuickLabel{
+    color:#424542;
+    font-weight:400
+}
+.ms_excel .intExcelGrid .excelQuickAnylsMainDiv .normalQuickLabel:hover{
+    color:#217142
+}
+.ms_excel .intExcelGrid .excelQuickAnylsMainDiv .activeQuickLabel{
+    color:#217142;
+    font-weight:700
+}
+.ms_excel .intExcelGrid .excelQuickAnylsMainDiv .quickTabs>ul{
+    list-style:none;
+    width:415px;
+    height:40px;
+    margin:0
+}
+.ms_excel .intExcelGrid .excelQuickAnylsMainDiv .quickTabs>ul>li{
+    float:left;
+    padding:5px 0;
+    width:70px;
+    font-size:13px;
+    border-left:1px solid #e7e3e7;
+    font-family:"Trebuchet MS",Arial,Helvetica,sans-serif;
+    text-align:center;
+    user-select:none;
+    -moz-user-select:none;
+    -webkit-user-select:none;
+    text-transform:uppercase
+}
+.ms_excel .intExcelGrid .excelQuickAnylsMainDiv .quickTabs>ul>li.leftMost{
+    border-left:none
+}
+.ms_excel .intExcelGrid .excelQuickAnylsMainDiv .quickTabs>ul>li:first-child{
+    width:100px
+}
+.ms_excel .intExcelGrid .excelQuickAnylsMainDiv .quickTabs>ul>li:last-child{
+    width:95px
+}
+.ms_excel .intExcelGrid .excelQuickAnylsMainDiv .quickAnaLabel.keyboard-focus>span{
+    border:1px dotted #000
+}
+.ms_excel .intExcelGrid .excelQuickAnylsMainDiv .hideQuickContent{
+    display:none
+}
+.ms_excel .intExcelGrid .excelQuickAnylsMainDiv .tabsContentDesc{
+    margin-top:15px;
+    color:#737573;
+    font-size:13px;
+    user-select:none;
+    -moz-user-select:none;
+    -webkit-user-select:none
+}
+.ms_excel .intExcelGrid .excelQuickAnylsMainDiv .quickTabsContent>div.hideQuickContent>div.quickScroll{
+    background:
+    /*savepage-url=../img/excel-sprite.png*/
+    url(data:image/png;
+    resource=54;
+    base64,) no-repeat -190px -103px;
+    position:absolute;
+    top:80px
+}
+.ms_excel .intExcelGrid .excelQuickAnylsMainDiv .quickTabsContent>div.hideQuickContent>div.quickLeftScrollDisable{
+    background:
+    /*savepage-url=../img/excel-sprite.png*/
+    url(data:image/png;
+    resource=54;
+    base64,) -190px -103px;
+    width:5px;
+    height:9px;
+    left:15px
+}
+.ms_excel .intExcelGrid .excelQuickAnylsMainDiv .quickTabsContent>div.hideQuickContent>div.quickLeftScrollEnable{
+    background:
+    /*savepage-url=../img/excel-sprite.png*/
+    url(data:image/png;
+    resource=54;
+    base64,) -190px -162px;
+    width:5px;
+    height:9px;
+    left:15px
+}
+.ms_excel .intExcelGrid .excelQuickAnylsMainDiv .quickTabsContent>div.hideQuickContent>div.quickRightScrollDisable{
+    background:
+    /*savepage-url=../img/excel-sprite.png*/
+    url(data:image/png;
+    resource=54;
+    base64,) -190px -221px;
+    width:5px;
+    height:9px;
+    right:15px
+}
+.ms_excel .intExcelGrid .excelQuickAnylsMainDiv .quickTabsContent>div.hideQuickContent>div.quickRightScrollEnable{
+    background:
+    /*savepage-url=../img/excel-sprite.png*/
+    url(data:image/png;
+    resource=54;
+    base64,) -190px -280px;
+    width:5px;
+    height:9px;
+    right:15px
+}
+.ms_excel .intExcelGrid .excelQuickAnylsMainDiv .quickTabsContent>div.hideQuickContent>ul{
+    display:block;
+    list-style:none;
+    overflow:hidden;
+    width:415px;
+    height:75px;
+    padding:0 0 0 12px;
+    margin:0
+}
+.ms_excel .intExcelGrid .excelQuickAnylsMainDiv .quickTabsContent>div.hideQuickContent>ul>li{
+    float:left;
+    width:42px;
+    padding-left:10px;
+    padding-right:10px;
+    padding-top:7px;
+    text-align:center;
+    height:70px
+}
+.ms_excel .intExcelGrid .excelQuickAnylsMainDiv .quickTabsContent>div.hideQuickContent>ul>li>label{
+    font-size:12px;
+    font-style:cf_SegoeUI;
+    color:#424542;
+    user-select:none;
+    -moz-user-select:none;
+    -webkit-user-select:none
+}
+.ms_excel .intExcelGrid .excelQuickAnylsMainDiv .quickTabsContent>div.hideQuickContent>ul>li:hover{
+    background-color:#d6f3e7
+}
+.ms_excel .intExcelGrid .excelQuickAnylsMainDiv .quickTabsContent>div.hideQuickContent>ul>li.keyboard-focus{
+    background-color:#d6f3e7
+}
+.ms_excel .intExcelGrid .excelQuickAnylsMainDiv .quickTabsContent li>div{
+    background:
+    /*savepage-url=../img/excel-sprite.png*/
+    url(data:image/png;
+    resource=54;
+    base64,) no-repeat
+}
+.ms_excel .intExcelGrid .excelQuickAnylsMainDiv .quickTabsContent li>.sprite-Average{
+    background-position:0 -1925px;
+    width:32px;
+    height:35px;
+    margin:auto
+}
+.ms_excel .intExcelGrid .excelQuickAnylsMainDiv .quickTabsContent li>.sprite-AverageYellow{
+    background-position:0 -2007px;
+    width:32px;
+    height:35px;
+    margin:auto
+}
+.ms_excel .intExcelGrid .excelQuickAnylsMainDiv .quickTabsContent li>.sprite-TextContains{
+    background-position:-32px -36px;
+    width:32px;
+    height:35px;
+    margin:auto
+}
+.ms_excel .intExcelGrid .excelQuickAnylsMainDiv .quickTabsContent li>.sprite-DuplicateValues{
+    background-position:-32px -72px;
+    width:32px;
+    height:35px;
+    margin:auto
+}
+.ms_excel .intExcelGrid .excelQuickAnylsMainDiv .quickTabsContent li>.sprite-EqualTo{
+    background-position:-32px 0;
+    width:32px;
+    height:35px;
+    margin:auto
+}
+.ms_excel .intExcelGrid .excelQuickAnylsMainDiv .quickTabsContent li>.sprite-ClearFormat{
+    background-position:0 -2089px;
+    width:32px;
+    height:35px;
+    margin:auto
+}
+.ms_excel .intExcelGrid .excelQuickAnylsMainDiv .quickTabsContent li>.sprite-ClusturedBar{
+    background-position:0 -2171px;
+    width:32px;
+    height:35px;
+    margin:auto
+}
+.ms_excel .intExcelGrid .excelQuickAnylsMainDiv .quickTabsContent li>.sprite-ClusturedColoumn{
+    background-position:0 -2253px;
+    width:32px;
+    height:35px;
+    margin:auto
+}
+.ms_excel .intExcelGrid .excelQuickAnylsMainDiv .quickTabsContent li>.sprite-ColorScale{
+    background-position:0 -2335px;
+    width:32px;
+    height:35px;
+    margin:auto
+}
+.ms_excel .intExcelGrid .excelQuickAnylsMainDiv .quickTabsContent li>.sprite-Column{
+    background-position:0 -2417px;
+    width:32px;
+    height:35px;
+    margin:auto
+}
+.ms_excel .intExcelGrid .excelQuickAnylsMainDiv .quickTabsContent li>.sprite-Count{
+    background-position:0 -2499px;
+    width:32px;
+    height:35px;
+    margin:auto
+}
+.ms_excel .intExcelGrid .excelQuickAnylsMainDiv .quickTabsContent li>.sprite-CountYellow{
+    background-position:0 -2581px;
+    width:32px;
+    height:35px;
+    margin:auto
+}
+.ms_excel .intExcelGrid .excelQuickAnylsMainDiv .quickTabsContent li>.sprite-DataBars{
+    background-position:0 -2663px;
+    width:32px;
+    height:35px;
+    margin:auto
+}
+.ms_excel .intExcelGrid .excelQuickAnylsMainDiv .quickTabsContent li>.sprite-GreaterThan{
+    background-position:0 -2745px;
+    width:32px;
+    height:35px;
+    margin:auto
+}
+.ms_excel .intExcelGrid .excelQuickAnylsMainDiv .quickTabsContent li>.sprite-IconSet{
+    background-position:0 -2827px;
+    width:32px;
+    height:35px;
+    margin:auto
+}
+.ms_excel .intExcelGrid .excelQuickAnylsMainDiv .quickTabsContent li>.sprite-Line{
+    background-position:0 -2909px;
+    width:32px;
+    height:35px;
+    margin:auto
+}
+.ms_excel .intExcelGrid .excelQuickAnylsMainDiv .quickTabsContent li>.sprite-MoreCharts{
+    background-position:0 -2991px;
+    width:32px;
+    height:35px;
+    margin:auto
+}
+.ms_excel .intExcelGrid .excelQuickAnylsMainDiv .quickTabsContent li>.sprite-Percentage{
+    background-position:0 -3073px;
+    width:32px;
+    height:35px;
+    margin:auto
+}
+.ms_excel .intExcelGrid .excelQuickAnylsMainDiv .quickTabsContent li>.sprite-PercentageYellow{
+    background-position:0 -3155px;
+    width:32px;
+    height:35px;
+    margin:auto
+}
+.ms_excel .intExcelGrid .excelQuickAnylsMainDiv .quickTabsContent li>.sprite-Pie{
+    background-position:0 -3237px;
+    width:32px;
+    height:35px;
+    margin:auto
+}
+.ms_excel .intExcelGrid .excelQuickAnylsMainDiv .quickTabsContent li>.sprite-PivotTable{
+    background-position:0 -3319px;
+    width:32px;
+    height:35px;
+    margin:auto
+}
+.ms_excel .intExcelGrid .excelQuickAnylsMainDiv .quickTabsContent li>.sprite-Running{
+    background-position:0 -3401px;
+    width:32px;
+    height:35px;
+    margin:auto
+}
+.ms_excel .intExcelGrid .excelQuickAnylsMainDiv .quickTabsContent li>.sprite-RunningYellow{
+    background-position:0 -3483px;
+    width:32px;
+    height:35px;
+    margin:auto
+}
+.ms_excel .intExcelGrid .excelQuickAnylsMainDiv .quickTabsContent li>.sprite-Scatter{
+    background-position:0 -3565px;
+    width:32px;
+    height:35px;
+    margin:auto
+}
+.ms_excel .intExcelGrid .excelQuickAnylsMainDiv .quickTabsContent li>.sprite-Sum{
+    background-position:0 -3647px;
+    width:32px;
+    height:35px;
+    margin:auto
+}
+.ms_excel .intExcelGrid .excelQuickAnylsMainDiv .quickTabsContent li>.sprite-SumYellow{
+    background-position:0 -3729px;
+    width:32px;
+    height:35px;
+    margin:auto
+}
+.ms_excel .intExcelGrid .excelQuickAnylsMainDiv .quickTabsContent li>.sprite-Table{
+    background-position:0 -3811px;
+    width:32px;
+    height:35px;
+    margin:auto
+}
+.ms_excel .intExcelGrid .excelQuickAnylsMainDiv .quickTabsContent li>.sprite-Top10{
+    background-position:-82px -1925px;
+    width:32px;
+    height:35px;
+    margin:auto
+}
+.ms_excel .intExcelGrid .excelQuickAnylsMainDiv .quickTabsContent li>.sprite-WinLoss{
+    background-position:-82px -2007px;
+    width:32px;
+    height:35px;
+    margin:auto
+}
+.ms_excel .intExcelGrid .excelQuickAnylsMainDiv .quickTabsContent li>.sprite-chartLine{
+    background-position:-82px -2089px;
+    width:32px;
+    height:35px;
+    margin:auto
+}
+.ms_excel .intExcelGrid .excelQuickAnylsMainDiv .quickTabsContent li>.sprite-StackedColumn{
+    background-position:-82px -2252px;
+    width:32px;
+    height:35px;
+    margin:auto
+}
+.ms_excel .intExcelGrid .excelQuickAnylsMainDiv .quickTabsContent li>.sprite-StackedBar{
+    background-position:-82px -2171px;
+    width:32px;
+    height:35px;
+    margin:auto
+}
+.ms_excel .intExcelGrid .excelQuickAnylsMainDiv .quickTabsContent li>.sprite-Pie{
+    background-position:-188px -3150px;
+    width:32px;
+    height:35px;
+    margin:auto
+}
+.ms_excel .intExcelGrid .excelQuickAnylsMainDiv .quickTabsContent li>.sprite-StackedArea{
+    background-position:-188px -3207px;
+    width:32px;
+    height:35px;
+    margin:auto
+}
+.ms_excel .intExcelGrid .excelQuickAnylsMainDiv .quickTabsContent li>.sprite-StackedBar{
+    background-position:-187px -3252px;
+    width:32px;
+    height:35px;
+    margin:auto
+}
+.ms_excel .intExcelGrid .excelQuickAnylsMainDiv .quickTabsContent li>.sprite-StackedColumn{
+    background-position:-187px -3294px;
+    width:32px;
+    height:35px;
+    margin:auto
+}
+.ms_excel .intExcelGrid .excelQuickAnylsMainDiv .quickTabsContent li>.sprite-TextThatContains{
+    background-position:-188px -3745px;
+    width:32px;
+    height:35px;
+    margin:auto
+}
+.ms_excel .intExcelGrid .excelQuickAnylsMainDiv .quickTabsContent li>.sprite-DuplicateValues{
+    background-position:-188px -3789px;
+    width:32px;
+    height:35px;
+    margin:auto
+}
+.ms_excel .intExcelGrid .excelQuickAnylsMainDiv .quickTabsContent li>.sprite-UniqueValues{
+    background-position:-188px -3789px;
+    width:32px;
+    height:35px;
+    margin:auto
+}
+.ms_excel .intExcelGrid .excelQuickAnylsMainDiv .quickTabsContent li>.sprite-EqualTo{
+    background-position:-188px -3831px;
+    width:32px;
+    height:35px;
+    margin:auto
+}
+.ms_excel .intExcelGrid .excelQuickAnylsMainDiv .quickTabsContent li>.sprite-ClearFormatNew{
+    background-position:-187px -3878px;
+    width:32px;
+    height:35px;
+    margin:auto
+}
+.intExcelGrid .tooltip-container{
+    position:absolute;
+    z-index:99999
+}
+.intExcelGrid .tooltip-container .tooltip{
+    box-shadow:rgba(0,0,0,.2) 0 0 3px
+}
+.intExcelGrid .qa-btn-tooltip{
+    background:
+    /*savepage-url=../img/qat_tooltip.png*/
+    url() no-repeat;
+    position:relative;
+    width:215px;
+    height:114px;
+    display:none;
+    margin-left:2px
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.intExcelGrid .miniToolBarInside{
+    top:400px;
+    position:relative;
+    width:272px;
+    height:58px;
+    border:solid 1px #C6C7C6;
+    background-color:#FFF;
+    padding:1px;
+    display:block;
+    z-index:9999
+}
+.intExcelGrid .miniToolBarInside:hover{
+    z-index:10001
+}
+.intExcelGrid .MenuContainerDWN{
+    position:absolute;
+    bottom:2px;
+    left:3px
+}
+.intExcelGrid .MenuContainerUP{
+    position:absolute;
+    top:5px;
+    left:3px
+}
+.intExcelGrid .menuitemDWN{
+    cursor:default;
+    height:23px;
+    width:21px;
+    float:right;
+    background:0 0
+}
+.intExcelGrid .menuitemUP{
+    cursor:default;
+    height:23px;
+    width:24px;
+    float:right
+}
+.intExcelGrid .downarrow{
+    height:21px;
+    width:11px;
+    float:left
+}
+.intExcelGrid .menuitemwitharrow{
+    height:21px;
+    width:24px;
+    float:left
+}
+.intExcelGrid .itemwithdownarrow{
+    border:1px solid transparent;
+    float:right
+}
+.intExcelGrid .itemwithdownarrow:hover{
+    border:1px solid #D3F0E0
+}
+.intExcelGrid .menuitemDWN:hover{
+    background-color:#D3F0E0
+}
+.intExcelGrid .menuitemUP:hover{
+    background-color:#D3F0E0
+}
+.intExcelGrid .downarrow:hover{
+    background-color:#D3F0E0
+}
+.intExcelGrid .menuitemwitharrow:hover{
+    background-color:#D3F0E0
+}
+.intExcelGrid .miniToolBarCB{
+    display:inline-block;
+    float:right;
+    overflow:hidden;
+    font-family:Calibri
+}
+.ms_excel .intExcelGrid .combobox-dropdown{
+    background-color:#FFF;
+    border:1px solid #C4C4C4;
+    padding:1px;
+    z-index:9992;
+    box-shadow:0 0 2px #888
+}
+.ms_excel .intExcelGrid .dropdown-items-wrapper .items-ItemHeader{
+    color:#777;
+    display:table-cell;
+    font-size:9pt;
+    font-weight:700;
+    padding-left:8px;
+    vertical-align:middle
+}
+.ms_excel .intExcelGrid .dropdown-items-wrapper .items-header-wrapper{
+    background-color:#F0F2F5;
+    display:table;
+    height:24px;
+    width:100%
+}
+.ms_excel .intExcelGrid .item-type-imageitem .icon-wrapper{
+    padding:4px
+}
+.ms_excel .intExcelGrid .item-type-imageitem{
+    display:inline;
+    position:relative
+}
+.ms_excel .intExcelGrid .office-hover-default:hover{
+    background-color:#D3F0E0
+}
+.ms_excel .intExcelGrid .office-hover-default:active{
+    background-color:#FCCDB6
+}
+.ms_excel .intExcelGrid .icon-binder{
+    display:inline-block;
+    height:32px;
+    overflow:hidden;
+    position:relative;
+    width:32px;
+    margin-left:auto;
+    margin-right:auto
+}
+.ms_excel .intExcelGrid .icon-binder-binder{
+    padding:2px;
+    display:block
+}
+.ms_excel .intExcelGrid .icon-wrapper{
+    display:inline-block;
+    vertical-align:middle
+}
+.ms_excel .intExcelGrid .dropdown-item-text-separator{
+    border-bottom:1px solid #E1E1E1
+}
+.ms_excel .intExcelGrid .combobox-dropdown .icon{
+    position:absolute
+}
+.ms_excel .intExcelGrid .dropdown-item-icon{
+    min-width:24px;
+    min-height:24px;
+    display:block;
+    float:left;
+    background-repeat:no-repeat;
+    background-position:center
+}
+.ms_excel .intExcelGrid .office-control .dropdown-item-text{
+    font-size:9pt;
+    height:24px;
+    text-align:left;
+    width:100%
+}
+.ms_excel .intExcelGrid .dropdown-item-text{
+    display:table-cell;
+    padding:0 8px;
+    vertical-align:middle;
+    width:100%
+}
+.ms_excel .intExcelGrid .dropdown-item-nextlevel-arrow{
+    clear:both;
+    display:table-cell;
+    padding-left:10px;
+    padding-right:10px;
+    vertical-align:middle;
+    visibility:hidden
+}
+.ms_excel .intExcelGrid .office-arrow{
+    margin:3px 0;
+    font-size:0
+}
+.ms_excel .intExcelGrid .minitoolbar{
+    position:absolute;
+    top:-90px;
+    width:auto
+}
+.intExcelGrid .context-menu .border-style .icon{
+    width:578px;
+    height:212px;
+    position:absolute
+}
+.ms_excel .intExcelGrid .office-control{
+    color:#444;
+    cursor:default;
+    display:inline-block;
+    position:relative;
+    vertical-align:top
+}
+.ms_excel .intExcelGrid .miniToolBarInside .combobox-dropdown{
+    cursor:default;
+    position:fixed;
+    z-index:9999999
+}
+.ms_excel .intExcelGrid .minitoolBarSprite{
+    background-image:
+    /*savepage-url=../img/excel-sprite.png*/
+    url(data:image/png;
+    resource=54;
+    base64,)
+}
+.ms_excel .intExcelGrid .BOLDsprite{
+    background-position:0 -25px
+}
+.ms_excel .intExcelGrid .Italicsprite{
+    background-position:0 -869px
+}
+.ms_excel .intExcelGrid .textCenterSprite{
+    background-position:0 -1430px
+}
+.ms_excel .intExcelGrid .fillColorSprite{
+    background-position:0 -1892px;
+    width:24px;
+    height:21px
+}
+.ms_excel .intExcelGrid .fontColorSprite{
+    background-position:-380px -1850px;
+    width:24px;
+    height:21px
+}
+.ms_excel .intExcelGrid .borderSprite{
+    background-position:0 -58px
+}
+.ms_excel .intExcelGrid .incDecimalSprite{
+    background-position:-190px -1292px
+}
+.ms_excel .intExcelGrid .decDecimalSprite{
+    background-position:-380px -950px
+}
+.ms_excel .intExcelGrid .brushsprite{
+    background-position:0 -1674px;
+    width:21px;
+    height:23px
+}
+.ms_excel .intExcelGrid .accountingNumSprite{
+    background-position:-190px -471px
+}
+.ms_excel .intExcelGrid .percentStyleSprite{
+    background-position:-380px -313px
+}
+.ms_excel .intExcelGrid .commaStyleSprite{
+    background-position:-190px 0
+}
+.ms_excel .intExcelGrid .mergeCenterSprite{
+    background-position:3px -1612px
+}
+.ms_excel .intExcelGrid .decFontSprite{
+    background-position:-190px -1377px;
+    width:21px;
+    height:23px
+}
+.ms_excel .intExcelGrid .incFontSprite{
+    background-position:-380px -1757px
+}
+.ms_excel .intExcelGrid .down_arrowsprite{
+    background-position:-190px -590px;
+    width:11px;
+    height:21px
+}
+.ms_excel .intExcelGrid .down_arrow_comboBoxsprite{
+    background-position:-190px -621px;
+    width:13px;
+    height:22px
+}
+.ms_excel .intExcelGrid .miniToolBarInside .active-toggle{
+    background-color:#9FD5B7
+}
+.ms_excel .intExcelGrid .miniToolBarInside .toolTipData{
+    display:none;
+    position:absolute;
+    background-color:#fff;
+    padding:0 3px;
+    line-height:20px;
+    border:1px solid #bdbebd;
+    top:32px;
+    color:#5a5d5a;
+    white-space:nowrap;
+    z-index:100;
+    -webkit-user-select:none;
+    user-select:none
+}
+.ms_excel .intExcelGrid .miniToolBarInside .tooltipEnabled:hover .toolTipData{
+    display:block
+}
+.intExcelGrid .MenuContainerUP .table-font-size{
+    margin-right:2px
+}
+.intExcelGrid .MenuContainerUP .table-font-style input{
+    padding-left:1px
+}
+ 
+
+
+.Office2016 .intExcelGrid .excel-statusbar .left-text{
+    text-transform:capitalize;
+    font-family:'Segoe UI';
+    font-size:11px
+}
+.Office2016 .intExcelGrid .sheet-tab-bar .sheet-tabs .add-Sheet:hover{
+    background:
+    /*savepage-url=../img/excel-sprite.png*/
+    url(data:image/png;
+    resource=55;
+    base64,) no-repeat -124px -2326px
+}
+.Office2016 .intExcelGrid .excel-col-header .header-col.grey{
+    font-weight:400
+}
+.Office2016 .intExcelGrid .excel-col-header .header-col.green{
+    font-weight:400
+}
+.Office2016 .intExcelGrid .excel-row-header .header-row.grey{
+    font-weight:400
+}
+.Office2016 .intExcelGrid .excel-row-header .header-row.green{
+    font-weight:400
+}
+.SIMS.Office2016 .intExcelGrid .excelQuickAnylsMainDiv .quickTabs>ul>li{
+    text-transform:capitalize
+}
+.SIMS.Office2016 .intExcelGrid .formula-box-Auto-complete .simsLBItem{
+    border:none;
+    padding:0
+}
+.SIMS.Office2016 .intExcelGrid .formula-box-Auto-complete .itemImageDiv{
+    background-color:#fff
+}
+.SIMS.Office2016 .intExcelGrid .sheet-tab-bar .sheet-tabs .sheet-tab{
+    background-color:transparent
+}
+.SIMS.Office2016 .intExcelGrid .excelQuickAnylsMainDiv .quickTabsContent>div.hideQuickContent>ul>li>label{
+    display:inline-block;
+    max-width:52px;
+    white-space:nowrap;
+    text-overflow:ellipsis;
+    overflow:hidden;
+    height:15px
+}
+.SIMS.Office2016 .intExcelGrid .excelQuickAnylsMainDiv .quickTabsContent li>.sprite-ClearFormat{
+    background:
+    /*savepage-url=../img/excel-sprite.png*/
+    url(data:image/png;
+    resource=55;
+    base64,) no-repeat;
+    background-position:0 -2089px
+}
+.ms_excel .intExcelGrid .scalingContainer{
+    -webkit-transform-origin:left top
+}
+.SIMS.Office2016 .intExcelGrid .excelQuickAnylsMainDiv .quickTabsContent li>div{
+    background:
+    /*savepage-url=../img/excel-sprite.png*/
+    url(data:image/png;
+    resource=55;
+    base64,) no-repeat
+}
+.SIMS.Office2016 .intExcelGrid .excelQuickAnylsMainDiv .quickTabsContent li>.sprite-Average{
+    background-position:0 -1925px;
+    width:32px;
+    height:35px;
+    margin:auto
+}
+.SIMS.Office2016 .intExcelGrid .excelQuickAnylsMainDiv .quickTabsContent li>.sprite-AverageYellow{
+    background-position:0 -2007px;
+    width:32px;
+    height:35px;
+    margin:auto
+}
+.SIMS.Office2016 .intExcelGrid .excelQuickAnylsMainDiv .quickTabsContent li>.sprite-TextContains{
+    background-position:-32px -36px;
+    width:32px;
+    height:35px;
+    margin:auto
+}
+.SIMS.Office2016 .intExcelGrid .excelQuickAnylsMainDiv .quickTabsContent li>.sprite-DuplicateValues{
+    background-position:-32px -72px;
+    width:32px;
+    height:35px;
+    margin:auto
+}
+.SIMS.Office2016 .intExcelGrid .excelQuickAnylsMainDiv .quickTabsContent li>.sprite-EqualTo{
+    background-position:-32px 0;
+    width:32px;
+    height:35px;
+    margin:auto
+}
+.SIMS.Office2016 .intExcelGrid .excelQuickAnylsMainDiv .quickTabsContent li>.sprite-ClearFormat{
+    background-position:0 -2089px;
+    width:32px;
+    height:35px;
+    margin:auto
+}
+.SIMS.Office2016 .intExcelGrid .excelQuickAnylsMainDiv .quickTabsContent li>.sprite-ClusturedBar{
+    background-position:0 -2171px;
+    width:32px;
+    height:35px;
+    margin:auto
+}
+.SIMS.Office2016 .intExcelGrid .excelQuickAnylsMainDiv .quickTabsContent li>.sprite-ClusturedColoumn{
+    background-position:0 -2253px;
+    width:32px;
+    height:35px;
+    margin:auto
+}
+.SIMS.Office2016 .intExcelGrid .excelQuickAnylsMainDiv .quickTabsContent li>.sprite-ColorScale{
+    background-position:0 -2335px;
+    width:32px;
+    height:35px;
+    margin:auto
+}
+.SIMS.Office2016 .intExcelGrid .excelQuickAnylsMainDiv .quickTabsContent li>.sprite-Column{
+    background-position:0 -2417px;
+    width:32px;
+    height:35px;
+    margin:auto
+}
+.SIMS.Office2016 .intExcelGrid .excelQuickAnylsMainDiv .quickTabsContent li>.sprite-Count{
+    background-position:0 -2499px;
+    width:32px;
+    height:35px;
+    margin:auto
+}
+.SIMS.Office2016 .intExcelGrid .excelQuickAnylsMainDiv .quickTabsContent li>.sprite-CountYellow{
+    background-position:0 -2581px;
+    width:32px;
+    height:35px;
+    margin:auto
+}
+.SIMS.Office2016 .intExcelGrid .excelQuickAnylsMainDiv .quickTabsContent li>.sprite-DataBars{
+    background-position:0 -2663px;
+    width:32px;
+    height:35px;
+    margin:auto
+}
+.SIMS.Office2016 .intExcelGrid .excelQuickAnylsMainDiv .quickTabsContent li>.sprite-GreaterThan{
+    background-position:0 -2745px;
+    width:32px;
+    height:35px;
+    margin:auto
+}
+.SIMS.Office2016 .intExcelGrid .excelQuickAnylsMainDiv .quickTabsContent li>.sprite-IconSet{
+    background-position:0 -2827px;
+    width:32px;
+    height:35px;
+    margin:auto
+}
+.SIMS.Office2016 .intExcelGrid .excelQuickAnylsMainDiv .quickTabsContent li>.sprite-Line{
+    background-position:0 -2909px;
+    width:32px;
+    height:35px;
+    margin:auto
+}
+.SIMS.Office2016 .intExcelGrid .excelQuickAnylsMainDiv .quickTabsContent li>.sprite-MoreCharts{
+    background-position:0 -2991px;
+    width:32px;
+    height:35px;
+    margin:auto
+}
+.SIMS.Office2016 .intExcelGrid .excelQuickAnylsMainDiv .quickTabsContent li>.sprite-Percentage{
+    background-position:0 -3073px;
+    width:32px;
+    height:35px;
+    margin:auto
+}
+.SIMS.Office2016 .intExcelGrid .excelQuickAnylsMainDiv .quickTabsContent li>.sprite-PercentageYellow{
+    background-position:0 -3155px;
+    width:32px;
+    height:35px;
+    margin:auto
+}
+.SIMS.Office2016 .intExcelGrid .excelQuickAnylsMainDiv .quickTabsContent li>.sprite-Pie{
+    background-position:0 -3237px;
+    width:32px;
+    height:35px;
+    margin:auto
+}
+.SIMS.Office2016 .intExcelGrid .excelQuickAnylsMainDiv .quickTabsContent li>.sprite-PivotTable{
+    background-position:0 -3319px;
+    width:32px;
+    height:35px;
+    margin:auto
+}
+.SIMS.Office2016 .intExcelGrid .excelQuickAnylsMainDiv .quickTabsContent li>.sprite-Running{
+    background-position:0 -3401px;
+    width:32px;
+    height:35px;
+    margin:auto
+}
+.SIMS.Office2016 .intExcelGrid .excelQuickAnylsMainDiv .quickTabsContent li>.sprite-RunningYellow{
+    background-position:0 -3483px;
+    width:32px;
+    height:35px;
+    margin:auto
+}
+.SIMS.Office2016 .intExcelGrid .excelQuickAnylsMainDiv .quickTabsContent li>.sprite-Scatter{
+    background-position:0 -3565px;
+    width:32px;
+    height:35px;
+    margin:auto
+}
+.SIMS.Office2016 .intExcelGrid .excelQuickAnylsMainDiv .quickTabsContent li>.sprite-Sum{
+    background-position:0 -3647px;
+    width:32px;
+    height:35px;
+    margin:auto
+}
+.SIMS.Office2016 .intExcelGrid .excelQuickAnylsMainDiv .quickTabsContent li>.sprite-SumYellow{
+    background-position:0 -3729px;
+    width:32px;
+    height:35px;
+    margin:auto
+}
+.SIMS.Office2016 .intExcelGrid .excelQuickAnylsMainDiv .quickTabsContent li>.sprite-Table{
+    background-position:0 -3811px;
+    width:32px;
+    height:35px;
+    margin:auto
+}
+.SIMS.Office2016 .intExcelGrid .excelQuickAnylsMainDiv .quickTabsContent li>.sprite-Top10{
+    background-position:-82px -1925px;
+    width:32px;
+    height:35px;
+    margin:auto
+}
+.SIMS.Office2016 .intExcelGrid .excelQuickAnylsMainDiv .quickTabsContent li>.sprite-WinLoss{
+    background-position:-82px -2007px;
+    width:32px;
+    height:35px;
+    margin:auto
+}
+.SIMS.Office2016 .intExcelGrid .excelQuickAnylsMainDiv .quickTabsContent li>.sprite-chartLine{
+    background-position:-82px -2089px;
+    width:32px;
+    height:35px;
+    margin:auto
+}
+.SIMS.Office2016 .intExcelGrid .excelQuickAnylsMainDiv .quickTabsContent li>.sprite-StackedColumn{
+    background-position:-82px -2252px;
+    width:32px;
+    height:35px;
+    margin:auto
+}
+.SIMS.Office2016 .intExcelGrid .excelQuickAnylsMainDiv .quickTabsContent li>.sprite-StackedBar{
+    background-position:-82px -2171px;
+    width:32px;
+    height:35px;
+    margin:auto
+}
+.SIMS.Office2016 .intExcelGrid .excelQuickAnylsMainDiv .quickTabsContent li>.sprite-Pie{
+    background-position:-188px -3150px;
+    width:32px;
+    height:35px;
+    margin:auto
+}
+.SIMS.Office2016 .intExcelGrid .excelQuickAnylsMainDiv .quickTabsContent li>.sprite-StackedArea{
+    background-position:-188px -3207px;
+    width:32px;
+    height:35px;
+    margin:auto
+}
+.SIMS.Office2016 .intExcelGrid .excelQuickAnylsMainDiv .quickTabsContent li>.sprite-StackedBar{
+    background-position:-187px -3252px;
+    width:32px;
+    height:35px;
+    margin:auto
+}
+.SIMS.Office2016 .intExcelGrid .excelQuickAnylsMainDiv .quickTabsContent li>.sprite-StackedColumn{
+    background-position:-187px -3294px;
+    width:32px;
+    height:35px;
+    margin:auto
+}
+.SIMS.Office2016 .intExcelGrid .excelQuickAnylsMainDiv .quickTabsContent li>.sprite-TextThatContains{
+    background-position:-188px -3645px;
+    width:32px;
+    height:35px;
+    margin:auto
+}
+.SIMS.Office2016 .intExcelGrid .excelQuickAnylsMainDiv .quickTabsContent li>.sprite-DuplicateValues{
+    background-position:-188px -3689px;
+    width:32px;
+    height:35px;
+    margin:auto
+}
+.SIMS.Office2016 .intExcelGrid .excelQuickAnylsMainDiv .quickTabsContent li>.sprite-UniqueValues{
+    background-position:-188px -3689px;
+    width:32px;
+    height:35px;
+    margin:auto
+}
+.SIMS.Office2016 .intExcelGrid .excelQuickAnylsMainDiv .quickTabsContent li>.sprite-EqualTo{
+    background-position:-188px -3731px;
+    width:32px;
+    height:35px;
+    margin:auto
+}
+.SIMS.Office2016 .intExcelGrid .excelQuickAnylsMainDiv .quickTabsContent li>.sprite-ClearFormatNew{
+    background-position:-187px -3778px;
+    width:32px;
+    height:35px;
+    margin:auto
+}
+.SIMS.Office2016 .intExcelGrid .excel-statusbar .text-right{
+    font-size:11px;
+    font-family:'Segoe UI'
+}
+.SIMS.Office2016 .intExcelGrid .header-selector-container .group-btn{
+    background-color:#e4e4e4;
+    color:#646464;
+    border:1px solid #646464;
+    line-height:16px;
+    font-size:13px
+}
+.SIMS.Office2016 .intExcelGrid .col-group-container .level.end:after,.SIMS.Office2016 .intExcelGrid .row-group-container.normal .level.end:after,.SIMS.Office2016 .intExcelGrid .row-group-container.reversed .level.start:after{
+    background-color:#e4e4e4;
+    color:#646464;
+    border:1px solid #646464;
+    line-height:13px;
+    font-size:17px
+}
+.SIMS.Office2016 .intExcelGrid .exl-cell-hyperlink-tooltip{
+    position:absolute;
+    background-color:#fff;
+    white-space:nowrap;
+    border:1px solid #bebebe;
+    color:#5d5d5d;
+    padding:3px 3px;
+    font-family:'Segoe UI';
+    font-size:12px
+}

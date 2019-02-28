@@ -1,0 +1,353 @@
+
+
+.integra-hide {
+    display:none !important;
+}
+
+
+[ng\:cloak],
+[ng-cloak],
+[data-ng-cloak],
+[x-ng-cloak],
+.ng-cloak,
+.x-ng-cloak,
+.ng-hide:not(.ng-hide-animate) {
+    display: none !important;
+}
+ng\:form {
+    display: block;
+}
+
+
+
+/* home page ful layout */
+#MainArea {
+    width: 100% !important;
+}
+.intExcelGrid .excel-center-view {
+    width: 100% !important;
+}
+.intExcelGrid .excel-center-view .center-view-center {
+    width: 100% !important;
+}
+.excel-interactor {
+     cursor: cell !important;
+}
+/* home page ful layout */
+
+
+/* loader */
+.loading.active {
+    display: block;
+}
+.loading {
+    display: none;
+    position: absolute;
+    top: 0px;
+    bottom: 0px;
+    margin: auto;
+    left: 0px;
+    right: 0px;
+    text-align: center;
+    background:#fff;
+    z-index: 5555;
+}
+.spinner {
+   margin: 0 auto;
+    height: 50px;
+    width: 50px;
+    animation: rotate 0.8s infinite linear;
+    border: 4px solid #408fdc;
+    border-right-color: transparent;
+    border-radius: 50%;
+    position: fixed;
+    top: 50%;
+    left: 0px;
+    right: 0px;
+    z-index: 99999;
+}
+@keyframes rotate {
+  0%    { transform: rotate(0deg); }
+  100%  { transform: rotate(360deg); }
+}
+/* loader */
+
+
+
+
+.sheet-2-page {
+    display: none;
+}
+.intExcelGrid .excel-statusbar, .intExcelGrid .sheet-tab-bar {
+    bottom: -7px !important;
+}
+.intExcelGrid .excel-center-view .center-view-bottom
+.sheet-tab.sheet-tab-focused.groupedTab.first-sheet-tab.sheet-2-tab.disabled, .sheet-tab.sheet-tab-focused.groupedTab.first-sheet-tab.sheet-1-tab.disabled {
+     background: #d2d2d2 !important;
+     color: #383838 !important;
+     font-weight: 500;
+     border-bottom: 0px;
+}
+.excel_cell_header_bar {
+    width: 5px;
+    position: absolute;
+    z-index: 999;
+    height: 5px;
+    top: 20px;
+}
+.combobox-wrapper.active-toggle .combobox-dropdown {
+    display: block !important;
+}
+
+
+
+.pmt_message_box  * {
+  box-sizing: border-box;
+}
+.pmt_message_box {
+    display: none;
+    position: absolute;
+    z-index: 9;
+    margin: auto;
+    left: 0px;
+    right: 0px;
+    top: 0px;
+    bottom: 0px;
+    border: 1px solid #000;
+    width: 600px;
+    height: 340px;
+    border-radius: 3px;
+    padding: 1px;
+    background-color: #fff;
+}
+.pmt_row_message {
+    padding: 5px 15px;
+}
+.pmt_row_message p {
+    padding-bottom: 5px;
+    font-size: 13px;
+    color: #000;
+    font-weight: 400;
+}
+.pmt_outer_box {
+    height: 100%;
+    border-radius: 3px;
+    border: 7px solid #b9d1ea;
+    border-top: 0px;
+    background-color: #f0f0f0;
+}
+.pmt_header {
+    background: url('../images/outer_bg.png') top center repeat-x;
+    padding: 5px 10px;
+    height:30px;
+    margin-left: -7px;
+    margin-right: -7px;
+}
+.pmt_header p {
+    font-size: 13px;
+    color: #000;
+    font-weight: 400;
+    padding-top: 2px;
+}
+.pmt_header h2 {
+    color: #000;
+    padding: 5px 0px;
+    font-size: 15px;
+    font-weight: 500;
+}
+.pmt_row {
+    width:100%;
+    padding-bottom:3px;
+}
+.pmt_left {
+    width: 60%;
+    float:left;
+    text-align: right;
+    padding-right: 10px;
+}
+.pmt_right label {
+    color: #000;
+    font-weight: 700;
+}
+.pmt_result_message_box {
+    padding: 5px 10px;
+}
+.pmt_right {
+    width: 40%;
+    float:right;
+    padding-right: 5px;
+}
+.pmt_result_count {
+    margin-right: 2px;
+}
+.clear {
+    clear:both;
+}
+.pmt_outer_box  input {
+    width:180px;
+    margin-left: 8px;
+    border: 1px solid #abadb3;
+    height: 20px;
+    padding: 2px 4px;
+    background: url(../images/text_box.png) top right no-repeat;
+    background-color: #fff;
+}
+label.label_bold {
+    color: #000;
+    font-size: 12px;
+    font-weight: 700;
+    font-family: se;
+    font-family: "Segoe UI", Arial, Verdana, Sans-Serif;
+}
+label.label_light {
+    font-weight: 400;
+}
+
+.pmt_row_action {
+    border-top: 1px solid #d5dfe5;
+    margin: 0px 8px;
+    padding-top: 15px;
+}
+.pmt_header {
+    position: relative;
+}
+.pmt_icon {
+    width:31px;
+    height: 17px;
+    background: url('../images/icon_set.png') top center no-repeat;
+    display: block;
+    position: absolute;
+    cursor: pointer;
+}
+.pmt_icon.pmt_question {
+    top: 7px;
+    right: 45px;
+    background-position: 0px 0px;
+}
+.pmt_icon.pmt_close {
+    top: 7px;
+    right: 8px;
+    background-position: -33px 0px;
+}
+.pmt_formula_box {
+    margin: 10px 7px 7px 7px;
+    border: 1px solid #d5dfe5;
+    position: relative;
+}
+.pmt_formula_border {
+    border: 1px solid #fff;
+    padding: 12px 5px 5px 5px;
+}
+.pmt_right span {
+    color: #aea0a0;
+    padding-left: 10px;
+}
+.pmg_legend_heading {
+    color: #000;
+    font-size: 13px;
+    position: absolute;
+    top: -7px;
+    background-color: #f0f0f0;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+
+.pmt_infor_message {
+    display: none;
+    padding-bottom: 10px;
+}
+.pmt_information {
+    width:68%;
+    float: right;
+    position: relative;
+    margin-top: 8px;
+}
+.pmt_infor_message label {
+    position: absolute;
+    left: -30px;
+    color: #000;
+    font-size: 12px;
+    font-weight: 700;
+}
+.pmt_btn {
+    margin-left: 15px;
+    background-color: #f0f0f0;
+    font-size: 14px;
+    font-weight: 400;
+    display: inline-block;
+    cursor: pointer;
+    background: #f0f0f0; /* For browsers that do not support gradients */
+    background: linear-gradient(to bottom, #f0f0f0 , #d6d6d6); /* Standard syntax (must be last) */
+    border: 1px solid #707070;
+    border-radius: 2px;
+}
+.pmt_footer_left {
+    width: 60%;
+    float:left;
+    text-align: left;
+}
+.pmt_footer_right {
+    text-align: right;
+    width: 40%;
+    float: right;
+    padding-top: 20px;
+}
+.pmt_btn span {
+    width: 100%;
+    border: 1px solid #fff;
+    display: block;
+    padding: 3px 25px;
+    border-radius: 2px;
+}
+.pmt_btn:hover {
+  border: 1px solid #3c7fb1;
+}
+.pmt_btn:hover span {
+  border: 1px solid #41d0f4;
+}
+.pmt_footer_left p {
+    padding-bottom: 18px;
+}
+.pmt_footer_left a {
+    color: #0066cc;
+    text-decoration: underline !important;
+}
+.pmt_result_message_box {
+    height: 85px;
+}
+.pmt_value_dark {
+    color: #000 !important;
+}
+
+
+
+.border {
+  height: 100px;
+  width: 200px;
+  background: linear-gradient(90deg, green 50%, transparent 50%), linear-gradient(90deg, green 50%, transparent 50%), linear-gradient(0deg, green 50%, transparent 50%), linear-gradient(0deg, green 50%, transparent 50%);
+  background-repeat: repeat-x, repeat-x, repeat-y, repeat-y;
+  background-size: 15px 4px, 15px 4px, 4px 15px, 4px 15px;
+  background-position: 0px 0px, 200px 100px, 0px 100px, 200px 0px;
+  padding: 10px;
+  animation: border-dance 4s infinite linear;
+}
+@keyframes border-dance {
+  0% {
+    background-position: 0px 0px, 300px 116px, 0px 150px, 216px 0px;
+  }
+  100% {
+    background-position: 300px 0px, 0px 116px, 0px 0px, 216px 150px;
+  }
+}
+
+.pmt_value_red{
+    color: red !important;
+    font-weight: bold;
+}
+
+div#COLUMN_HEADERContextMenu {
+    height: 18px;
+}
+.intExcelGrid .excel-col-header .header-col {
+    float: left;
+}

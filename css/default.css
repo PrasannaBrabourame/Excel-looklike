@@ -1,0 +1,1638 @@
+.sims .pane h1{
+    padding-bottom:20px
+}
+.sims .pane .label{
+    margin:0;
+    width:20px;
+    float:left;
+    margin-top:10px
+}
+.sims .dialog .groupbox,.sims .pane .fieldset{
+    margin:0;
+    width:20px;
+    float:left;
+    margin-top:10px
+}
+.sims .pane .radio{
+    margin:0;
+    width:20px;
+    float:left;
+    margin-top:10px
+}
+.sims .pane .check-box{
+    margin:0;
+    width:20px;
+    float:left
+}
+.sims .pane .button{
+    margin:0;
+    width:20px;
+    float:left
+}
+.sims .pane .image-button{
+    margin:0;
+    width:20px;
+    float:left
+}
+.sims .pane .text-area{
+    margin:0;
+    width:20px;
+    float:left
+}
+.sims .pane .text-box{
+    margin:0;
+    width:20px;
+    float:left
+}
+.sims .pane .password{
+    margin:0;
+    width:20px;
+    float:left
+}
+.sims .pane .drop-down{
+    margin:0;
+    width:20px;
+    float:left
+}
+.sims .pane .image-grid{
+    margin:0;
+    width:20px;
+    float:left
+}
+.sims .pane .hyperlink{
+    margin:0;
+    width:20px;
+    float:left
+}
+.sims .pane .list-box{
+    margin:0;
+    width:20px;
+    float:left
+}
+.sims .pane .range-selecter{
+    margin:0;
+    width:20px;
+    float:left
+}
+.sims .pane .spin-control{
+    margin:0;
+    width:20px;
+    float:left
+}
+.sims .pane .text-preview{
+    margin:0;
+    width:20px;
+    float:left
+}
+.excel .paneAccordian,.ppt .paneAccordian{
+    position:relative;
+    width:100%;
+    min-width:100px
+}
+.excel .paneAccordian .closed-pane-accordian,.ppt .paneAccordian .closed-pane-accordian{
+    background:
+    /*savepage-url=images/controls/paneAccordian/closedbackground.png*/
+    url() repeat;
+    display:inline-block;
+    position:relative;
+    height:14px;
+    width:100%;
+    padding-left:2px
+}
+.excel .paneAccordian .closed-pane-accordian-image{
+    background:
+    /*savepage-url=images/controls/paneAccordian/paneAccordianSprite.png*/
+    url() 0 0 no-repeat;
+    display:inline-block;
+    position:relative;
+    height:14px;
+    width:9px;
+    padding-left:20px
+}
+.ppt .paneAccordian .closed-pane-accordian-image{
+    background:
+    /*savepage-url=images/controls/paneAccordian/paneAccordianSprite_ppt.png*/
+    url() 0 0 no-repeat;
+    display:inline-block;
+    position:relative;
+    height:14px;
+    width:9px;
+    padding-left:20px
+}
+.excel .paneAccordian .open-pane-accordian-image{
+    background:
+    /*savepage-url=images/controls/paneAccordian/paneAccordianSprite.png*/
+    url() -2px -245px no-repeat;
+    display:inline-block;
+    position:relative;
+    height:14px;
+    width:9px;
+    padding-left:20px
+}
+.ppt .paneAccordian .open-pane-accordian-image{
+    background:
+    /*savepage-url=images/controls/paneAccordian/paneAccordianSprite_ppt.png*/
+    url() -2px -245px no-repeat;
+    display:inline-block;
+    position:relative;
+    height:14px;
+    width:9px;
+    padding-left:20px
+}
+.excel .paneAccordian .closed-pane-accordian-hover,.excel .paneAccordian .closed-pane-accordian:focus{
+    background:
+    /*savepage-url=images/controls/paneAccordian/closedHoverBackground.png*/
+    url() repeat;
+    display:inline-block;
+    position:relative;
+    height:14px;
+    width:100%;
+    padding-left:2px
+}
+.ppt .paneAccordian .closed-pane-accordian-hover{
+    background:
+    /*savepage-url=images/controls/paneAccordian/closedHoverBackground_ppt.png*/
+    url() repeat;
+    display:inline-block;
+    position:relative;
+    height:14px;
+    width:100%;
+    padding-left:2px
+}
+.excel .paneAccordian .closed-pane-accordian-hover-image{
+    background:
+    /*savepage-url=images/controls/paneAccordian/paneAccordianSprite.png*/
+    url() 1px -64px no-repeat;
+    display:inline-block;
+    position:relative;
+    height:14px;
+    width:9px;
+    padding-left:20px
+}
+.ppt .paneAccordian .closed-pane-accordian-hover-image{
+    background:
+    /*savepage-url=images/controls/paneAccordian/paneAccordianSprite_ppt.png*/
+    url() 1px -64px no-repeat;
+    display:inline-block;
+    position:relative;
+    height:14px;
+    width:9px;
+    padding-left:20px
+}
+.excel .paneAccordian .open-pane-accordian-hover-image{
+    background:
+    /*savepage-url=images/controls/paneAccordian/paneAccordianSprite.png*/
+    url() 0 -310px no-repeat;
+    display:inline-block;
+    position:relative;
+    height:14px;
+    width:9px;
+    padding-left:20px
+}
+.ppt .paneAccordian .open-pane-accordian-hover-image{
+    background:
+    /*savepage-url=images/controls/paneAccordian/paneAccordianSprite_ppt.png*/
+    url() 0 -310px no-repeat;
+    display:inline-block;
+    position:relative;
+    height:14px;
+    width:9px;
+    padding-left:20px
+}
+.excel .paneAccordian .paneAccordian-title-section-border{
+    border:1px solid #86BFA0
+}
+.ppt .paneAccordian .paneAccordian-title-section-border{
+    border:1px solid #f5ba9d
+}
+.excel .paneAccordian .paneAccordian-default-section-border,.ppt .paneAccordian .paneAccordian-default-section-border{
+    border:1px solid transparent
+}
+.excel .paneAccordian .paneAccordian-title-text,.ppt .paneAccordian .paneAccordian-title-text{
+    font-family:segoe ui;
+    font-size:12px;
+    font-weight:700;
+    padding-left:20px;
+    display:inline-block;
+    width:100%;
+    cursor:default
+}
+.excel .paneAccordian .paneAccordian-title-text-color{
+    color:#217346
+}
+.ppt .paneAccordian .paneAccordian-title-text-color{
+    color:#d24726
+}
+.paneAccordian .child-block-display{
+    display:none
+}
+.paneDropDown{
+    font-family:Segoe UI;
+    font-weight:400;
+    font-size:11px;
+    color:#5E5E5E
+}
+.paneDropDown .title-header{
+    padding-left:0
+}
+.paneDropDown .title-header-focalize{
+    border:1px dotted #000
+}
+.paneDropDown .title-image-unfocalize{
+    border:1px solid transparent
+}
+.paneDropDown .title-image{
+    background:
+    /*savepage-url=images/controls/paneDropDown/defaultDropdown.png*/
+    url() no-repeat;
+    height:20px;
+    width:14px
+}
+.paneDropDown .dropdown-list{
+    border:1px solid #828790;
+    background:#fff;
+    -moz-box-shadow:0 0 5px 1px #888;
+    -webkit-box-shadow:0 0 5px 1px #888;
+    box-shadow:0 0 5px 1px #888;
+    z-index:1000;
+    position:absolute;
+    display:inline;
+    width:auto
+}
+.excel .paneDropDown .dropdown-list-selected-item{
+    background-color:#9FD5B7
+}
+.ppt .paneDropDown .dropdown-list-selected-item{
+    background-color:#9FD5B7
+}
+.word .paneDropDown .dropdown-list-selected-item{
+    background-color:#A3BDE3
+}
+.paneDropDown .dropdown-list-items{
+    padding:5px;
+    white-space:nowrap;
+    position:relative;
+    cursor:default;
+    z-index:1000
+}
+.paneDropDown .dropdown-list-items-border{
+    border:1px solid transparent
+}
+.excel .paneDropDown .dropdown-list-highlighted-item{
+    background-color:#D3F0E0
+}
+.word .paneDropDown .dropdown-list-highlighted-item{
+    background-color:#D5E1F2
+}
+.excel .paneDropDown .dropdown-list-selected-item-border{
+    border:1px solid #9FD5B7
+}
+.word .paneDropDown .dropdown-list-selected-item-border{
+    border:1px solid #A3BDE3
+}
+.paneDropDown .child-block-display{
+    display:inline-block;
+    opacity:0
+}
+.basePaneSection{
+    position:relative;
+    font-family:segoe ui;
+    font-size:12px;
+    width:100%;
+    overflow-y:hidden;
+    overflow-x:hidden;
+    min-width:100px;
+    margin-top:10px;
+    margin-left:17px
+}
+.fillPaneSection{
+    position:relative;
+    font-family:segoe ui;
+    font-size:12px;
+    background:#FFF
+}
+.fillPaneSection .fill-padding{
+    padding-left:20px;
+    color:#444
+}
+.fillPaneSection .checkbox-control{
+    left:20px;
+    color:#444
+}
+.fillPaneSection .hor-Separator{
+    margin-left:20px
+}
+.fillPaneSection .section2-solid-fill-div{
+    height:66px;
+    background-repeat:no-repeat
+}
+.fillPaneSection .solid-fill-image{
+    background-image:
+    /*savepage-url=../app/Comps/Common/PaneSections/FillPaneSection/img/Fill_Solid.png*/
+    url()
+}
+.fillPaneSection .section2-gradient-fill-div{
+    height:324px;
+    background-repeat:no-repeat
+}
+.fillPaneSection .gradient-fill-image{
+    background-image:
+    /*savepage-url=../app/Comps/Common/PaneSections/FillPaneSection/img/Fill_Gradient.png*/
+    url()
+}
+.fillPaneSection .section2-picture-fill-div{
+    height:327px;
+    background-repeat:no-repeat
+}
+.fillPaneSection .picture-fill-image{
+    background-image:
+    /*savepage-url=../app/Comps/Common/PaneSections/FillPaneSection/img/Fill_Picture.png*/
+    url()
+}
+.fillPaneSection .section2-pattern-fill-div{
+    height:305px;
+    background-repeat:no-repeat
+}
+.fillPaneSection .pattern-fill-image{
+    background-image:
+    /*savepage-url=../app/Comps/Common/PaneSections/FillPaneSection/img/Fill_Pattern.png*/
+    url()
+}
+.fillPaneSection .section2-automatic-fill-div{
+    height:35px;
+    background-repeat:no-repeat
+}
+.fillPaneSection .automatic-fill-image{
+    background-image:
+    /*savepage-url=../app/Comps/Common/PaneSections/FillPaneSection/img/Fill_Automatic.png*/
+    url()
+}
+.fillPaneSection .automatic-color{
+    left:204px;
+    position:absolute;
+    top:5px
+}
+.fillPaneSection .hor-separator-display-none{
+    display:none
+}
+.fillPaneSection .solid-color{
+    position:relative;
+    top:4px;
+    left:190px
+}
+.fillPaneSection .gradient-preset{
+    position:relative;
+    top:6px;
+    left:207px
+}
+.fillPaneSection .fill-gradient-bar{
+    position:relative;
+    top:126px;
+    left:36px
+}
+.fillPaneSection .fill-gradientPosition{
+    position:relative;
+    top:166px;
+    left:178px
+}
+.fillPaneSection .gradient-direction{
+    position:relative;
+    top:-5px;
+    left:207px
+}
+.fillPaneSection .picture-File{
+    position:relative;
+    top:25px;
+    left:34px
+}
+.fillPaneSection .picture-Texture{
+    position:relative;
+    top:31px;
+    left:208px
+}
+.fillPaneSection .picture-Transparency{
+    position:relative;
+    top:36px;
+    left:115px
+}
+.fillPaneSection .solidFill-Transparency{
+    position:relative;
+    top:10px;
+    left:108px
+}
+.fillPaneSection .picture-Texture .image-selector{
+    overflow-y:auto;
+    overflow-x:hidden;
+    border:solid 1px #828790
+}
+.fillPaneSection .picture-Texture .image-selector .image-selector-ul{
+    width:340px;
+    height:265px;
+    margin:0;
+    padding:0;
+    background-color:#fff
+}
+.fillPaneSection .picture-OffsetRight{
+    position:relative;
+    top:92px;
+    left:179px
+}
+.markersOptionsPaneSection{
+    position:relative;
+    font-family:segoe ui;
+    font-size:12px;
+    background:#FFF
+}
+.markersOptionsPaneSection .fill-padding{
+    padding-left:20px;
+    color:#444
+}
+.markersOptionsPaneSection .section-builtIn-size-div{
+    height:70px;
+    margin-left:16px;
+    background-repeat:no-repeat;
+    background-image:
+    /*savepage-url=../app/Comps/Common/PaneSections/MarkersOptionsPaneSection/img/markerBuiltSize.png*/
+    url()
+}
+.markersOptionsPaneSection .section-builtIn-size-div .type-label{
+    left:35px;
+    position:absolute;
+    top:82px
+}
+.markersOptionsPaneSection .section-builtIn-size-div .size-label{
+    left:34px;
+    position:absolute;
+    top:108px
+}
+.markersOptionsPaneSection .section-builtIn-size-div .marker-builtInSize{
+    position:absolute;
+    top:106px;
+    left:71px
+}
+.markersOptionsPaneSection .section-builtIn-size-div .marker-type{
+    position:relative;
+    top:4px;
+    left:55px
+}
+.markersOptionsPaneSection .section-builtIn-size-div .iconSetImg{
+    height:17px;
+    width:25px;
+    background:
+    /*savepage-url=../app/Comps/Common/PaneSections/MarkersOptionsPaneSection/img/builtInType.png*/
+    url() no-repeat;
+    background-position:-4px -4px;
+    position:relative;
+    left:58px;
+    top:-15px;
+    background-color:#fff
+}
+.markersOptionsPaneSection .section-builtIn-size-div .image-button .image-selector .image-list-item:Hover,.markersOptionsPaneSection .section-builtIn-size-div .image-selector .focus-item,.markersOptionsPaneSection .section-builtIn-size-div .image-selector .image-list-item:active{
+    border:solid 4px #39f;
+    background-color:#39f
+}
+.shadowPaneSection{
+    position:relative;
+    font-family:segoe ui;
+    font-size:12px;
+    background:#FFF
+}
+.shadowPaneSection .shadow-div{
+    height:204px;
+    width:280px;
+    background-repeat:no-repeat
+}
+.shadowPaneSection .shadow-image{
+    background-image:
+    /*savepage-url=../app/Comps/Common/PaneSections/ShadowPaneSection/img/Shadow.png*/
+    url()
+}
+.shadowPaneSection .shadow-preset{
+    position:relative;
+    top:7px;
+    left:207px
+}
+.shadowPaneSection .shadow-preset-label{
+    position:absolute;
+    top:15px;
+    left:22px;
+    font-size:12px;
+    color:#5E5E5E
+}
+.threedrotationPaneSection{
+    position:relative;
+    font-family:segoe ui;
+    font-size:12px;
+    background:#FFF
+}
+.threedrotationPaneSection .threedrotation-div{
+    height:245px;
+    width:280px;
+    background-repeat:no-repeat
+}
+.threedrotationPaneSection .threedrotation-image{
+    background-image:
+    /*savepage-url=../app/Comps/Common/PaneSections/ThreeDRotationPaneSection/img/ThreeDRotation.png*/
+    url()
+}
+.threedrotationPaneSection .threedrotation-preset{
+    position:relative;
+    top:5px;
+    left:180px
+}
+.threedrotationPaneSection .threedrotation-preset-label{
+    position:absolute;
+    top:13px;
+    left:22px;
+    font-size:12px;
+    color:#5E5E5E
+}
+.threedrotationPaneSection .threedrotation-perspective-label{
+    color:#5e5e5e;
+    font-size:12px;
+    left:23px;
+    position:absolute;
+    top:153px
+}
+.threedrotationPaneSection .threeDRotationYRotation-width{
+    left:99px;
+    position:absolute;
+    top:87px
+}
+.threedrotationPaneSection .threeDRotationPerspective-width{
+    left:99px;
+    position:absolute;
+    top:147px
+}
+.threedrotationPaneSection .threeDRotation-reset{
+    left:23px;
+    position:relative;
+    top:174px
+}
+.glowPaneSection{
+    position:relative;
+    font-family:segoe ui;
+    font-size:12px;
+    background:#FFF
+}
+.glowPaneSection .glow-div{
+    height:125px;
+    width:280px;
+    background-repeat:no-repeat
+}
+.glowPaneSection .glow-image{
+    background-image:
+    /*savepage-url=../app/Comps/Common/PaneSections/GlowPaneSection/img/Glow.png*/
+    url()
+}
+.softEdgesPaneSection{
+    position:relative;
+    font-family:segoe ui;
+    font-size:12px;
+    background:#FFF
+}
+.softEdgesPaneSection .soft-edges-div{
+    height:61px;
+    width:280px;
+    background-repeat:no-repeat
+}
+.softEdgesPaneSection .soft-edges-image{
+    background-image:
+    /*savepage-url=../app/Comps/Common/PaneSections/SoftEdgesPaneSection/img/SoftEdges.png*/
+    url()
+}
+.softEdgesPaneSection .soft-edges-image .presets-label{
+    position:absolute;
+    margin-top:25px;
+    left:24px
+}
+.threeDFormatPaneSection{
+    position:relative;
+    font-family:segoe ui;
+    font-size:12px;
+    background:#FFF
+}
+.threeDFormatPaneSection .threeD-format-div{
+    height:445px;
+    width:280px;
+    background-repeat:no-repeat
+}
+.threeDFormatPaneSection .threeD-format-image{
+    background-image:
+    /*savepage-url=../app/Comps/Common/PaneSections/ThreeDFormatPaneSection/img/ThreeDFormatImage.png*/
+    url()
+}
+.threeDFormatPaneSection .Top-Bevel-effect-dropdown{
+    position:relative;
+    top:28px;
+    left:32px
+}
+.threeDFormatPaneSection .Top-Bevel-effect-width{
+    position:relative;
+    top:-15px;
+    left:177px
+}
+.threeDFormatPaneSection .Top-Bevel-effect-height{
+    position:relative;
+    top:-9px;
+    left:177px
+}
+.threeDFormatPaneSection .Bottom-Bevel-effect-dropdown{
+    position:relative;
+    top:19px;
+    left:32px
+}
+.threeDFormatPaneSection .Bottom-Bevel-effect-width{
+    position:relative;
+    top:-24px;
+    left:177px
+}
+.threeDFormatPaneSection .Bottom-Bevel-effect-height{
+    position:relative;
+    top:-18px;
+    left:177px
+}
+.threeDFormatPaneSection .Material-dropdown{
+    position:relative;
+    top:120px;
+    left:32px
+}
+.seriesOptionsPaneSection{
+    position:relative;
+    font-family:segoe ui;
+    font-size:12px;
+    background:#FFF
+}
+.seriesOptionsPaneSection .series-Options-div{
+    height:147px;
+    width:280px;
+    background-repeat:no-repeat
+}
+.seriesOptionsPaneSection .plot-series-div{
+    position:relative;
+    left:24px;
+    margin-bottom:7px;
+    margin-top:8px
+}
+.seriesOptionsPaneSection .plot-series-label{
+    color:#444
+}
+.seriesOptionsPaneSection .plot-series-radio{
+    margin-left:15px;
+    margin-top:6px
+}
+.seriesOptionsPaneSection .series-Options-image{
+    background-image:
+    /*savepage-url=../app/Comps/Common/PaneSections/SeriesOptionsPaneSection/img/SeriesOptionsImage.png*/
+    url()
+}
+.seriesOptionsPaneSection .angle-first-slice-label{
+    position:relative;
+    top:4px;
+    left:22px;
+    font-size:12px;
+    color:#5E5E5E
+}
+.seriesOptionsPaneSection .pie-explosion-label{
+    position:relative;
+    top:12px;
+    left:22px;
+    font-size:12px;
+    color:#5E5E5E
+}
+.seriesOptionsPaneSection .angle-first-slice{
+    top:5px;
+    left:30px;
+    position:relative
+}
+.seriesOptionsPaneSection .pie-explosion{
+    top:14px;
+    left:30px;
+    position:relative
+}
+.PaneActiveLabel{
+    font-family:"Segoe UI";
+    font-size:12px;
+    font-weight:400;
+    margin:0;
+    width:auto;
+    display:inline;
+    padding:2px
+}
+.PaneActiveLabel:hover{
+    cursor:default
+}
+.excel .PaneActiveLabel:hover{
+    color:#217346
+}
+.excel .PaneActiveLabel.label-active{
+    font-weight:700;
+    color:#217346
+}
+.word .PaneActiveLabel.label-active{
+    font-weight:700;
+    color:#2B579A
+}
+.word .PaneActiveLabel:hover{
+    color:#2B579A
+}
+.PaneActiveLabel.label-inactive{
+    color:#444
+}
+.PaneActiveLabel.active-label-focalize{
+    border:1px dotted #000
+}
+.PaneActiveLabel.active-label-unfocalize{
+    border:1px solid transparent
+}
+.PaneActiveLabel.active-label-focalize .subPane-active-label-image img,.PaneActiveLabel.active-label-unfocalize .subPane-active-label-image img{
+    position:relative;
+    top:4px
+}
+.PaneActiveLabel.active-label-focalize .subPane-active-label-image,.PaneActiveLabel.active-label-unfocalize .subPane-active-label-image{
+    position:relative;
+    top:-2px
+}
+.labelOptionsPaneSection .lblContains{
+    font-size:12px;
+    font-family:"Trebuchet MS",Arial,Helvetica,sans-serif;
+    margin-left:25px;
+    color:#444;
+    user-select:none;
+    -moz-user-select:none;
+    -webkit-user-select:none
+}
+.labelOptionsPaneSection .lblPosition{
+    font-size:12px;
+    font-family:Segoe UI;
+    margin-left:25px;
+    color:#444;
+    display:block;
+    margin-top:10px;
+    user-select:none;
+    -moz-user-select:none;
+    -webkit-user-select:none
+}
+.labelOptionsPaneSection .lblContainDiv .checkBox{
+    height:14px;
+    margin:10px 0 0 35px
+}
+.labelOptionsPaneSection .lblContainDiv .checkBox>label{
+    font-size:12px;
+    color:#444
+}
+.labelOptionsPaneSection .separatorDiv{
+    margin-left:35px;
+    margin-top:15px;
+    width:90%
+}
+.labelOptionsPaneSection .separatorDiv .separatorlbl{
+    font-size:12px;
+    font-family:Segoe UI;
+    color:#444;
+    float:left;
+    user-select:none;
+    -moz-user-select:none;
+    -webkit-user-select:none
+}
+.labelOptionsPaneSection .separatorDiv .separatorDropDown{
+    margin-left:70px
+}
+.labelOptionsPaneSection .lblContainDiv .resetButton{
+    clear:both
+}
+.labelOptionsPaneSection .lblContainDiv .resetButton>label{
+    color:#444;
+    padding:5px;
+    margin-left:8px
+}
+.labelOptionsPaneSection .lblPositionDiv .radioRows{
+    margin-top:7px;
+    margin-left:35px;
+    width:200px
+}
+.labelOptionsPaneSection .lblPositionDiv .radioRows>.sims-Label{
+    color:#444
+}
+.sizePaneSection{
+    height:296px
+}
+.sizePaneSection .relative{
+    position:relative
+}
+.sizePaneSection .absolute{
+    position:absolute
+}
+.sizePaneSection .size-pane-section-div{
+    width:178px;
+    height:240px
+}
+.sizePaneSection .firstColumn{
+    left:23px
+}
+.sizePaneSection .secondColumn{
+    left:150px
+}
+.sizePaneSection .firstRow{
+    top:21px
+}
+.sizePaneSection .secondRow{
+    top:47px
+}
+.sizePaneSection .thirdRow{
+    top:74px
+}
+.sizePaneSection .fourthRow{
+    top:100px
+}
+.sizePaneSection .fifthRow{
+    top:127px
+}
+.sizePaneSection .sixthRow{
+    top:145px
+}
+.sizePaneSection .seventhRow{
+    top:152px
+}
+.sizePaneSection .size-pane-section-div .sims-Label{
+    padding-top:2px
+}
+.sizePaneSection .relative-to{
+    margin-top:0
+}
+.sizePaneSection .best-scale{
+    margin-top:5px
+}
+.sizePaneSection .resolution-label{
+    position:relative;
+    top:159px;
+    padding-left:33px
+}
+.sizePaneSection .resolution-dropdown{
+    left:130px;
+    position:relative;
+    top:143px
+}
+.sizePaneSection .original-width-label{
+    display:inline-block;
+    right:4px;
+    float:right;
+    position:relative;
+    top:172px
+}
+.sizePaneSection .original-height-label{
+    display:inline-block;
+    left:-60px;
+    position:relative;
+    top:185px
+}
+.sizePaneSection .original-size-label{
+    left:-75px;
+    position:relative;
+    top:178px;
+    display:inline-block
+}
+.sizePaneSection .reset{
+    top:191px;
+    left:24px
+}
+.PositionPaneSection .relative{
+    position:relative
+}
+.PositionPaneSection .absolute{
+    position:absolute
+}
+.PositionPaneSection .position-pane-section-div{
+    width:178px;
+    height:115px
+}
+.PositionPaneSection .firstColumn{
+    left:23px
+}
+.PositionPaneSection .secondColumn{
+    left:150px
+}
+.PositionPaneSection .firstRow{
+    top:21px
+}
+.PositionPaneSection .secondRow{
+    top:47px
+}
+.PositionPaneSection .thirdRow{
+    top:74px
+}
+.PositionPaneSection .fourthRow{
+    top:100px
+}
+.PositionPaneSection .fifthRow{
+    top:127px
+}
+.PositionPaneSection .sixthRow{
+    top:145px
+}
+.PositionPaneSection .seventhRow{
+    top:152px
+}
+.PositionPaneSection .hfrom{
+    position:absolute;
+    top:47px;
+    left:82px
+}
+.PositionPaneSection .vfrom{
+    position:absolute;
+    top:100px;
+    left:82px
+}
+.PositionPaneSection .hfromd{
+    position:absolute;
+    top:47px;
+    left:150px
+}
+.PositionPaneSection .vfromd{
+    position:absolute;
+    top:100px;
+    left:150px
+}
+.PositionPaneSection .hpositionl{
+    position:absolute;
+    top:21px;
+    left:23px
+}
+.PositionPaneSection .vpositionl{
+    position:absolute;
+    top:74px;
+    left:23px
+}
+.PositionPaneSection .hposition{
+    position:absolute;
+    top:21px;
+    left:184px
+}
+.PositionPaneSection .vposition{
+    position:absolute;
+    top:74px;
+    left:184px
+}
+.PositionPaneSection .position-pane-section-div .sims-Label{
+    padding-top:2px
+}
+.trendlineOptionPaneSection{
+    position:relative;
+    font-family:segoe ui;
+    font-size:12px;
+    background:#FFF
+}
+.trendlineOptionPaneSection .trendlineOption-div{
+    height:520px;
+    width:280px;
+    background-repeat:no-repeat;
+    margin-left:14px;
+    margin-top:9px
+}
+.trendlineOptionPaneSection .trendlineOption-image{
+    background-image:
+    /*savepage-url=../app/Comps/Common/PaneSections/TrendlineOptionsPaneSection/img/Trendline_option.png*/
+    url()
+}
+.border-pane-section .solid-div{
+    height:391px;
+    background-repeat:no-repeat
+}
+.border-pane-section .gradient-div{
+    height:602px;
+    background-repeat:no-repeat
+}
+.border-pane-section .automatic-div{
+    height:370px;
+    background-repeat:no-repeat
+}
+.border-pane-section .solid-div{
+    left:100px;
+    top:100px
+}
+.border-pane-section .solid-div .solid-color{
+    left:182px;
+    position:relative;
+    top:3px
+}
+.border-pane-section .solid-div .solid-line-width{
+    left:153px;
+    position:relative;
+    top:36px
+}
+.border-pane-section .solid-div .solid-rounded-corners{
+    left:21px;
+    position:relative;
+    top:302px
+}
+.border-pane-section .border-radio-group{
+    padding-left:20px
+}
+.border-pane-section .line-bottom-section{
+    padding-left:5px
+}
+.border-pane-section .line-bottom-section .gradient-type{
+    position:absolute;
+    top:158px;
+    left:128px
+}
+.ppt .border-pane-section .line-bottom-section .gradient-type{
+    position:absolute;
+    top:138px;
+    left:128px
+}
+.border-pane-section .line-bottom-section .gradient-direction{
+    position:absolute;
+    top:185px;
+    left:178px
+}
+.ppt .border-pane-section .line-bottom-section .gradient-direction{
+    position:absolute;
+    top:165px;
+    left:178px
+}
+.border-pane-section .line-bottom-section .gradient-color{
+    left:178px;
+    position:absolute;
+    top:303px
+}
+.ppt .border-pane-section .line-bottom-section .gradient-color{
+    left:178px;
+    position:absolute;
+    top:283px
+}
+.border-pane-section .line-bottom-section .fill-gradientPosition{
+    position:absolute;
+    top:336px;
+    left:149px
+}
+.ppt .border-pane-section .line-bottom-section .fill-gradientPosition{
+    position:absolute;
+    top:316px;
+    left:149px
+}
+.border-pane-section .line-bottom-section .fill-gradientline-width{
+    position:absolute;
+    top:417px;
+    left:149px
+}
+.border-pane-section .line-bottom-section .automatic-dashtype{
+    left:171px;
+    position:relative;
+    top:125px
+}
+.border-pane-section .line-bottom-section .solid-dashtype{
+    left:182px;
+    position:relative;
+    top:75px
+}
+.ppt .border-pane-section .line-bottom-section .fill-gradientline-width{
+    position:absolute;
+    top:397px;
+    left:149px
+}
+.axisoptions-pane-section .axis-type-div{
+    left:10px;
+    top:20px;
+    width:269px;
+    height:752px
+}
+.axisoptions-pane-section .absolute{
+    position:absolute
+}
+.axisoptions-pane-section .axis-bounds-div{
+    width:250px;
+    height:375px;
+    left:0;
+    top:20px
+}
+.axisoptions-pane-section .axis-bounds-div .leftTitle{
+    left:21px
+}
+.axisoptions-pane-section .categories-reverse-order{
+    left:11px;
+    position:relative;
+    top:271px
+}
+.axisoptions-pane-section .axis-bounds-div .boundsLabel{
+    top:1px
+}
+.axisoptions-pane-section .axis-bounds-div .firstColumn{
+    left:25px
+}
+.axisoptions-pane-section .axis-bounds-div .firstRow{
+    top:28px
+}
+.axisoptions-pane-section .axis-bounds-div .sims-Label{
+    padding-top:2px
+}
+.axisoptions-pane-section .axis-bounds-div .secondColumn{
+    left:111px
+}
+.axisoptions-pane-section .axis-bounds-div .thirdColumn{
+    left:200px
+}
+.axisoptions-pane-section .axis-bounds-div .secondRow{
+    top:58px
+}
+.axisoptions-pane-section .axis-bounds-div .unitsLabel{
+    top:88px
+}
+.axisoptions-pane-section .axis-bounds-div .thirdRow{
+    top:114px
+}
+.axisoptions-pane-section .axis-bounds-div .fourthRow{
+    top:143px
+}
+.axisoptions-pane-section .axis-bounds-div .crossesLabel{
+    top:183px
+}
+.axisoptions-pane-section .axis-bounds-div .fifthRow{
+    top:187px
+}
+.axisoptions-pane-section .axis-bounds-div .sixthRow{
+    top:223px
+}
+.axisoptions-pane-section .axis-bounds-div .seventhRow{
+    top:273px
+}
+.axisoptions-pane-section .axis-bounds-div .displayUnits{
+    left:159px
+}
+.axisoptions-pane-section .axis-bounds-div .eightRow{
+    top:301px
+}
+.axisoptions-pane-section .axis-bounds-div .ninthRow{
+    top:324px
+}
+.axisoptions-pane-section .axis-bounds-div .tenthRow{
+    top:331px
+}
+.axisoptions-pane-section .axis-Options-image{
+    background-image:
+    /*savepage-url=../app/Comps/Common/PaneSections/AxisOptionsPaneSection/img/AxisType.png*/
+    url();
+    height:507px;
+    width:234px
+}
+.PaneManager .sims-button.noFocus{
+    background:#fff
+}
+.axisoptions-pane-section .axis-bounds-div .sims-button.focused,.axisoptions-pane-section .axis-bounds-div .sims-button.focusedActive,.axisoptions-pane-section .axis-bounds-div .sims-button.mouseHover{
+    color:#000;
+    border-color:#86bfa0;
+    outline:1px solid #86bfa0;
+    background:#d3f0e0
+}
+.axisoptions-pane-section .axis-bounds-div .sims-button.defaultActive,.axisoptions-pane-section .axis-bounds-div .sims-button.noFocus{
+    color:#000;
+    outline:1px solid #ababab;
+    background:#fdfdfd
+}
+.axisoptions-pane-section .axis-bounds-div .sims-button:active{
+    border-color:#86bfa0;
+    outline:1px solid #86bfa0;
+    background:#86bfa0
+}
+.axisoptions-pane-section .axis-bounds-div .logScaleCheckbox{
+    top:316px
+}
+.axisoptions-pane-section .axis-bounds-div label{
+    color:#444
+}
+.textbox-pane-section .text-box-section-div{
+    height:304px
+}
+.reflection-pane-section .reflection-section-div{
+    height:147px;
+    margin-left:20px;
+    background-repeat:no-repeat
+}
+.video-pane-section .video-section-div{
+    width:235px;
+    height:183px;
+    margin-left:20px;
+    background-repeat:no-repeat
+}
+.video-crop-section .video-section-div{
+    width:235px;
+    height:258px;
+    margin-left:20px;
+    background-repeat:no-repeat
+}
+.alignmentPaneSection .alignment-div{
+    position:relative;
+    left:19px
+}
+.OptionsPane .legend-options-pane-section .legendPosition{
+    left:24px;
+    position:absolute;
+    top:23px
+}
+.OptionsPane .legend-options-pane-section .legend-options-radio-group{
+    left:34px;
+    position:relative;
+    top:10px
+}
+.OptionsPane .legend-options-pane-section{
+    height:155px;
+    background-repeat:no-repeat
+}
+.OptionsPane .legend-options-pane-section .show-without-overlap{
+    position:relative;
+    top:10px;
+    width:134px;
+    left:24px
+}
+.properties-pane-section .propertiesPosition{
+    left:30px;
+    position:absolute;
+    top:23px
+}
+.properties-pane-section .properties-radio-group{
+    left:25px;
+    position:relative;
+    top:6px
+}
+.properties-pane-section{
+    height:148px;
+    background-repeat:no-repeat
+}
+.properties-pane-section .print-object{
+    position:relative;
+    top:10px;
+    width:134px;
+    left:25px
+}
+.properties-pane-section .locked{
+    left:25px;
+    position:relative;
+    top:14px;
+    width:9px
+}
+.properties-pane-section .info-image{
+    background:
+    /*savepage-url=../app/Comps/Common/PaneSections/PropertiesPaneSection/img/PropertiesInfo.png*/
+    url() no-repeat scroll 0 0 rgba(0,0,0,0);
+    height:14px;
+    left:85px;
+    top:36px;
+    width:12px
+}
+.properties-pane-section .lock-text{
+    position:relative;
+    top:18px;
+    width:134px;
+    left:25px
+}
+.ppt.PaneManager .PaneActiveLabel.label-active{
+    font-weight:700;
+    color:#d24726
+}
+.ppt.PaneManager .paneDropDown .dropdown-list-selected-item-border{
+    border:1px solid #fccdb6
+}
+.ppt.PaneManager .paneDropDown .dropdown-list-selected-item{
+    background-color:#fccdb6
+}
+.ppt.PaneManager .paneDropDown .dropdown-list-highlighted-item{
+    background-color:#fce4dc
+}
+.PaneManager .glowPaneSection .glow-presets-dropdown{
+    left:206px;
+    position:absolute;
+    top:6px
+}
+.PaneManager .artisticEffectsPaneSection{
+    height:108px;
+    width:267px
+}
+.PaneManager .artisticEffectsPaneSection .artistic-effects-dropdown{
+    left:206px;
+    top:2px
+}
+.PaneManager .artisticEffectsPaneSection .artistic-effects-label{
+    left:25px;
+    top:22px;
+    position:absolute
+}
+.PaneManager .artisticEffectsPaneSection .transparency{
+    left:124px;
+    top:-5px
+}
+.PaneManager .artisticEffectsPaneSection .transparency-label{
+    top:6px;
+    position:relative;
+    left:25px
+}
+.PaneManager .artisticEffectsPaneSection .spin2{
+    float:right;
+    left:125px;
+    position:absolute
+}
+.PaneManager .picture-corrections-pane-section{
+    padding-left:25px;
+    padding-top:6px;
+    height:210px
+}
+.PaneManager .artisticEffectsPaneSection .spin2-label{
+    left:27px;
+    position:relative;
+    float:left
+}
+.PaneManager .artisticEffectsPaneSection .reset{
+    position:absolute;
+    bottom:5px;
+    left:26px
+}
+.PaneManager .artisticEffectsPaneSection .reset.disable{
+    position:relative;
+    left:24px;
+    top:15px
+}
+.PaneManager .picture-corrections-pane-section .sharpen-presets-label{
+    position:absolute;
+    margin-top:22px;
+    left:24px
+}
+.PaneManager .picture-corrections-pane-section .sharpness-presets-dropdown{
+    left:181px
+}
+.PaneManager .picture-corrections-pane-section .brightness-presets{
+    left:170px;
+    top:23px
+}
+.PaneManager .picture-corrections-pane-section .sharpness-spin{
+    left:99px;
+    top:-9px
+}
+.PaneManager .picture-corrections-pane-section .brightness-spin{
+    left:88px;
+    top:-51px
+}
+.PaneManager .picture-corrections-pane-section .contrast-spin{
+    left:88px;
+    top:-47px
+}
+.PaneManager .picture-corrections-pane-section .sharpness-spin-label{
+    position:relative;
+    top:4px
+}
+.PaneManager .picture-corrections-pane-section .brightness{
+    height:107px;
+    width:237px;
+    background:
+    /*savepage-url=../app/comps/common/panesections/picturecorrectionspanesection/img/brightness.png*/
+    url() no-repeat
+}
+.PaneManager .picture-corrections-pane-section .reset{
+    top:8px
+}
+.PaneManager .soft-edges-pane-section{
+    padding-left:25px;
+    padding-top:6px;
+    height:60px
+}
+.PaneManager .soft-edges-pane-section .soft-edges-presets-label{
+    position:absolute;
+    margin-top:8px;
+    left:24px
+}
+.PaneManager .soft-edges-pane-section .size-presets-dropdown{
+    left:181px
+}
+.PaneManager.ppt .soft-edges-pane-section .size-presets-dropdown .image-selector-ul .image-list-item.focus-item{
+    background-color:#FCCDB6
+}
+.PaneManager.ppt .soft-edges-pane-section .size-presets-dropdown .image-selector-ul .image-list-item:hover{
+    background-color:#FCCDB6
+}
+.PaneManager .soft-edges-pane-section .size-spin{
+    left:99px;
+    top:-9px
+}
+.PaneManager .soft-edges-pane-section .size-spin-label{
+    position:relative;
+    top:6px
+}
+.PaneManager .shadowPaneSection .size-spin{
+    left:104px;
+    top:62px;
+    position:relative
+}
+.PaneManager .shadowPaneSection .size-spin-label{
+    position:relative;
+    top:78px;
+    left:23px
+}
+.PaneManager .shadowPaneSection .distance-spin{
+    left:104px;
+    top:98px;
+    position:relative
+}
+.PaneManager .shadowPaneSection .blur-spin{
+    left:104px;
+    top:66px;
+    position:relative
+}
+.PaneManager .shadowPaneSection .distance-spin-label{
+    position:absolute;
+    top:188px;
+    left:23px
+}
+.PaneManager .picture-color-pane-section{
+    padding-left:23px;
+    padding-top:5px;
+    height:228px
+}
+.PaneManager .picture-color-pane-section .saturation{
+    height:86px;
+    width:229px;
+    background:
+    /*savepage-url=../app/comps/common/panesections/picturecolorpanesection/img/saturation.png*/
+    url()
+}
+.PaneManager .picture-color-pane-section .recolor{
+    height:33px;
+    width:227px;
+    margin-left:4px;
+    background:
+    /*savepage-url=../app/comps/common/panesections/picturecolorpanesection/img/recolor.png*/
+    url()
+}
+.PaneManager .picture-color-pane-section .color-tone-label{
+    margin-left:2px;
+    float:left
+}
+.PaneManager .picture-color-pane-section .color-tone-presets-dropdown{
+    left:175px
+}
+.PaneManager .picture-color-pane-section .recolor-presets-dropdown{
+    left:175px
+}
+.PaneManager .picture-color-pane-section .tone-presets-label{
+    left:-46px;
+    position:relative;
+    top:23px
+}
+.PaneManager .picture-color-pane-section .saturation-presets-label{
+    left:-74px;
+    position:relative;
+    top:23px
+}
+.PaneManager .picture-color-pane-section .recolor-presets-label{
+    left:15px;
+    position:relative;
+    top:23px
+}
+.PaneManager .picture-color-pane-section .temp-spin-label{
+    margin-left:12px;
+    position:relative;
+    top:8px
+}
+.PaneManager .picture-color-pane-section .temp-spin{
+    left:93px;
+    top:-5px
+}
+.PaneManager .picture-color-pane-section .reset{
+    margin-left:13px
+}
+.PaneManager .size-textbox-section-div{
+    height:304px;
+    margin-left:20px
+}
+.ppt.PaneManager .sims-Button:hover:not(.disable){
+    background:-moz-linear-gradient(center top ,#fce4dc,#fce4dc) repeat scroll 0 0 rgba(0,0,0,0);
+    border-color:#f5ba9d;
+    color:#000
+}
+.PaneManager .crop-section-div{
+    width:228px;
+    height:264px;
+    margin-left:20px
+}
+.PaneManager .threed-rotation-section-div{
+    height:254px;
+    margin-left:20px;
+    width:228px
+}
+.textbox-pane-section-div .firstColumn{
+    left:23px
+}
+.textbox-pane-section-div .secondColumn{
+    left:150px
+}
+.textbox-pane-section-div .firstRow{
+    top:21px
+}
+.textbox-pane-section-div .secondRow{
+    top:47px
+}
+.textbox-pane-section-div .thirdRow{
+    top:74px
+}
+.textboxpanesection{
+    height:350px;
+    background-color:#F9F9F9
+}
+.textboxpanesection .relative{
+    position:relative
+}
+.textboxpanesection .absolute{
+    position:absolute
+}
+.textboxpanesection .textbox-pane-section-div{
+    width:240px;
+    height:350px
+}
+.textboxpanesection .disabledPortionImage{
+    width:231px;
+    height:240px;
+    top:100px
+}
+.textboxpanesection .customAngel{
+    left:173px;
+    top:77px
+}
+.textboxpanesection .customAngelLabel{
+    left:39px;
+    top:84px
+}
+.PaneManager .video-pane-section .recolor-label{
+    position:absolute;
+    left:24px;
+    margin-top:4px
+}
+.PaneManager .video-pane-section .recolor-dropdown{
+    left:181px;
+    margin-top:-4px
+}
+.PaneManager .video-pane-section .video-reset{
+    top:-27px
+}
+.PaneManager .video-pane-section .brightness-spin{
+    left:88px;
+    top:-51px
+}
+.PaneManager .video-pane-section .contrast-spin{
+    left:88px;
+    top:-47px
+}
+.PaneManager .video-pane-section .sharpness-spin-label{
+    position:relative;
+    top:4px
+}
+.PaneManager .video-pane-section .brightness{
+    height:107px;
+    width:237px;
+    background:
+    /*savepage-url=../app/comps/common/panesections/picturecorrectionspanesection/img/brightness.png*/
+    url() no-repeat
+}
+.PaneManager .video-pane-section .brightness-presets{
+    left:170px;
+    top:23px
+}
+.PaneManager .video-pane-section{
+    padding-left:25px;
+    padding-top:6px;
+    height:175px
+}
+.PaneManager .crop-pane-section .crop-height-label{
+    left:33px;
+    top:203px
+}
+.PaneManager .crop-pane-section .crop-height-spin{
+    left:166px;
+    top:199px
+}
+.PaneManager .crop-pane-section .absolute{
+    position:absolute
+}
+.PaneManager .video-crop-section .crop-width-label{
+    left:33px;
+    top:177px
+}
+.PaneManager .video-crop-section .crop-width-spin{
+    left:166px;
+    top:172px
+}
+.PaneManager .video-crop-section .absolute{
+    position:absolute
+}
+.PaneManager .positionAndLayoutPaneSection .layout-column-number{
+    left:155px;
+    top:143px
+}
+.PaneManager .positionAndLayoutPaneSection .layout-button-width{
+    left:155px;
+    top:197px
+}
+.PaneManager .positionAndLayoutPaneSection .absolute{
+    position:absolute
+}
+.altTextPaneSection .alt-title-sec{
+    position:relative;
+    top:23px;
+    left:4px
+}

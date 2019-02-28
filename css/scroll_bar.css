@@ -1,0 +1,57 @@
+ .int-scrollbar .arrow{
+    background-image:
+    /*savepage-url=../img/ScrollbarSprite.png*/
+    url(data:image/png;
+    resource=64;
+    base64,);
+    background-color:#FFF;
+    border:1px solid #ABABAB;
+    height:15px;
+    width:15px;
+    float:left
+}
+.int-scrollbar .arrow:hover{
+    border:1px solid #777
+}
+.int-scrollbar .arrow:active{
+    background-color:#F0F0F0
+}
+.int-scrollbar .verticalArrow1{
+    background-position:-9px -30px
+}
+.int-scrollbar .verticalArrow2{
+    background-position:-6px -5px
+}
+.int-scrollbar .horizontalArrow1{
+    background-position:-37px -6px
+}
+.int-scrollbar .horizontalArrow2{
+    background-position:-36px -31px
+}
+.int-scrollbar .ScrollerArea{
+    float:left;
+    background-color:#EDEDED
+}
+.int-scrollbar .ScrollerBar{
+    background-color:#FFF;
+    border:1px solid #ABABAB
+}
+.int-scrollbar .ScrollerBar:hover{
+    background-color:#F0F0F0
+}
+.int-scrollbar .ScrollerBar:active{
+    border-color:#777
+}
+.int-scrollbar .scrollBarToolTip{
+    position:fixed;
+    background-color:#FFF;
+    border:1px solid #BEBEBE;
+    z-index:10;
+    padding:2px;
+    width:160px;
+    height:30px;
+    overflow:hidden;
+    line-height:125%;
+    display:none
+}
+ 
